@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F292B8419B14B27AF2B1BFF89CF1A007F29A807144C4EE1439C174E8E2190E1A8C291221DDA10FE2879C5FD99543E8C9E01D6C1DB1641825ADFF1E37A0D3052B" Timestamp="1D5C9D655308BF5" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@a2a17715cfc04f5488348a0e19c130f7" Id="5eef8d7756154cbd8d9dfd879562a831" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="3098f28a6be04a46aaa85e6b7628b879" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="6f8ae82b0d4b4b3b93a49c0863f0a552" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="27e3075f15d947a79e03d0b164923395" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="d4f7819114d44c448dececbf20d753ab" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="341273f5c1414a46a91ef54e4bb563e3" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="b6341382343f4e488e20793ef1b52d89" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABqSURBVEhL7Y/BDcAgDAPZfwOmTSmRouSgvMrPJz9sh1pqa73fErJNwmczLy/rNXwRcn4Hs40oi3LYfnyOKItyGOfAY/RfEWVRDuu7YeAHEXPvvoj5R13Ef+cGmgaaBpoGmgaaBpoGmi6YPajzB6t6e/MCAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@a2a17715cfc04f5488348a0e19c130f7" Id="e0898fc64abe406c967bd228a283c282" Name="Value Properties">
+			<p.DefaultValue>0x0_0x0_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="88e8ccc2b4be4a33bffc59f00a673b7b" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="b9fb591225e442988f05693281d457d5" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="782004c936e84354bba1258853064de2" Name="Value Properties.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="f1aebc56f0ed4e5a88b4d9131b95316c" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="f331130a760c40cbada14b6595f3bfe6" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="f5b02bc690ed4ea5863b9eca157daf9a" LabelOwner="[UIModel]ced4154a535f47b492138fb92417307e" Left="[float]100" Text="[string]Value Properties" Top="[float]20" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@a2a17715cfc04f5488348a0e19c130f7" Enabled="[bool]True" Height="[float]112" Id="ced4154a535f47b492138fb92417307e" IsTabStop="[bool]True" Label="[UIModel]f5b02bc690ed4ea5863b9eca157daf9a" Left="[float]100" TabIndex="[int]0" Top="[float]40" Value="{DataItemBinding Id=e0898fc64abe406c967bd228a283c282}" Width="[float]81" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="ee2eba6c4e96409ba1733bd260f1fcc9" IsTabStop="[bool]True" Label="[UIModel]bb23b8ed3f840bbafb558d1228a67cb" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Lower}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="bb23b8ed3f840bbafb558d1228a67cb" LabelOwner="[UIModel]ee2eba6c4e96409ba1733bd260f1fcc9" Left="[float]4" Text="[string]Lower" Top="[float]4" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="6a0b6384518140a888982cabb5f4cba9" IsTabStop="[bool]True" Label="[UIModel]e93f8e6149a844d78fc2fc1a1c54a275" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]76" Value="{ClusterBinding FieldName=Upper}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="e93f8e6149a844d78fc2fc1a1c54a275" LabelOwner="[UIModel]6a0b6384518140a888982cabb5f4cba9" Left="[float]4" Text="[string]Upper" Top="[float]56" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="a2a17715cfc04f5488348a0e19c130f7">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Lower" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Upper" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

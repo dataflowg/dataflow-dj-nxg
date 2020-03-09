@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1E4595EEBC709F3574EB85F439B59AB6C5ABC1459EDD460832814AF7EEB04BCA7C21EBF40701FF89F7B89356217B6A756302685903539A73BD630ACD0D69BA54" Timestamp="1D5C9D655365CB1" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@ec98caf5524a4473b6fa9ab6dd6bfe97" Id="6e26da77b5544be8afd1a2f8f073a0b2" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="e007881e73a144d7b45bec85e92e1308" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="667710f4d3348c1b41389328aa8aeca" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="286a7ff9dd1549df86dc0856ba83a078" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="a1940f7244f34c8f9ac524a16f2ba03d" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="abcd1d38f2cb4ab8b100ff0c43c542a7" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="da2074aebb474636a5d6d17fe10baf3d" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFqSURBVEhLtZWB0YMgDIVZwVlYwVlYwVlcwVlYwVn8X3gcpjSA/dV3XC+J4SMNsXWrX19aGX0kFVsb6YmosktCMdITEYOCLg6Nyu0YnQSsHjqEoOM0qO94ZWAZ6Bgj3WVZdFwblWsmnL0uILo6qdg6WCI6qO2MfmO5F8VvVMl7P8/zNE3Zv6Yq30YjCejWwS1dRaNwpm7bhhtm/CedaOyXIVnllomG4IYYfPDM+UlG1ZhreVniGg+ck9DeI5gfX1aNRpnoso+B0BCfQ0P7vueGoBNCF/MxNGYDdEjmRIp+CA0JLE0IjmGLbqGrCdFzDe5jVRONz+x/KuAOwrhFNtqlhrTeRnCRMjzA3gyuXTUOcwJNG7GE3jrARg8bQnRKEMM84P9oPKVIx8IU8Gsx7URjNqoJSdsM3aq6Jefw34EfmNLr3mUaaOSlEc/KUSWiO1DKrhobMCQoL/ufGkKpZkOGO4dqou/rNfRx/AHAGQqaCZP/owAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@ec98caf5524a4473b6fa9ab6dd6bfe97" Id="82cf302fb71b41bcade71d63eb07aef3" Name="Audio Output Info">
+			<p.DefaultValue>False_0_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="cf5f987091740c28338643b830c410c" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="14065a4a56c488e82b20fa5a2030750" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="1eeb383f0259489c913f39b5ad76cbbf" Name="Audio Output Info.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="2c82ed785e9948b1b3fa466b87e683d4" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="bbafef753616412ba1d2dc56bdd2f375" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="3f6b038ae112457c879d69527720d245" LabelOwner="[UIModel]de9b59a19da49d285d7a0e74a94e8a0" Left="[float]100" Text="[string]Audio Output Info" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@ec98caf5524a4473b6fa9ab6dd6bfe97" Enabled="[bool]True" Height="[float]105" Id="de9b59a19da49d285d7a0e74a94e8a0" IsTabStop="[bool]True" Label="[UIModel]3f6b038ae112457c879d69527720d245" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=82cf302fb71b41bcade71d63eb07aef3}" Width="[float]81" xmlns="http://www.ni.com/PanelCommon">
+						<LED Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" Height="[float]17" Id="3a1dd9573474119bf625953b74a427d" IsTabStop="[bool]True" Label="[UIModel]b10a1f66a7bd4796ac93fd3edfae1217" Left="[float]4" Shape="[LEDShape]Round" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" TrueContent="[string]" Value="{ClusterBinding FieldName=Enable}" Width="[float]17" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="b10a1f66a7bd4796ac93fd3edfae1217" LabelOwner="[UIModel]3a1dd9573474119bf625953b74a427d" Left="[float]4" Text="[string]Enable" Top="[float]4" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="c4cd0eaf77814ecfb3aa16bea72f4535" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]908c106173cf460cb5d8a032594dd999" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]69" Value="{ClusterBinding FieldName=Output\ ID}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="908c106173cf460cb5d8a032594dd999" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]c4cd0eaf77814ecfb3aa16bea72f4535" Left="[float]16" Text="[string]Output ID" Top="[float]49" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="ec98caf5524a4473b6fa9ab6dd6bfe97">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Enable" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Output ID" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

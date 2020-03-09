@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="7CFA189004048CEC9FABF47307D9BFCD738179C872348EA279DC486109E02C6A486908A6B3B36A1461354E929E71D244B7858C291E4DAB55363DABFC6BA863D4" Timestamp="1D5C9D65538CC73" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="Double[,]" Id="3af21cb01eb403194cfecaab621dbf2" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="16309eb64566467481a2a3e9305d3e02" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="452e1f6017cf4916ac8dc897f05e3b27" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="8b94e738c93e42f3ac6409f4e3d847b4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="Double[,]" Id="8605b18e02ca47b796ed4d980962606b" Name="Zero Buffer">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="b8170b10097e462486ea938190c99e2b" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="d968b68c75584a63b65784a962b68b76" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9ebae7fb8794b3b8a6b34e33eb2166b" Name="ConstantsZero Buffer.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="2be4ae73a1a44cda9aafe2747215fd30" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="d8bebd96239345a081848964650aa9ba" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="91c437c968644a984c0af985ab69ddf" LabelOwner="[UIModel]32255a962d144eb09cfa1ad7be270cba" Left="[float]107" Text="[string]Zero Buffer" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<ArrayViewer ArrayElement="[UIModel]6e4f8291752b4e9abe2b88691eff8918" Columns="[int]1" Dimensions="[int]2" Enabled="[bool]True" FirstIndex="[ArrayElementIndex]0,0" Height="[float]86" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="32255a962d144eb09cfa1ad7be270cba" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]91c437c968644a984c0af985ab69ddf" Left="[float]107" Orientation="[SMOrientation]Vertical" Rows="[int]3" TabIndex="[int]2" Top="[float]30" Value="{DataItemBinding Id=8605b18e02ca47b796ed4d980962606b}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73" xmlns="http://www.ni.com/PanelCommon">
+						<p.DefaultElementValue>0x0</p.DefaultElementValue>
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="6e4f8291752b4e9abe2b88691eff8918" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					</ArrayViewer>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

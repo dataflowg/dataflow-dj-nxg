@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1A10D369E9E995677C430D707EE3CAA177EB88AE69CD5D3C538855B4C485B1FCA16B18A6294B1F0F7F871BCE116DEBB770DC0473CFFDF7454166FB731B87EAEB" Timestamp="1D5C9D6553900A2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="274cdbc299f0422c98766101819aab03" RootNamespaceId="c13966b0b4a8431296be0373d191277f" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="3a445bec6c3c44c5ad9671f58baf5d46" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="632e2dbbac0c49108f4e00ad360c2bf8" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="3ae312a85291485299ddc1a946ca7283" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="463e9092c02e42c58c94150331f7d4b4" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="9e37dd1efda14691a5ff177319dd5048" Name="Default">
+			<CompilerSymbolTable Id="e78ba92a49ff4c70a94e9bfbe3035216" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="1430841a6da547d289dc3848e7a8d78c" Exported="True" Id="e5a61ffd16c24068b08e3a5b1cf43451" />
+			<ComponentItemProperties AssociatedEnvoyId="539d8eaca3db4563bfc5d24acc3afd85" Exported="True" Id="50cc121000ef446fbb9fb98d45b1f8e5" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6f73ac63144f4fa7ac0fe016f32b414a" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7507c076b7db4af8967e867998cf3a30" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="1fef958b380343ca87dd50a176d54d2f" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c13966b0b4a8431296be0373d191277f" Name="Globals">
+				<SourceFileReference Bindings="EnvoyManager" Id="1430841a6da547d289dc3848e7a8d78c" ModelDefinitionType="SharedResourceCollection" Name="Constants.grsc" StoragePath="Constants.grsc" />
+				<SourceFileReference Bindings="EnvoyManager" Id="539d8eaca3db4563bfc5d24acc3afd85" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ConstantsZero Buffer.gtype" StoragePath="ConstantsZero Buffer.gtype\ConstantsZero Buffer.gtype" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="3536981b7bcc4a3b8dfe395c472f77f3" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Globals.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="9e37dd1efda14691a5ff177319dd5048" Id="91ed7037a58f4188bdd9795c24e568c8" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

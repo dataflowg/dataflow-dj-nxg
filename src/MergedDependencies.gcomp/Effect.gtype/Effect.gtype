@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="B0C3319AAC6823C94BF45FC03D71F89D7285DF7601A64BDA0CCF257B10BBEC28436C6B16D432A1407F65001B48190FE4B1D2031513FA640BE914F6E04F7C2BA7" Timestamp="1D5C9D65500A3A9" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition BaseType="gObject" BaseTypeSignature="@19456de9afd54cc5853c89c68b31bb20" DataType="@1863d0d64dd04a93b25ef4fe2943ab60" Id="538810628c8d4749ac339ad6484c1d2e" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="Messaging::Message Cluster.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="b9f1589095954bd593efc7c4c522cf88" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="9b6bb3bed5144c07b10d65542e6d4798" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="95227682036348a398adcfa5ee0f127e" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@07b68004c16540819d42515d2e516c22" Id="dd8a8d7aab53473aa0ab5aaa55c6a10e" Target="MergedDependencies::Effect.gtype::Cleanup.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@87731a7b97a3442ca5acad4c6d1b8f7b" Id="98a5bcae6d62482b87742ffed6b9d24a" Target="MergedDependencies::Effect.gtype::Crusher.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@3491abb2863e4d05a686054de144c068" Id="60cca461fb594cda8007c0107cdaa257" Target="MergedDependencies::Effect.gtype::Echo.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@34d2051c28c642f8a9bec7ef579fa5f4" Id="5d880ed507764765ae83861086d95225" Target="MergedDependencies::Effect.gtype::Flanger.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@d0f347c8a19f4cb28031062a9fcb51bb" Id="1524d0429ae241389dac50004887bddf" Target="MergedDependencies::Effect.gtype::Init.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@b73616fe76b84accb43e443e6063a5b0" Id="b6ef4733165d48b1b696a9ddda7ae935" Target="MergedDependencies::Effect.gtype::Process Messages.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@c4b92c96b17b4d9ab6e0f1e7f8202c8e" Id="fad92afdc3ed45e2a8ad49d2588463d5" Target="MergedDependencies::Effect.gtype::Update Audio History.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@aca432b52765451192838eb0d2cd1874" Id="160862af2424c6092564e891b2ac07c" Target="MergedDependencies::Effect.gtype::Update.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<DataItem DataType="@1863d0d64dd04a93b25ef4fe2943ab60" Id="359ea9ecb38d47f9b392d0a97c09c6f3" Name="Cluster of class private data">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>""</Field1>
+					<Field2>0</Field2>
+					<Field3>False</Field3>
+					<Field4>0x0</Field4>
+					<Field5>0x0</Field5>
+					<Field6>null</Field6>
+					<Field7>0</Field7>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Messaging::Message Cluster.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="8ec6a4f3c64a4029b0853e98299b58ee" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="74e86c584fd94601ab3a54f31f58a26f" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="fb8218a11da4400b9f276268ce789182" Name="Effect.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="ff5e804711e842f88ca385709c5d5adc" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="417441a1e99d4a33b3978bdfe3859298" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="5a65e5f03f5b45d2af5764fb40ffcb26" LabelOwner="[UIModel]59c5d9a58f8a475c9d8d16c24889a8c5" Left="[float]100" Text="[string]Cluster of class private data" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@1863d0d64dd04a93b25ef4fe2943ab60" Enabled="[bool]True" Height="[float]399" Id="59c5d9a58f8a475c9d8d16c24889a8c5" IsTabStop="[bool]True" Label="[UIModel]5a65e5f03f5b45d2af5764fb40ffcb26" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=359ea9ecb38d47f9b392d0a97c09c6f3}" Width="[float]116" xmlns="http://www.ni.com/PanelCommon">
+						<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="5b4b46a52f4d4aa7a1ce678e08ef95f7" IsTabStop="[bool]True" Label="[UIModel]461c871d49684eeb8d39e396d4d9eb3a" Left="[float]4" TabIndex="[int]0" Text="{ClusterBinding FieldName=ID}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="461c871d49684eeb8d39e396d4d9eb3a" LabelOwner="[UIModel]5b4b46a52f4d4aa7a1ce678e08ef95f7" Left="[float]4" Text="[string]ID" Top="[float]4" />
+						<OpaqueRefnum Enabled="[bool]True" Height="[float]48" Id="8a90ad6f17146d4b126bfa0bec18c87" IsTabStop="[bool]False" Label="[UIModel]a339b1c5fe7349f8a9e8b9d1f34cf580" Left="[float]4" RefnumType="[Type]@1a01fba05bbb4dbaa4ea7f196a47ce08" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Message\ Queue}" Width="[float]76" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="a339b1c5fe7349f8a9e8b9d1f34cf580" LabelOwner="[UIModel]8a90ad6f17146d4b126bfa0bec18c87" Left="[float]4" Text="[string]Message Queue" Top="[float]56" />
+						<LED Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" Height="[float]17" Id="5e9e1d9952744b369d29fbda97546d02" IsTabStop="[bool]True" Label="[UIModel]87c3cc7f960a45ca96cafae1af54ab7d" Left="[float]4" Shape="[LEDShape]Round" TabIndex="[int]2" TextAlignment="[TextAlignment]Left" Top="[float]152" TrueContent="[string]" Value="{ClusterBinding FieldName=Enable}" Width="[float]17" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="87c3cc7f960a45ca96cafae1af54ab7d" LabelOwner="[UIModel]5e9e1d9952744b369d29fbda97546d02" Left="[float]4" Text="[string]Enable" Top="[float]132" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="2a6ad3e54fb54a749614b093529e3fc0" IsTabStop="[bool]True" Label="[UIModel]bfe89c67f1e045f5ac87f2d725321777" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]3" TextAlignment="[TextAlignment]Left" Top="[float]197" Value="{ClusterBinding FieldName=Value1}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="bfe89c67f1e045f5ac87f2d725321777" LabelOwner="[UIModel]2a6ad3e54fb54a749614b093529e3fc0" Left="[float]4" Text="[string]Value1" Top="[float]177" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="e4017fda21544ab5977142ec85cfd6a8" IsTabStop="[bool]True" Label="[UIModel]8561a62c81674528ae318f9828136261" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]4" TextAlignment="[TextAlignment]Left" Top="[float]249" Value="{ClusterBinding FieldName=Value2}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="8561a62c81674528ae318f9828136261" LabelOwner="[UIModel]e4017fda21544ab5977142ec85cfd6a8" Left="[float]4" Text="[string]Value2" Top="[float]229" />
+						<ArrayViewer ArrayElement="[UIModel]43359ee6372c4fc58e2b4392d645c13e" Columns="[int]1" Dimensions="[int]2" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="10eb844dfa9b4bef80b98c2933c78e59" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]729e4ac018c14186a2ea4b9e06f3b8a2" Left="[float]4" Rows="[int]1" TabIndex="[int]5" Top="[float]301" Value="{ClusterBinding FieldName=Audio\ History\ Buffer}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							<NumericText Enabled="[bool]True" Height="[float]24" Id="43359ee6372c4fc58e2b4392d645c13e" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="729e4ac018c14186a2ea4b9e06f3b8a2" LabelOwner="[UIModel]10eb844dfa9b4bef80b98c2933c78e59" Left="[float]4" Text="[string]Audio History Buffer" Top="[float]281" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="6d89ace913b4609bcb1770fbe7473bb" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]33c68c3901ff4750bad4627cf96d8815" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]6" TextAlignment="[TextAlignment]Left" Top="[float]363" Value="{ClusterBinding FieldName=Effect\ Type}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="33c68c3901ff4750bad4627cf96d8815" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]6d89ace913b4609bcb1770fbe7473bb" Left="[float]11" Text="[string]Effect Type" Top="[float]343" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="d6fbd74cd2d74becb872c8219040a581" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Cleanup.gvi" StoragePath="Cleanup.gvi" />
+			<SourceFileReference Id="f436fb97539043e89b77441e9b041e85" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Crusher.gvi" StoragePath="Crusher.gvi" />
+			<SourceFileReference Id="4b25b63ffef64895baddaa3c0053451f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Echo.gvi" StoragePath="Echo.gvi" />
+			<SourceFileReference Id="f6d623acd854d6c96530701bc2a0ce0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Flanger.gvi" StoragePath="Flanger.gvi" />
+			<SourceFileReference Id="8ca62f099a1a40fd89dca68265e4f732" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Init.gvi" StoragePath="Init.gvi" />
+			<SourceFileReference Id="f576b788cf0a4d7283e531e5b81cd3f1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Process Messages.gvi" StoragePath="Process Messages.gvi" />
+			<SourceFileReference Id="eeea5aa170394db09875871f02bc705b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Update Audio History.gvi" StoragePath="Update Audio History.gvi" />
+			<SourceFileReference Id="21290a43b7e548cfa25887488ad43188" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Update.gvi" StoragePath="Update.gvi" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="19456de9afd54cc5853c89c68b31bb20">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1863d0d64dd04a93b25ef4fe2943ab60">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="ID" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Message Queue" DataType="@1a01fba05bbb4dbaa4ea7f196a47ce08" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Enable" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Value1" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Value2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Audio History Buffer" DataType="Double[,]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Effect Type" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="07b68004c16540819d42515d2e516c22">
+			<Attributed AttributedType="@3d03fc0bbced45929a1d94a6c6219872">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="87731a7b97a3442ca5acad4c6d1b8f7b">
+			<Attributed AttributedType="@40c565e387ae4116a7eda5714b1c4a8c">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3491abb2863e4d05a686054de144c068">
+			<Attributed AttributedType="@c7287239a46a47488e2f33fc6c47de04">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="34d2051c28c642f8a9bec7ef579fa5f4">
+			<Attributed AttributedType="@0a69674fe62b434a8198e479777599bc">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d0f347c8a19f4cb28031062a9fcb51bb">
+			<Attributed AttributedType="@de7865cb3d83446491a998c83349853b">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b73616fe76b84accb43e443e6063a5b0">
+			<Attributed AttributedType="@8252b07572e749b0a544b428c12ba925">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c4b92c96b17b4d9ab6e0f1e7f8202c8e">
+			<Attributed AttributedType="@c799768b24484d84b27c8ea63e925bb5">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="aca432b52765451192838eb0d2cd1874">
+			<Attributed AttributedType="@2a5aeef887f142bb840f538c2f4f2b43">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1a01fba05bbb4dbaa4ea7f196a47ce08">
+			<Attributed AttributedType="@e2551a25c44245ce986ff2b85f7d81bd">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3d03fc0bbced45929a1d94a6c6219872">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Cleanup.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@87f2b73b7efb44d18c166ab15c18b27e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa0952f2df44056ad3ef319e4eea008">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@08c77f559dce419195b83cbe78a28f03">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="40c565e387ae4116a7eda5714b1c4a8c">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Crusher.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@87f2b73b7efb44d18c166ab15c18b27e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b970b6b6850e405eb4b0ea1855e044bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data In" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa0952f2df44056ad3ef319e4eea008">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ba31faaed994408aa62a12842b35e976">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@feed45db2a7d46f2a7778a905fa6a514">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data Out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@08c77f559dce419195b83cbe78a28f03">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c7287239a46a47488e2f33fc6c47de04">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Echo.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@87f2b73b7efb44d18c166ab15c18b27e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b970b6b6850e405eb4b0ea1855e044bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data In" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa0952f2df44056ad3ef319e4eea008">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ba31faaed994408aa62a12842b35e976">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@feed45db2a7d46f2a7778a905fa6a514">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data Out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@08c77f559dce419195b83cbe78a28f03">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0a69674fe62b434a8198e479777599bc">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Flanger.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@87f2b73b7efb44d18c166ab15c18b27e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b970b6b6850e405eb4b0ea1855e044bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data In" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa0952f2df44056ad3ef319e4eea008">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ba31faaed994408aa62a12842b35e976">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@feed45db2a7d46f2a7778a905fa6a514">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data Out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@08c77f559dce419195b83cbe78a28f03">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="de7865cb3d83446491a998c83349853b">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@9d25e027f03245d1b1e896f050ad505e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@8b3f0b51dd30458da3f9cca6c874b3f5">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]ID" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@8083adb02d1045af886a74f38347b946">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Type" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa0952f2df44056ad3ef319e4eea008">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ba31faaed994408aa62a12842b35e976">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@08c77f559dce419195b83cbe78a28f03">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8252b07572e749b0a544b428c12ba925">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Process Messages.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@87f2b73b7efb44d18c166ab15c18b27e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa0952f2df44056ad3ef319e4eea008">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ba31faaed994408aa62a12842b35e976">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@08c77f559dce419195b83cbe78a28f03">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c799768b24484d84b27c8ea63e925bb5">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Update Audio History.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@87f2b73b7efb44d18c166ab15c18b27e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b970b6b6850e405eb4b0ea1855e044bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data In" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@52f8d018d3ed4a2089695cfb6e5bd1fc">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]History Buffer Size (Samples) (44100)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa0952f2df44056ad3ef319e4eea008">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ba31faaed994408aa62a12842b35e976">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@08c77f559dce419195b83cbe78a28f03">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2a5aeef887f142bb840f538c2f4f2b43">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Update.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@87f2b73b7efb44d18c166ab15c18b27e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b970b6b6850e405eb4b0ea1855e044bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data In" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa0952f2df44056ad3ef319e4eea008">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ba31faaed994408aa62a12842b35e976">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Effect out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@feed45db2a7d46f2a7778a905fa6a514">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data Out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@08c77f559dce419195b83cbe78a28f03">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e2551a25c44245ce986ff2b85f7d81bd">
+			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@8c923856d9f94745b6d877e96ec54086">
+				<ClosedGenericParameters>
+					<TypeRef>@9ed8009cfe3a45f6a299724654ee782b</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d6a4fecc64af46678853119b3619b304">
+			<Attributed AttributedType="@a38d310a431945fbb12b7671284f5cfb">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]MergedDependencies" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="87f2b73b7efb44d18c166ab15c18b27e">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@d6a4fecc64af46678853119b3619b304" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="eaa0952f2df44056ad3ef319e4eea008">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="08c77f559dce419195b83cbe78a28f03">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b970b6b6850e405eb4b0ea1855e044bb">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Double[,]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ba31faaed994408aa62a12842b35e976">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@d6a4fecc64af46678853119b3619b304" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="feed45db2a7d46f2a7778a905fa6a514">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Double[,]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9d25e027f03245d1b1e896f050ad505e">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@d6a4fecc64af46678853119b3619b304" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="8b3f0b51dd30458da3f9cca6c874b3f5">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="8083adb02d1045af886a74f38347b946">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="52f8d018d3ed4a2089695cfb6e5bd1fc">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="8c923856d9f94745b6d877e96ec54086">
+			<Attributed AttributedType="@147bd75f078b4aacb76eae92262f2373">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9ed8009cfe3a45f6a299724654ee782b">
+			<Attributed AttributedType="@e42ec763482a46f998836c55a898206f">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Messaging" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a38d310a431945fbb12b7671284f5cfb">
+			<Composite Id="1" Name="Effect.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@19456de9afd54cc5853c89c68b31bb20</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="ID" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Message Queue" DataType="@1a01fba05bbb4dbaa4ea7f196a47ce08" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Enable" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Value1" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Value2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Audio History Buffer" DataType="Double[,]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Effect Type" DataType="Int32" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Cleanup.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Crusher.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Echo.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Flanger.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void" />
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Process Messages.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void" />
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Update Audio History.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void" />
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="Update.gvi" ReturnType="Void" DeclaringType="@d6a4fecc64af46678853119b3619b304" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="147bd75f078b4aacb76eae92262f2373">
+			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@8c923856d9f94745b6d877e96ec54086">
+				<GenericParameters>
+					<Generic GenericName="DataType" />
+				</GenericParameters>
+				<BaseType>Void</BaseType>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e42ec763482a46f998836c55a898206f">
+			<Typedef TypedefName="Message Cluster.gtype" UnderlyingType="@a882a5785a5d4471933eb171bb25239e" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a882a5785a5d4471933eb171bb25239e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Event" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Source" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Target" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Data" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
+			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="MergedDependencies::Effect.gtype::Cleanup.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACzSURBVEhL7ZHBDsMgDEP71/t8lmIWHFNRIrU78Q7TcxY8Jo7Pa/Tq8mPRPbIbiEaobpb0UYDeOuUQRyZ/vLUBx9AQBxzhBrvRqx/neBH8qTfY1YJW8wPwS2BucHQXATHEJV7VYxVxnwA90KzC8TxNXSz+CXFiuDoDxB1En0NACEbd76tg9Pp9E4lOCM+yq4Wb6vHFAIZz0tUc56SrAYZz0tWIK9yvnpeMP7BIYjXLrg6U8gV5uFtJ/S4c7gAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]MergedDependencies.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Effect.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="MergedDependencies::Effect.gtype::Crusher.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACKSURBVEhL7ZNBCoAwEAP7a59fA9F0TRFbcAWhcyiT7RLqwbKl0arryaArRgeM4FJ92KT3QvzVU04RNvnw1YDOITAnMdJBdNCqX6ckwo/KYFUbq9r4b3X8d+hAsRdiQ55EQ78eieRx2beJYi/mJMZ2K9N5F8XI8jGyqYk5UIzikSGDVW2saiOtutYdDOJqOtdkyM8AAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]MergedDependencies.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Effect.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="MergedDependencies::Effect.gtype::Echo.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACMSURBVEhL7ZPBDoAgDEP9az8fFwtjloVIwjyYvdNr1QYPHGcYfbo0XrpG6wKi8JiutuijAD71kkMUaj48tQBHKZADG+GCdaFPb+cIBD8VQU4TOU38ZrrepXabyEdRJ5zWvqoOmUfCq27UIQCPAKL2EItXmffo43kkvKpho/oo6oTfbiGniZwmwqZLuQCyHbHyfj/EjQAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]MergedDependencies.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Effect.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="MergedDependencies::Effect.gtype::Flanger.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACZSURBVEhL7ZPRCoMwFEP9632+yzxdepcim7AOBj0P9SRK0Ae32zT69P7kQ3esLojiZbrZRR8F8q0vOWKi+eFbC5xShEONuKgu+vTX2SbCR81gTQdrOvjf6fbzHL8Pp3GPjwLh0FqCqC6Oh1tjr6dx7EIYb4gofZ5FkEN/CMIN0f3b+JAahBxwl2NEIMomXGawpoM1HUyb3vc7rq1wNCTClKkAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]MergedDependencies.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Effect.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="MergedDependencies::Effect.gtype::Init.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVEhL7ZPRCoAgEAT96z7frrZ021SSuohwHmLOg8EeDJMbOR13Lnoa2Q2MxiG9WaefBeituxySkJMXb23AcWiIAx7hBruR048THMFPeTDSwkgL/0vjQaVnxaN9wbop09xRhcdlR1KjtZYijyw1Wuti6/Ppm4y0MNKCWzrGGUGj1c7UpPo7AAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]MergedDependencies.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Effect.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="MergedDependencies::Effect.gtype::Process Messages.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACzSURBVEhL7ZFBDsMgEAPz6z6fWjUhXi9URYKemEM0XsBKwvXaxlNdbn70FtUBIwjV1SY9C/G3nnJKwyZ/fGtA5xCYE410oA6e6uVcG+FH7eBUG6G6/v77AmqQ+/geDa9WmYqZMMUmMooqLY4Iy7Z71NWNmTC1TfkwpDnQqHPieSGn2uhX653oRZFuzAyreUbls1Kx2GVYbU+Kuk0y/QU9YIcZ23BBNZ6EQ1DzbPUSTnWglDfOYEZeMa9TAgAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]MergedDependencies.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Effect.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="MergedDependencies::Effect.gtype::Update Audio History.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADySURBVEhLvY9RDoQgEEO99R7fLVRLqUjWRPZ96GtnJLJ9ltGO3k9+dEV3wAi6ow976Fch+dePnCKi+eNfAzpLEE480oE7aEe/zrYQXmoFi4/Wv1PqZQoqCSPwSAfhJbI6wrkxiRQ58J5CSogZnsRLyV1PkYPBto/BdSq8dyGtvd04UZwIOSJfK/jj0d2NeqmTgpcUuZOV74UMY5ROl4cfz2OUTpcxFozq72KUTpeve5BwoCiRO4PqLVYerbtQPJJwRXeg6M9xW7tGrEmGUc+GWg3owHuXslRhCeStpfgSiOlV5guD1dJW6qQQrjgTvt5n3789iSdvpfeJAgAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]MergedDependencies.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Effect.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="MergedDependencies::Effect.gtype::Update.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVEhL7ZPLDoMwDAT5635+2DCJY8xDINWVKmUO7ewmWsGB5ZPGmC6dh27RuyCK3XSzl34UiE/9yhEjND98aoFTiuDgIy68izH9dZZEeKkM5nRgTgf+d9o+HGT7kipWAlH4iIvgNVK10G/cRMRc+B6BGsKZfsGXJlc9Yi5ObvtjcTw1fO8FRnt5o2PxRqBF/jKY04E5HUibLmUFyVd2LiM/xn8AAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]MergedDependencies.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Effect.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

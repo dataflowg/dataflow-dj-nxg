@@ -42,3 +42,11 @@
 *.lvclass binary
 *.xctl binary
 *.lvsc binary
+
+# LabVIEW NXG
+# While NXG files are mostly XML based, don't assume they can be handled with text diffs & merging. Treat everything as binary,
+*.lvproject binary
+*.gvi binary
+*.gcomp binary
+*.gtype binary
+*.sli binary

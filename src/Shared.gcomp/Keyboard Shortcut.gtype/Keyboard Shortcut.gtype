@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="3F9568654FAB7781FE5A2446550C3D8DACFAA47219FFB780491ADFAA9378577D1FBF728ABE97E02519DB7AE70035576CBEA466CEF852A62C651E94BF99ADDC3B" Timestamp="1D5C9D655014034" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@e866de0417c549cc9879769c70ff6467" Id="df7edc30291f4249ae4dcd0c443fa0c2" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="c731f5851ce441928cb57b886ce1d303" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="f42cca64dc3f4668b871beacafcdf248" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="a4f94025980046d38cd60dc4b7f5d113" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="8125464a2ae84ba7b0153618c8bd6848" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="d1a3faf2215e4f9f81fce64d347bbfea" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="17206a951594452880ebb2d3a38a96d" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFSSURBVEhLxZYBsYMwDIZjoRawEAtYwEIsYAELtYCWWsACFnh/m9624xIKG9z7jtu1W/o1hHQbbY/xH+qUUh19i62Gl5lFpM7P0XVdHRUMNbzjOE7TpK/13RbwumpYQIyxzq/TzhoEohDCLrTJOXUIfd8/osYzfEqtWaMsdX6Os2okrqHzPKNV9P1LvNWfHaJqgKkkYWGNuYSRNfoahyWmmDbsU9TMXxzOvRpposqcRKWS7lODZVlqQVCJbM/De9TruuqRAbgDyknfpAZZxgw1tkGJhmH4Sb3rEOhefQ3vbVlrKbzTKHgG0i6RrSYtiHMa4UVIcwN7Mbx21tiMsrQsxJXt3ga2ulkQVZeAPDA3cNV4jMdqfKqoHVf+qim3pWFvNXrjs0OeytqDaCIaX2pPqhhqxB3/7Kr6QKrYWWMBmsT7s9CUKm5BmiubuOrfeUy9bX9lhjicV8DFrwAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@e866de0417c549cc9879769c70ff6467" Id="2f5f1bf6a3924e16ad349b32050c2808" Name="Keyboard Shortcut">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>""</Field1>
+					<Field2>""</Field2>
+					<Field3>""</Field3>
+					<Field4>""</Field4>
+					<Field5>
+						<Variant>
+							<InnerType>Void</InnerType>
+							<VariantData>null</VariantData>
+						</Variant>
+					</Field5>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="beface8b1b19425587b9c3fb4fb952da" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7027d98f3743416ea24d4aab185f8852" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="82e35a2e834b48feb8bb3890443cad90" Name="Keyboard Shortcut.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="ad42ff6ab0ea4a00850c9561dbf5df90" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="b7089344307945669ab79413d7ecddc8" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="fcb09cd5585c4d9a83bea2de2e154ac1" LabelOwner="[UIModel]cc9f13e754e54c81884801837c030b68" Left="[float]100" Text="[string]Keyboard Shortcut" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@e866de0417c549cc9879769c70ff6467" Enabled="[bool]True" Height="[float]319" Id="cc9f13e754e54c81884801837c030b68" IsTabStop="[bool]True" Label="[UIModel]fcb09cd5585c4d9a83bea2de2e154ac1" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=2f5f1bf6a3924e16ad349b32050c2808}" Width="[float]166" xmlns="http://www.ni.com/PanelCommon">
+						<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="c7ad7df33af9472089db7bc15cf2b814" IsTabStop="[bool]True" Label="[UIModel]544de7fd08c84efc99807632fbbbbba6" Left="[float]4" TabIndex="[int]0" Text="{ClusterBinding FieldName=Keystroke}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="544de7fd08c84efc99807632fbbbbba6" LabelOwner="[UIModel]c7ad7df33af9472089db7bc15cf2b814" Left="[float]4" Text="[string]Keystroke" Top="[float]4" />
+						<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="d5d7c64da3784c7a84b2be7c35c6b411" IsTabStop="[bool]True" Label="[UIModel]82d95026eec6412daa42f043c33a82f6" Left="[float]4" TabIndex="[int]1" Text="{ClusterBinding FieldName=Message\ Queue}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]76" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="82d95026eec6412daa42f043c33a82f6" LabelOwner="[UIModel]d5d7c64da3784c7a84b2be7c35c6b411" Left="[float]4" Text="[string]Message Queue" Top="[float]56" />
+						<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="ba04390ce57b49aca7866d1e3caf4e2b" IsTabStop="[bool]True" Label="[UIModel]344da1d5912340c7976efc12a247d7fe" Left="[float]4" TabIndex="[int]2" Text="{ClusterBinding FieldName=Event}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]128" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="344da1d5912340c7976efc12a247d7fe" LabelOwner="[UIModel]ba04390ce57b49aca7866d1e3caf4e2b" Left="[float]4" Text="[string]Event" Top="[float]108" />
+						<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="7c7e91ae3902449b952d3f7069dac91d" IsTabStop="[bool]True" Label="[UIModel]5eb7d4e50f5843f689f9a64d3bd5a75d" Left="[float]4" TabIndex="[int]3" Text="{ClusterBinding FieldName=Target}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]180" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="5eb7d4e50f5843f689f9a64d3bd5a75d" LabelOwner="[UIModel]7c7e91ae3902449b952d3f7069dac91d" Left="[float]4" Text="[string]Target" Top="[float]160" />
+						<VariantControl Enabled="[bool]True" Height="[float]75" Id="44907d27d91f48d3a67588987fc2c3c3" IsTabStop="[bool]True" Label="[UIModel]1d9620d9e79402bb3204ef72cb2bb02" Left="[float]4" TabIndex="[int]4" TextAlignment="[TextAlignment]Left" Top="[float]232" VariantValue="{ClusterBinding FieldName=Data}" Width="[float]150" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="1d9620d9e79402bb3204ef72cb2bb02" LabelOwner="[UIModel]44907d27d91f48d3a67588987fc2c3c3" Left="[float]4" Text="[string]Data" Top="[float]212" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="e866de0417c549cc9879769c70ff6467">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Keystroke" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Message Queue" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Event" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Target" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Data" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
+			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

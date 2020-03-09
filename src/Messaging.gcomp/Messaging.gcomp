@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9FAF55E21D77B7A1359A0CF22412A02ADF47255257C69DABDCAABD09250DD242E6FDD64520592A8A9F5F087E3308B4A6D96B8789768452FEB039B42D7145524E" Timestamp="1D5C9D65538CC73" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="8f4062d3a21044d5924ed88804eea1c9" RootNamespaceId="4fa2d4db9fbb4ccb9505b7baeb673091" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="d8f245a1b11a45a48fc677845936ae5b" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="35fd5a1fbdd24eb298f05e837334e2c8" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="96cdae3818034dc7a3df071dfd7b894a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="8b92e85bae614f178871dee02448a527" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="eee81b963a794b2eb4153883aa35573b" Name="Default">
+			<CompilerSymbolTable Id="7e4aa0c78e65465fa09cd30c7e796107" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="339bea3abb584f408ec111f149ec1922" Exported="True" Id="c290889101e44edf885f443ea5b601bc" />
+			<ComponentItemProperties AssociatedEnvoyId="a4291bb64b4401caeb2652e325dd558" Exported="True" Id="cbf5301899d84a93a9aa68be1c3acb9f" />
+			<ComponentItemProperties AssociatedEnvoyId="5487354028be45e5ab557fa77b2f1606" Exported="True" Id="a3889b62ecdf49a4ae31c44e51e169f6" />
+			<ComponentItemProperties AssociatedEnvoyId="3569b28270a84e70b866bc96e20f703f" Exported="True" Id="944b032e89c4454c98d471f56971600c" />
+			<ComponentItemProperties AssociatedEnvoyId="bdb6e3a273d440efa3af34d921587e07" Exported="True" Id="6c132658993e4bb894083fab704c585a" />
+			<ComponentItemProperties AssociatedEnvoyId="583e1eb1191941e6b6579114df1615cc" Exported="True" Id="b994a70b758c42439d1269ae3891a125" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="f1067f2d7c3f47bfbac8d02f6142b2bb" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="2489de9873ce4b1fba3b353a8daa8c59" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="b1750b53ae0146b7b3bec00ef8ad02fc" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="4fa2d4db9fbb4ccb9505b7baeb673091" Name="Messaging">
+				<SourceFileReference Bindings="EnvoyManager" Id="339bea3abb584f408ec111f149ec1922" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Cluster.gtype" StoragePath="Message Cluster.gtype\Message Cluster.gtype" />
+				<SourceFileReference Id="a4291bb64b4401caeb2652e325dd558" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create Message Queue.gvi" StoragePath="Create Message Queue.gvi" />
+				<SourceFileReference Id="5487354028be45e5ab557fa77b2f1606" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Parse Control Label.gvi" StoragePath="Parse Control Label.gvi" />
+				<SourceFileReference Id="3569b28270a84e70b866bc96e20f703f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send UI Value Change.gvi" StoragePath="Send UI Value Change.gvi" />
+				<SourceFileReference Id="bdb6e3a273d440efa3af34d921587e07" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send.gvi" StoragePath="Send.gvi" />
+				<SourceFileReference Id="583e1eb1191941e6b6579114df1615cc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Update UI.gvi" StoragePath="Update UI.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="75689433ab2846e6a99d6e620d7e5bf2" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Messaging.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="eee81b963a794b2eb4153883aa35573b" Id="7f14ad5164746c5af1e54f5daf2619f" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="07A183BC588BCF24F3C8C24AD0466BE04029ABAF47EF286A808919085403940A56E5C00CC91EC1DFEA2FD30D928B15D668E3CA2299A2C5B8D585266933D4AB10" Timestamp="1D5C9D655308BF5" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@b133ef4d5c124fe396b33427fe2e1c57" Id="b9ca6e27e0d44b81be537ff2fc05283a" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="Audio Processing::Value Properties.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="eb422f2984504d5788ba69e169f0f677" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="80c360144e4b4b1d986755581bea0a81" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="1251f827966a4ca198101a1b8f6c1ad4" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="2384702a7ad040d38f3c0e37c8d9199d" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="4acf1682d75f4cfe97349c8debee1e02" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="c047902001864ce59dd12a8d00338f78" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABqSURBVEhL7Y/BDcAgDAPZfwOmTSmRouSgvMrPJz9sh1pqa73fErJNwmczLy/rNXwRcn4Hs40oi3LYfnyOKItyGOfAY/RfEWVRDuu7YeAHEXPvvoj5R13Ef+cGmgaaBpoGmgaaBpoGmi6YPajzB6t6e/MCAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@b133ef4d5c124fe396b33427fe2e1c57" Id="8cfead7df374fa1bbc7cd9402c97127" Name="Value Cluster">
+			<p.DefaultValue>0x0_0x0_0x0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Audio Processing::Value Properties.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="e4cbd20630c1406baab5a1d3ceeccb0f" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="ac9faca025a745d296147330eb86b478" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2638bba7b5e64b0f9cbecf225ef51222" Name="Value Cluster.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="43503c2279b14ec28a5a4ead4cd6cbf2" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="835d4bf884e744c3a31cf3442d081779" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="6ee592e7dbcb4725b2ac8602cf78be56" LabelOwner="[UIModel]828603d54ae7427fbcfee8d41696e38c" Left="[float]100" Text="[string]Value Cluster" Top="[float]20" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@b133ef4d5c124fe396b33427fe2e1c57" Enabled="[bool]True" Height="[float]200" Id="828603d54ae7427fbcfee8d41696e38c" IsTabStop="[bool]True" Label="[UIModel]6ee592e7dbcb4725b2ac8602cf78be56" Left="[float]100" TabIndex="[int]0" Top="[float]40" Value="{DataItemBinding Id=8cfead7df374fa1bbc7cd9402c97127}" Width="[float]97" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="9b8eaae35dca4b88bd456bcb935cf6a4" IsTabStop="[bool]True" Label="[UIModel]1a98e17086474e1cb0647e137ccf23fe" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Value}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="1a98e17086474e1cb0647e137ccf23fe" LabelOwner="[UIModel]9b8eaae35dca4b88bd456bcb935cf6a4" Left="[float]4" Text="[string]Value" Top="[float]4" />
+						<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Value Properties" ClusterType="[Type]@cadcc1273b56439fb3e55e61625a6511" Enabled="[bool]True" Height="[float]112" Id="94a342ca55840c69e289901f792c323" IsTabStop="[bool]True" Label="[UIModel]bcb2c99ee9b47ac9ceccc5592ff9e21" Left="[float]4" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Limits}" Width="[float]81" p7:ControlDefinitionChecksum="FA9eTI7Vla4GPT7J4MoOxh0PAevxLUtJyx/R7yc2lfQ=" xmlns:p7="http://www.ni.com/PanelCommon">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="Audio Processing::Value Properties.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<NumericText Enabled="[bool]True" Height="[float]24" Id="ba1a48b26bd14c6fb3d421f2636498e2" IsTabStop="[bool]True" Label="[UIModel]df1cc84a6a084c31a95dd85ee549acd6" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Lower}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Id="df1cc84a6a084c31a95dd85ee549acd6" LabelOwner="[UIModel]ba1a48b26bd14c6fb3d421f2636498e2" Left="[float]4" Text="[string]Lower" Top="[float]4" />
+							<NumericText Enabled="[bool]True" Height="[float]24" Id="f734ae8303a54f6388789609763ad6f4" IsTabStop="[bool]True" Label="[UIModel]43f43830a4b542faadedf861b38c1bd9" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]76" Value="{ClusterBinding FieldName=Upper}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Id="43f43830a4b542faadedf861b38c1bd9" LabelOwner="[UIModel]f734ae8303a54f6388789609763ad6f4" Left="[float]4" Text="[string]Upper" Top="[float]56" />
+						</Cluster>
+						<Label Id="bcb2c99ee9b47ac9ceccc5592ff9e21" LabelOwner="[UIModel]94a342ca55840c69e289901f792c323" Left="[float]4" Text="[string]Limits" Top="[float]56" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="b133ef4d5c124fe396b33427fe2e1c57">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Value" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Limits" DataType="@cadcc1273b56439fb3e55e61625a6511" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="cadcc1273b56439fb3e55e61625a6511">
+			<Attributed AttributedType="@738257d4de3c4eeca8e56bb1b881ff24">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Audio Processing" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="738257d4de3c4eeca8e56bb1b881ff24">
+			<Typedef TypedefName="Value Properties.gtype" UnderlyingType="@a2a17715cfc04f5488348a0e19c130f7" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a2a17715cfc04f5488348a0e19c130f7">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Lower" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Upper" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

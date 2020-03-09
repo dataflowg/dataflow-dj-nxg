@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="DA8672BF1135A049A697D79B8B8AE274C0EC847305189D259B426FAB247C00BEFE4723CE0A8B4440C2C19C9C31BB5800778AE1E653258CFB921E7D47C5015847" Timestamp="1D5D645CA32B13A" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<DataIndexDefinition xmlns="http://www.ni.com/Data" />
+	<EnvoyManagerFile Id="bcb5a60763ff433ab65793fb25a0fdcb" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="9ee8e7012da04b848bd623ed8c5e17ba" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f2d0b7bec38c498ca24566e6e5c50591" Name="data.xml" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Id="490a10e4c8524b9c9a66faffc59b95c0" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
+				<TDMSRootDefinition StoragePath="Data-2020-01-29 014517 953.tdms" xmlns="http://www.ni.com/Data" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

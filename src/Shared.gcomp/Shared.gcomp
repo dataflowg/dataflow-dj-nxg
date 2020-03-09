@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="4B6D27400E9240AE979AD22C2C808B6B86A6D3D24B8E848AEF36F4FE668F21ED3231AA5BC47D6136B6B13CFE691A58B88DC287C544AF4C2060AA9FD33079E370" Timestamp="1D5C9D65538CC73" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="4b4bc19a83614dbdb6852d931230e2c1" RootNamespaceId="3dbe9beb2a0646d1bfa326bcdf005e5a" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="a82207519c0647a9bf3a27bee8f65335" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="636a8ad79bf14ce6a03deab87a43455d" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="3df38c9fd9fd4b409eff414c5db5b05a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="36d1c9d6d7cd437bb13f3e0b867d4d72" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="ef184bc643a345fd9fded422e6bd133d" Name="Default">
+			<CompilerSymbolTable Id="4751664b71ac4b2bb557ac56f4b0e82a" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="9400a8b298aa4743aebb1ceb47203dfc" Exported="True" Id="5af25599b9184e229e69ff962c7bdb3a" />
+			<ComponentItemProperties AssociatedEnvoyId="59e738692e9e40808f352050f23d0ab0" Exported="True" Id="aa73013ac034d8fae7d39ebbae9839e" />
+			<ComponentItemProperties AssociatedEnvoyId="5f8e40bd8cf344bf8fba0066a4c936aa" Exported="True" Id="b14d434584444e2396d5e39fc9beb8f3" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="31eb515ee93c41be9cdd2182f811a62d" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7fe2946864a9433ea76b4af81d766997" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="60a5f219bec04eac8bc68061f4a22d22" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="3dbe9beb2a0646d1bfa326bcdf005e5a" Name="Shared">
+				<SourceFileReference Bindings="EnvoyManager" Id="9400a8b298aa4743aebb1ceb47203dfc" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Keyboard Shortcut.gtype" StoragePath="Keyboard Shortcut.gtype\Keyboard Shortcut.gtype" />
+				<SourceFileReference Id="59e738692e9e40808f352050f23d0ab0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Application Version.gvi" StoragePath="Application Version.gvi" />
+				<SourceFileReference Id="5f8e40bd8cf344bf8fba0066a4c936aa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Shortcuts.gvi" StoragePath="Shortcuts.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="6e791c328c554c23a634a150caf0c605" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Shared.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="ef184bc643a345fd9fded422e6bd133d" Id="3b07eaab5f524a79b24153ec6fdc0e54" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

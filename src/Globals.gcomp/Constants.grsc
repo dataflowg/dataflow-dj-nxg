@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="610CF8D87B72FAD037B494FE1D131C22CFB2F67B355E180E420E568EF527A3160FAB74C9B315D0BA174E97394D80F643D9CA8ACEF0ED67B6054CCBC78A58F62B" Timestamp="1D5F5AC2E9D49EB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Data Comms SystemDesigner plugin" Name="http://www.ni.com/DataComms/SystemDesigner/SystemModel" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="SharedResourceCollection" Name="http://www.ni.com/SharedResourceCollection" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="SharedResourceCollection" Name="http://www.ni.com/SharedResourceCollection/SystemModel" OldestCompatibleVersion="4.7.0.0" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.1.0.5" Version="5.2.0.49152" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<SharedResourceCollection xmlns="http://www.ni.com/SharedResourceCollection">
+		<EnvoySuperimpositionContainer Id="c9b77b50abf8463fa5b5e14fe991b7e6" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+			<MappingManager Id="b1e8989a59bb480daf3b0113cae1335c" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+				<Instance Id="8aaa6ceef7874614a2f5246477d9e562" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="True" p8:Process.AliasName="Sample Rate" p8:Process.DataType="Int32" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>44100</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="a24b8b6e0d244452b84c85abf296d256" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="True" p8:Process.AliasName="Buffer Size" p8:Process.DataType="Int32" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>4096</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="7cc7105479ff44c0a9b079ce76d3fadd" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="True" p8:Process.AliasName="Zero Buffer" p8:Process.DataType="@2f987ecb51da410582d8097b9e2e57ac" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>null</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="dcdb87fce350493b97e4933a25a0795e" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="True" p8:Process.AliasName="Output Buffer Size" p8:Process.DataType="Int32" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>4096</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="d20566cba38b4a6ca646821e4701fd90" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="True" p8:Process.AliasName="Channels" p8:Process.DataType="Int32" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>2</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="4cc154336c51490a85af36ed2a073b29" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="True" p8:Process.AliasName="Depth" p8:Process.DataType="Int32" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>16</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Superimposition Id="9409b19b6adb41968866f1e19d50df0d" Name="Root Superimposition">
+					<Superimpose Source="8aaa6ceef7874614a2f5246477d9e562" />
+					<Superimpose Source="a24b8b6e0d244452b84c85abf296d256" />
+					<Superimpose Source="7cc7105479ff44c0a9b079ce76d3fadd" />
+					<Superimpose Source="dcdb87fce350493b97e4933a25a0795e" />
+					<Superimpose Source="d20566cba38b4a6ca646821e4701fd90" />
+					<Superimpose Source="4cc154336c51490a85af36ed2a073b29" />
+				</Superimposition>
+			</MappingManager>
+		</EnvoySuperimpositionContainer>
+	</SharedResourceCollection>
+	<EnvoyManagerFile Id="6ca96e98746b4eadb038688b88138517" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="484177376019412685347af2afb05e61" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b39f83cd6cd2473d8f9016e64e474fe4" Name="Constants.grsc" NameTracksFileName="True" />
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="2f987ecb51da410582d8097b9e2e57ac">
+			<Attributed AttributedType="@223c9df0bd9641cc833f55a2e151d489">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Globals" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="223c9df0bd9641cc833f55a2e151d489">
+			<Typedef TypedefName="ConstantsZero Buffer.gtype" UnderlyingType="Double[,]" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

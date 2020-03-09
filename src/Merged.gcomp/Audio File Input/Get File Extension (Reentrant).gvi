@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D20A63BD2AD6C9212144BCB774FB88F87C2F05FE583C04362BC6B3700C0E7E02D19025B734C665B3B060089D94E7DD95FD12FFDE4C906636743A36B97F8A5820" Timestamp="1D5C9D65535BFAF" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="4da7240ee86a4c0ab2cb2a8c7b9fcb5f" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Returns the file extension, without the period (.), of a file you specify.</p.UserDescription>
+		<Icon Id="5138b28d4aff4f298b86789e1be0ee61" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="cb05f0dd8af3413385f7a20642d42084" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="cc462d07232642ce8414b45543d570d7" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="a1e91ff4a23d4e92a9b394e078a9074a" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="cd1123ab0a164e31a907e368d764f8a3" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="9b080f18e16746039774214b692f43f9" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADdSURBVEhLzZABDsMgCAD7Wv/kn/yTQ1GCoFhblvRCLAJe2K78NzbqGJOOEGNrm+zVLWOAeloXPFRjtPuCYzXcUyoRwmt1cenwUsPqIr69dQC1WhnCRV3WnoaPWqwM4aEu/8iwLIWD2og2tGCjfoNUX1ep8PMxw2PhWqmndV2ULpzgJ0+QMqTGam0ca98K9TDRJzLNeREZ7mKOTkwIfqVczADzN5jwq66IkyfIcPHlWA2b2UF8aWsBX1NQO/rH3MN+19XIiZ28GJquXvV3GI+6Gjm3O6ihMw0Ds/mGnH+bsVu9zeM8jAAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="722f62e2f29b488fb541a1a219a909c7" ListViewHeight="145" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="f39875df3e3842c6b7cd5d7d9cbbd004" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 50" Parameter="7ab95f9de9474e53a2a6c5ec8312d60f" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 80" Parameter="cdc338645e2c4b029f26af2c2e23e781" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="5689c5d9d28c45afa188e79ce7f30097" />
+			<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 110" Parameter="4d00ecaeb8b3498a97b5293264413f2f" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 125" Parameter="c1bf3e4b0835475d8d5a148a88c4b906" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" ListViewHotspot="150 65" Parameter="cc84ed77c55740dca03c42c18f8f088e" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="2e64e11c1732474d953876d2e2f267e8" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="2d28c812457b4d3ca07b3144c5163fac" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="35d8533d0360497385af5adfe860fd61">
+			<DataAccessor Bounds="145 55 40 15" DataItem="f39875df3e3842c6b7cd5d7d9cbbd004" Id="f5c8464c292c4f9384e06681290c0970" Label="2e5b835c59f54646bcfbba9564eb9814" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Path" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="f5c8464c292c4f9384e06681290c0970" Bounds="115 55 25 20" Id="2e5b835c59f54646bcfbba9564eb9814" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>file</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="145 180 40 15" DataItem="7ab95f9de9474e53a2a6c5ec8312d60f" Id="d962db10f7624bea8facd1d2ca586bd3" Label="a31e58a45e1e4e38af2bf66ae4cded19" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="d962db10f7624bea8facd1d2ca586bd3" Bounds="5 180 135 20" Id="a31e58a45e1e4e38af2bf66ae4cded19" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in (no error)</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="600 180 40 15" DataItem="c1bf3e4b0835475d8d5a148a88c4b906" Id="b74cf3c9ddb0441b8fb5abdb40bfcc52" Label="d9af3ed3e4c4472baf56719ee65fdf12" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="b74cf3c9ddb0441b8fb5abdb40bfcc52" Bounds="645 180 70 20" Id="d9af3ed3e4c4472baf56719ee65fdf12" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="600 55 40 15" DataItem="cdc338645e2c4b029f26af2c2e23e781" Id="96cc2992502f4702b17c87e163c12b78" Label="1672eb8193a74ffc93feea8880fd9d80" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Path" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="96cc2992502f4702b17c87e163c12b78" Bounds="645 55 55 20" Id="1672eb8193a74ffc93feea8880fd9d80" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>dup file</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="600 125 40 15" DataItem="5689c5d9d28c45afa188e79ce7f30097" Id="bbe453fc3da043c6b0e923df25808964" Label="646b26b50c684327895b1b7db0ad44e6" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="bbe453fc3da043c6b0e923df25808964" Bounds="645 125 180 20" Id="646b26b50c684327895b1b7db0ad44e6" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>lowercase file extension</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="600 90 40 15" DataItem="4d00ecaeb8b3498a97b5293264413f2f" Id="66425fee4d094f0f9fb5ec0fa41aa78a" Label="b2ee072f426f4123845a99e5b1f7659a" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="66425fee4d094f0f9fb5ec0fa41aa78a" Bounds="645 90 200 20" Id="b2ee072f426f4123845a99e5b1f7659a" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>filename without extension</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="600 150 40 15" DataItem="cc84ed77c55740dca03c42c18f8f088e" Id="1e36ce27c645477cb3be703dcbee750f" Label="9a8c15775cfb41809b1720a1ae154c1d" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="1e36ce27c645477cb3be703dcbee750f" Bounds="645 150 190 20" Id="9a8c15775cfb41809b1720a1ae154c1d" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>unmodified file extension</p.Text>
+			</NodeLabel>
+			<CaseStructure Bounds="235 70 315 100" DataType="Error" Id="7aca54b14d7b41658d59d50d9924be78" Selected="8074ae9c68c94d4bb2aff7fdd030f2ff" UserSelectorBounds="0 0 0 0">
+				<CaseStructure.Case Bounds="5 5 305 90" Id="8074ae9c68c94d4bb2aff7fdd030f2ff" Pattern="No Error">
+					<Literal Bounds="150 55 40 18" DataType="Int32" Id="c552debf4ad24d82a0d6260e09ad3dd8" Label="e794d59a828a44cb9895b4be8e7c2178" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>1</p.Data>
+						<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
+					</Literal>
+					<NodeLabel AttachedTo="c552debf4ad24d82a0d6260e09ad3dd8" Bounds="150 34 70 18" Id="e794d59a828a44cb9895b4be8e7c2178" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>offset (0)</p.Text>
+					</NodeLabel>
+					<Literal Bounds="55 70 40 15" DataType="String" Id="29a610722ad4af8b0dc8b65aaab1de7" Label="b5ae1ae73794451fb94b937eac513a96" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"\\.[~\\.]*$"</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="29a610722ad4af8b0dc8b65aaab1de7" Bounds="55 49 137 18" Id="b5ae1ae73794451fb94b937eac513a96" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>regular expression</p.Text>
+					</NodeLabel>
+					<StripPath Bounds="40 10 30 30" Id="ee85a81499af41dcb579951cebf34043" />
+					<MatchPattern Bounds="90 25 40 40" Id="5fe7467afe9f4079bca4e5d4dcf005e5" />
+					<StringSubset Bounds="210 35 40 40" Id="487be93871ff442e85ac3febf18e2542" />
+					<ToLowerCase Bounds="270 55 30 10" Id="9355cd5540f84b03aadf74ffff24bdad" />
+					<Wire Id="c6bf4f44f35d4c80863b23541b899d38" Joints="N(487be93871ff442e85ac3febf18e2542:substring)|(250,40) h(14) v(20) B(2) N(9355cd5540f84b03aadf74ffff24bdad:string)|(273,60) B(2) v(20) N(be85435aa83148e0ae7bc7c8ddcb2cf8:8074ae9c68c94d4bb2aff7fdd030f2ff)|(301,80)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="4d9d8fd22f624d798c6dda9ad42f6a6f" Joints="N(5fe7467afe9f4079bca4e5d4dcf005e5:before substring)|(130,30) h(166) v(-10) N(90ac7cc289ce4e60b1aa5fc7789b040d:8074ae9c68c94d4bb2aff7fdd030f2ff)|(301,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="142764d10e8f457b919682a739d35860" Joints="N(29a610722ad4af8b0dc8b65aaab1de7:Out)|(95,75) h(-2.5) v(-35) N(5fe7467afe9f4079bca4e5d4dcf005e5:regular expression)|(90,40)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="8e0f2247d9174b649a84553a6a44e213" Joints="N(c552debf4ad24d82a0d6260e09ad3dd8:Out)|(190,60) N(487be93871ff442e85ac3febf18e2542:offset (0\))|(210,60)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="6140f3dce7dd463b89e3083f58326dce" Joints="N(9355cd5540f84b03aadf74ffff24bdad:all lower case string)|(300,60) h(0.5) v(-5) N(41cfe423b312420c8949d89c8f4677ea:8074ae9c68c94d4bb2aff7fdd030f2ff)|(301,55)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="6688e732f4014594938feec65d16b5b4" Joints="N(ee85a81499af41dcb579951cebf34043:name)|(70,30) N(5fe7467afe9f4079bca4e5d4dcf005e5:string)|(90,30)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="34329bcdf9834f02b24ea814092e1607" Joints="N(48dfe2fca8e245928d7e4ea099c13215:8074ae9c68c94d4bb2aff7fdd030f2ff)|(4,25) N(ee85a81499af41dcb579951cebf34043:path)|(40,25)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="8f3969dab2184107a2946f783f34e085" Joints="N(5fe7467afe9f4079bca4e5d4dcf005e5:match substring)|(130,40) N(487be93871ff442e85ac3febf18e2542:string)|(210,40)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 305 90" Id="3dca73b30c3b461e9351c7448dc20791" Pattern="Error" />
+				<CaseStructure.Selector Bounds="-4 85 13 10" Docking="Left" Id="9ee353f07fc347eba3a92d6607242e0b" Terminals="7aca54b14d7b41658d59d50d9924be78=4e4024db733446fca47bbf3984abddb5, 8074ae9c68c94d4bb2aff7fdd030f2ff, 3dca73b30c3b461e9351c7448dc20791" />
+				<CaseStructure.Tunnel Bounds="-4 25 13 10" Docking="Left" Id="48dfe2fca8e245928d7e4ea099c13215" Terminals="7aca54b14d7b41658d59d50d9924be78=8fc9e948314544418e68b3470661d47f, 8074ae9c68c94d4bb2aff7fdd030f2ff=34329bcdf9834f02b24ea814092e1607, 3dca73b30c3b461e9351c7448dc20791" />
+				<CaseStructure.Tunnel Bounds="306 55 13 10" DefaultIfUnwired="True" Docking="Right" Id="41cfe423b312420c8949d89c8f4677ea" Terminals="7aca54b14d7b41658d59d50d9924be78=5ffa167e4d8d47f5b7a29bd6507529b3, 8074ae9c68c94d4bb2aff7fdd030f2ff=6140f3dce7dd463b89e3083f58326dce, 3dca73b30c3b461e9351c7448dc20791" />
+				<CaseStructure.Tunnel Bounds="306 20 13 10" DefaultIfUnwired="True" Docking="Right" Id="90ac7cc289ce4e60b1aa5fc7789b040d" Terminals="7aca54b14d7b41658d59d50d9924be78=8fda72b5d894425c9739595bef6553ab, 8074ae9c68c94d4bb2aff7fdd030f2ff=4d9d8fd22f624d798c6dda9ad42f6a6f, 3dca73b30c3b461e9351c7448dc20791" />
+				<CaseStructure.Tunnel Bounds="306 80 13 10" DefaultIfUnwired="True" Docking="Right" Id="be85435aa83148e0ae7bc7c8ddcb2cf8" Terminals="7aca54b14d7b41658d59d50d9924be78=97d51607a7804a8bba73f47aea48488f, 8074ae9c68c94d4bb2aff7fdd030f2ff=c6bf4f44f35d4c80863b23541b899d38, 3dca73b30c3b461e9351c7448dc20791" />
+			</CaseStructure>
+			<Comment Bounds="235 205 280 15" Id="3b2cb41560964ef3ae1382cdf4120ac8" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Get all characters after the last period in the filename</p.Text>
+			</Comment>
+			<Wire Id="97d51607a7804a8bba73f47aea48488f" Joints="N(be85435aa83148e0ae7bc7c8ddcb2cf8:7aca54b14d7b41658d59d50d9924be78)|(554,155) N(1e36ce27c645477cb3be703dcbee750f:Value)|(603,155)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="8fda72b5d894425c9739595bef6553ab" Joints="N(90ac7cc289ce4e60b1aa5fc7789b040d:7aca54b14d7b41658d59d50d9924be78)|(554,95) N(66425fee4d094f0f9fb5ec0fa41aa78a:Value)|(603,95)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="5ffa167e4d8d47f5b7a29bd6507529b3" Joints="N(41cfe423b312420c8949d89c8f4677ea:7aca54b14d7b41658d59d50d9924be78)|(554,130) N(bbe453fc3da043c6b0e923df25808964:Value)|(603,130)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="8fc9e948314544418e68b3470661d47f" Joints="N(f5c8464c292c4f9384e06681290c0970:Value)|(185,60) h(5) B(1) N(96cc2992502f4702b17c87e163c12b78:Value)|(603,60) B(1) v(40) N(48dfe2fca8e245928d7e4ea099c13215:7aca54b14d7b41658d59d50d9924be78)|(231,100)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="4e4024db733446fca47bbf3984abddb5" Joints="N(d962db10f7624bea8facd1d2ca586bd3:Value)|(185,185) h(5) B(1) N(b74cf3c9ddb0441b8fb5abdb40bfcc52:Value)|(603,185) B(1) v(-25) N(9ee353f07fc347eba3a92d6607242e0b:7aca54b14d7b41658d59d50d9924be78)|(231,160)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Height="[float]1600" HtmlPanel="[bool]False" Id="ccf7d713dcd4a9bba46f89853d81f4b" Left="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<PanelExecutionWindow Id="9c00fb2b71074822a2b3cfbd8c4451e2" />
+			<PathSelector BrowseOption="[BrowseOption]ExistingFiles" Enabled="[bool]True" Height="[float]24" Id="47f5b49258864cb19de4a6de46c21f7a" IsTabStop="[bool]True" Label="[UIModel]c497a70a039f40088fc72774874f8cb3" Left="[float]100" Path="{DataItemBinding Id=f39875df3e3842c6b7cd5d7d9cbbd004}" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]30" Width="[float]223" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;file&lt;/B&gt; specifies the path to the file whose extension you want LabVIEW to return.</p.InfoTipDescription>
+			</PathSelector>
+			<Label Id="c497a70a039f40088fc72774874f8cb3" LabelOwner="[UIModel]47f5b49258864cb19de4a6de46c21f7a" Left="[float]100" Text="[string]file" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="acb37a7d85994ba5a1a1652798802615" IsTabStop="[bool]True" Label="[UIModel]7eb68e9732e446aa8cf9254d7a028ce" Left="[float]104" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]257" Value="{DataItemBinding Id=7ab95f9de9474e53a2a6c5ec8312d60f}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error in&lt;/B&gt; describes error conditions that occur before this node runs. This input provides standard error in functionality.</p.InfoTipDescription>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="fd1cf74396584a46ad231d4c165cbd75" Label="[UIModel]357d758c0fdf4e769b765ba6b776bac7" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="357d758c0fdf4e769b765ba6b776bac7" LabelOwner="[UIModel]fd1cf74396584a46ad231d4c165cbd75" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="9f8763190f3d4d76a3adb0728aa173cb" Label="[UIModel]1ddc37c9040e4e81b051574aa9155a52" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="1ddc37c9040e4e81b051574aa9155a52" LabelOwner="[UIModel]9f8763190f3d4d76a3adb0728aa173cb" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="23e247d3459c4f4392d3313a8eb599dc" Label="[UIModel]f414f6eb29f84403a34fdc06a6777546" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="f414f6eb29f84403a34fdc06a6777546" LabelOwner="[UIModel]23e247d3459c4f4392d3313a8eb599dc" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Id="7eb68e9732e446aa8cf9254d7a028ce" LabelOwner="[UIModel]acb37a7d85994ba5a1a1652798802615" Left="[float]104" Text="[string]error in (no error)" Top="[float]237" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="795c64b503d64d8c8df00ad091ede17d" IsTabStop="[bool]True" Label="[UIModel]fb5d4d00c2044d35901f8179387ba5a7" Left="[float]742" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]2" Top="[float]258" Value="{DataItemBinding Id=c1bf3e4b0835475d8d5a148a88c4b906}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error out&lt;/B&gt; contains error information. This output provides standard error out functionality.</p.InfoTipDescription>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="95bfe2b4e1be46f9a98a1ff499ed4338" IsReadOnly="[bool]True" Label="[UIModel]9711fbac49034e6fb94e653006f493c9" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="9711fbac49034e6fb94e653006f493c9" LabelOwner="[UIModel]95bfe2b4e1be46f9a98a1ff499ed4338" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="989ebab759194fe7b792aa8ff1872537" IsReadOnly="[bool]True" Label="[UIModel]9d49df98aaa948c0adb5e0c3f5593a6b" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="9d49df98aaa948c0adb5e0c3f5593a6b" LabelOwner="[UIModel]989ebab759194fe7b792aa8ff1872537" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="80e8ff9e9ac4293a9f987f10b3c6733" IsReadOnly="[bool]True" Label="[UIModel]f741f1278f3a4fcf818bf2c188ec1476" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="f741f1278f3a4fcf818bf2c188ec1476" LabelOwner="[UIModel]80e8ff9e9ac4293a9f987f10b3c6733" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Id="fb5d4d00c2044d35901f8179387ba5a7" LabelOwner="[UIModel]795c64b503d64d8c8df00ad091ede17d" Left="[float]742" Text="[string]error out" Top="[float]238" xmlns="http://www.ni.com/PanelCommon" />
+			<PathSelector BrowseOption="[BrowseOption]ExistingFiles" Enabled="[bool]True" Height="[float]24" Id="c06338a17cf6452b892481b061c2b0ce" InteractionMode="[PathSelectorInteractionModes]ReadOnly" IsTabStop="[bool]True" Label="[UIModel]5721835326f64e2a97b3890621e8ae65" Left="[float]738" Path="{DataItemBinding Id=cdc338645e2c4b029f26af2c2e23e781}" TabIndex="[int]3" TextAlignment="[TextAlignment]Left" Top="[float]30" Width="[float]223" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;dup file&lt;/B&gt; returns &lt;B&gt;file&lt;/B&gt; unchanged.</p.InfoTipDescription>
+			</PathSelector>
+			<Label Id="5721835326f64e2a97b3890621e8ae65" LabelOwner="[UIModel]c06338a17cf6452b892481b061c2b0ce" Left="[float]738" Text="[string]dup file" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="b7d654e8da0c419891736caca76feaa6" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]e6f93c58e6154604960963d835d42c81" Left="[float]738" TabIndex="[int]4" Text="{DataItemBinding Id=5689c5d9d28c45afa188e79ce7f30097}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]116" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;lowercase file extension&lt;/B&gt; returns the extension of the file, without the period (.). LabVIEW always returns a lowercase file extension, even if &lt;B&gt;file&lt;/B&gt; contains uppercase letters.</p.InfoTipDescription>
+			</StringControl>
+			<Label Id="e6f93c58e6154604960963d835d42c81" LabelOwner="[UIModel]b7d654e8da0c419891736caca76feaa6" Left="[float]738" Text="[string]lowercase file extension" Top="[float]96" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="39319b53fe2c40b282f95689677d753e" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]ec347a84ee7449ab86a879361faad2b7" Left="[float]738" TabIndex="[int]5" Text="{DataItemBinding Id=4d00ecaeb8b3498a97b5293264413f2f}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]177" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;filename without extension&lt;/B&gt; returns the name of the file you specify in &lt;B&gt;file&lt;/B&gt; without the directory path, period (.), or file extension. Unlike &lt;B&gt;lowercase file extension&lt;/B&gt;, &lt;B&gt;filename without extension&lt;/B&gt; matches the case of the original filename.</p.InfoTipDescription>
+			</StringControl>
+			<Label Id="ec347a84ee7449ab86a879361faad2b7" LabelOwner="[UIModel]39319b53fe2c40b282f95689677d753e" Left="[float]738" Text="[string]filename without extension" Top="[float]157" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="8c6117e6886547538075ee62ad504e36" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]89ba1516d63746e3a7d57e7afb50633e" Left="[float]482" TabIndex="[int]6" Text="{DataItemBinding Id=cc84ed77c55740dca03c42c18f8f088e}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]254" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;unmodified file extension&lt;/B&gt; returns the extension of the file you specify in &lt;B&gt;file&lt;/B&gt;, without the period (.). Unlike &lt;B&gt;lowercase file extension&lt;/B&gt;, &lt;B&gt;unmodified file extension&lt;/B&gt; matches the case of the original file extension.</p.InfoTipDescription>
+			</StringControl>
+			<Label Id="89ba1516d63746e3a7d57e7afb50633e" LabelOwner="[UIModel]8c6117e6886547538075ee62ad504e36" Left="[float]482" Text="[string]unmodified file extension" Top="[float]234" xmlns="http://www.ni.com/PanelCommon" />
+			<Menu Id="3eac2ea0d4414f3eb015b06506071263" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="Path" Id="f39875df3e3842c6b7cd5d7d9cbbd004" Name="file" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Path a="1" />
+			</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;file&lt;/B&gt; specifies the path to the file whose extension you want LabVIEW to return.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="Error" Id="7ab95f9de9474e53a2a6c5ec8312d60f" Name="error in (no error)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error in&lt;/B&gt; describes error conditions that occur before this node runs. This input provides standard error in functionality.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="5" DataType="Error" Id="c1bf3e4b0835475d8d5a148a88c4b906" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error out&lt;/B&gt; contains error information. This output provides standard error out functionality.</p.UserDescription>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="2" DataType="Path" Id="cdc338645e2c4b029f26af2c2e23e781" Name="dup file" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Path a="1" />
+			</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;dup file&lt;/B&gt; returns &lt;B&gt;file&lt;/B&gt; unchanged.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="3" DataType="String" Id="5689c5d9d28c45afa188e79ce7f30097" Name="lowercase file extension" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;lowercase file extension&lt;/B&gt; returns the extension of the file, without the period (.). LabVIEW always returns a lowercase file extension, even if &lt;B&gt;file&lt;/B&gt; contains uppercase letters.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="4" DataType="String" Id="4d00ecaeb8b3498a97b5293264413f2f" Name="filename without extension" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;filename without extension&lt;/B&gt; returns the name of the file you specify in &lt;B&gt;file&lt;/B&gt; without the directory path, period (.), or file extension. Unlike &lt;B&gt;lowercase file extension&lt;/B&gt;, &lt;B&gt;filename without extension&lt;/B&gt; matches the case of the original filename.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="String" Id="cc84ed77c55740dca03c42c18f8f088e" Name="unmodified file extension" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;unmodified file extension&lt;/B&gt; returns the extension of the file you specify in &lt;B&gt;file&lt;/B&gt;, without the period (.). Unlike &lt;B&gt;lowercase file extension&lt;/B&gt;, &lt;B&gt;unmodified file extension&lt;/B&gt; matches the case of the original file extension.</p.UserDescription>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

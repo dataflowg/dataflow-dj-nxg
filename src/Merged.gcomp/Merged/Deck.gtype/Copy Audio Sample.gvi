@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="660B24A97BE2A24DF23F2D3A748F3E004AD91A57B0E641484933A165310638AFBEA1B328030CD4AFB877C626AE453970C181915CE48B67ADF618A3621CA23EA6" Timestamp="1D5C9D65500866B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="5403c5a91aec47b2b8d454b2b70c6713" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Copy a sample block of audio from the DVR based on Offset and Length. If Offset + Length exceeds the size of audio in the DVR, the sample buffer is zero padded.&lt;br/&gt;&lt;br/&gt;Length can be negative or positive. If length is negative, the sample data returned is reversed.</p.UserDescription>
+		<Icon Id="3c23c5052bf542bdbf24e8949567c0de" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="976132d77db94848aef4612bf549f728" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="918cd1275905439f928c3ddb81f634a5" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="b439f291709c4e039308ec5c4c300bef" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="5637782f8a2541e0ad5f5335848a50bd" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="5a1022e0b6e249d6b131ef9ab50f7a09" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD0SURBVEhLvY9bEoMwDAO5U0/b01Jjpar8SKYfhJ1MkdbBU4738dp0mtXnl0VlTkFPv1qDvtaO9IKev1Ynw6Ojeh7/12BRmVPQ06y+6xwb8e/bwuOr0wdpRTZY+Zvo1OS1RaVUOhXv1V0A0tCsNJZXEWaVVAMm1hklVvWgGtDbW3hwtX/6kCn45EIlArOSld5Loa1JKqG3L69rkkroNiao9LOapBJ6vWchZYOVgVlp1F3sX42PMrQyIxjIPrxQCeCNK6O7/8GxZg0+GYHVCHk8HGYN7S+wTAmCxwPAYgwoQTVGvQDGVTBUDKxGNYZVkLNPN3CeHw+0/olL8oRZAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="f84367b6aa0a46d680b405bc689f960d" ListViewHeight="145" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="8b42f1f9c4094e00ae6ca5a4b9ec9793" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="e1b76a710c2d49888553d1d65537eb8a" />
+			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 65" Parameter="3dcffc5ae7994c8bada0fc68661d9e4b" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 80" Parameter="aed9a09642a64815a27ca5344109fe25" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 95" Parameter="6a74f1786fc9475a8b2ca558d11f9a41" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 110" Parameter="eeeb0dfd28e8436b8ff75b6075ac0a4b" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 125" Parameter="a71546e392f1410e976402ade7c24c86" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="8fe14a3dcc6249efb92c1a8f931c6f04" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="50630a1791a6459790e51987aba265b5" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="72d8581d745044678d1a8f4567a78833">
+			<DataAccessor Bounds="50 735 40 15" DataItem="aed9a09642a64815a27ca5344109fe25" Id="e0376d95e01e4a06b3bb832ef0ba52ce" Label="c8c0647dc6c04181b000619129f4a9f0" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="e0376d95e01e4a06b3bb832ef0ba52ce" Bounds="50 712 135 20" Id="c8c0647dc6c04181b000619129f4a9f0" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in (no error)</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1905 735 40 15" DataItem="a71546e392f1410e976402ade7c24c86" Id="43d570130cc04eecba0619c6e8ea59e3" Label="ba916b7663114d9ba4bce3c53723a676" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="43d570130cc04eecba0619c6e8ea59e3" Bounds="1905 712 70 20" Id="ba916b7663114d9ba4bce3c53723a676" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="50 395 40 15" DataItem="8b42f1f9c4094e00ae6ca5a4b9ec9793" Id="95c53de3c16a45ffb5a6b0cded904259" Label="bce81c871e5a4d0698c5f91a0d616d37" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@d768c2879d3f462fbadd9e6f5a13e0c8" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="95c53de3c16a45ffb5a6b0cded904259" Bounds="50 372 55 20" Id="bce81c871e5a4d0698c5f91a0d616d37" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Deck in</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1905 395 40 15" DataItem="6a74f1786fc9475a8b2ca558d11f9a41" Id="f86e82a24e9c44868883b864cfe51ff1" Label="2ae06e3d9b154429b9043e9df5e29ada" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@d768c2879d3f462fbadd9e6f5a13e0c8" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="f86e82a24e9c44868883b864cfe51ff1" Bounds="1905 372 70 20" Id="2ae06e3d9b154429b9043e9df5e29ada" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Deck out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="65 585 40 15" DataItem="e1b76a710c2d49888553d1d65537eb8a" Id="85481c1fe5cf4f68bec343dd7e641a74" Label="529a1df2c2a847eb9c581c0f157e8de1" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="85481c1fe5cf4f68bec343dd7e641a74" Bounds="15 585 45 20" Id="529a1df2c2a847eb9c581c0f157e8de1" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Offset</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="65 625 40 15" DataItem="3dcffc5ae7994c8bada0fc68661d9e4b" Id="f7ef8d43ee6b475981cb4be46122c454" Label="1d9e4bec193a4934a0404ab6edeb99a3" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="f7ef8d43ee6b475981cb4be46122c454" Bounds="5 625 55 20" Id="1d9e4bec193a4934a0404ab6edeb99a3" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Length</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1905 575 40 15" DataItem="eeeb0dfd28e8436b8ff75b6075ac0a4b" Id="f2ed42c0b5544cb2a64d6d64256e718d" Label="48a5c82d70e4450ab0f33490d017de61" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double[,]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="f2ed42c0b5544cb2a64d6d64256e718d" Bounds="1950 575 90 20" Id="48a5c82d70e4450ab0f33490d017de61" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Audio Block</p.Text>
+			</NodeLabel>
+			<CaseStructure Bounds="240 340 1615 405" DataType="Error" Id="9b5d05861206498e88fbda91145562d8" Selected="e80009a002a540ef8ccda9021604d1c7" UserSelectorBounds="0 0 0 0">
+				<CaseStructure.Case Bounds="5 5 1605 395" Id="e80009a002a540ef8ccda9021604d1c7" Pattern="No Error">
+					<InPlaceElementStructure Bounds="515 80 315 205" DiagramId="c1938fd7dba446b3b5e85baef13ec937" Id="1039168a6b3e4786ba4a83732ab050e4">
+						<ArraySubset Bounds="185 125 40 60" Id="7285eea2be1c46548843a1ff9b77d0e7" Rank="2" Terminals="array=b757b13a15a544f2b8421bb5c7b90d54, subarray=3a4fe696b55947cca927b02dc88d739a, index0, length0, index1=5618e6c737104b62859c9ec6a82b0404, length1=38c9a94355934431986dbba520289766" />
+						<MatrixSize Bounds="185 75 30 30" Id="25af54be2ec7443fa9dab6be93b93ff9" />
+						<Wire Id="3a4fe696b55947cca927b02dc88d739a" Joints="N(7285eea2be1c46548843a1ff9b77d0e7:subarray)|(225,130) h(9) v(15) N(ebcac595400f47699403f5b4ed1f6c36:c1938fd7dba446b3b5e85baef13ec937)|(239,145)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="8be0740865344532b789154ca8370761" Joints="N(25af54be2ec7443fa9dab6be93b93ff9:number of rows)|(215,85) h(19) v(-5) N(4ccc53d028f44048b2a0bfc6856582dd:c1938fd7dba446b3b5e85baef13ec937)|(239,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="b757b13a15a544f2b8421bb5c7b90d54" Joints="N(6b24701c10964d6cb58caf5668f1f3e7:ri0)|(0,35) h(179) B(1) N(bfcfc72ae72e4238a70b6a69637e9d2b:wi0)|(239,35) B(1) v(55) B(3) h(-5) v(40) N(7285eea2be1c46548843a1ff9b77d0e7:array)|(185,130) B(3) N(25af54be2ec7443fa9dab6be93b93ff9:matrix)|(185,90)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="5618e6c737104b62859c9ec6a82b0404" Joints="N(b728be67616442e9a1a6a2b4d27a432f:c1938fd7dba446b3b5e85baef13ec937)|(0,160) h(164) v(10) N(7285eea2be1c46548843a1ff9b77d0e7:index1)|(185,170)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="38c9a94355934431986dbba520289766" Joints="N(b6be74b5e3e04ecd92de814c06daca49:c1938fd7dba446b3b5e85baef13ec937)|(17,191) v(-11) N(7285eea2be1c46548843a1ff9b77d0e7:length1)|(185,180)" xmlns="http://www.ni.com/PlatformFramework" />
+						<InPlaceElementStructure.ReadPoser Bounds="-2 35 40 40" Docking="Left" Id="6b24701c10964d6cb58caf5668f1f3e7" WritePoser="bfcfc72ae72e4238a70b6a69637e9d2b" />
+						<InPlaceElementStructure.WritePoser Bounds="277 35 40 40" Docking="Right" Id="bfcfc72ae72e4238a70b6a69637e9d2b" />
+						<InPlaceTunnel.Tunnel Bounds="50 196 10 13" Docking="Bottom" Id="b6be74b5e3e04ecd92de814c06daca49" Terminals="1039168a6b3e4786ba4a83732ab050e4=9aeca7dd803c4e2186287aee1989fddf, c1938fd7dba446b3b5e85baef13ec937=38c9a94355934431986dbba520289766" />
+						<InPlaceTunnel.Tunnel Bounds="-2 160 40 10" Docking="Left" Id="b728be67616442e9a1a6a2b4d27a432f" Terminals="1039168a6b3e4786ba4a83732ab050e4=8d6db63355d74c929d0e90118b571e5e, c1938fd7dba446b3b5e85baef13ec937=5618e6c737104b62859c9ec6a82b0404" />
+						<InPlaceTunnel.Tunnel Bounds="277 80 40 10" Docking="Right" Id="4ccc53d028f44048b2a0bfc6856582dd" Terminals="1039168a6b3e4786ba4a83732ab050e4=e7a3bb97f4824e6a8136e3009eae400e, c1938fd7dba446b3b5e85baef13ec937=8be0740865344532b789154ca8370761" />
+						<InPlaceTunnel.Tunnel Bounds="277 145 40 10" Docking="Right" Id="ebcac595400f47699403f5b4ed1f6c36" Terminals="1039168a6b3e4786ba4a83732ab050e4=c7269183b150490491b1eaed84c8cf3c, c1938fd7dba446b3b5e85baef13ec937=3a4fe696b55947cca927b02dc88d739a" />
+					</InPlaceElementStructure>
+					<PropertyNode Bounds="35 105 75 35" HasErrorTerminals="False" Id="c346282fe8a24df48343c1c903844c95" InstanceDataType="@d768c2879d3f462fbadd9e6f5a13e0c8" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+							<TypeDefinitionTarget TargetName="Merged::Deck.gtype" />
+						</p.TypeDefinitionTargets>
+						<PropertyItemTerminal Hotspot="75 15" Id="c0t0v" Path="Audio Data Reference" PathElementMemberKinds="Field" />
+					</PropertyNode>
+					<PropertyNode Bounds="1355 105 75 35" HasErrorTerminals="False" Id="cf185fc2211e45e386ac04312f316f44" InstanceDataType="@d768c2879d3f462fbadd9e6f5a13e0c8" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+							<TypeDefinitionTarget TargetName="Merged::Deck.gtype" />
+						</p.TypeDefinitionTargets>
+						<PropertyItemTerminal Action="Write" Hotspot="0 15" Id="c0t0v" Path="Audio Data Reference" PathElementMemberKinds="Field" />
+					</PropertyNode>
+					<IsLessThan0 Bounds="30 340 30 30" Id="5194a41d72184e9fa3f43a1d677f91aa" />
+					<CaseStructure Bounds="110 165 355 210" Default="2e5e988a3c41450785012d8d76a3be67" Id="eed89617d17547e5a99bc45b770d614c" Selected="3ac094e9d84c4be48af2f8a9f29ad92a" UserSelectorBounds="0 0 0 0">
+						<CaseStructure.Case Bounds="5 5 345 200" Id="2e5e988a3c41450785012d8d76a3be67" Pattern="False">
+							<Wire Id="ddc8e7b2307d423bbbc1ad735fc8732c" Joints="N(d0af2960adcd4db3afb58c908fe8aa18:2e5e988a3c41450785012d8d76a3be67)|(4,120) h(5) B(1) N(58dc1b5f7c284e5087d4d36d9b3e325f:2e5e988a3c41450785012d8d76a3be67)|(341,120) B(1) v(45) N(1ade201bfea0454187f0f4e534b8f07d:2e5e988a3c41450785012d8d76a3be67)|(341,165)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="7bbb1183de5d47da8c8c889cb73f75d6" Joints="N(cb895d73e69e47c684e3982100c43a6e:2e5e988a3c41450785012d8d76a3be67)|(4,185) N(e00990b6829d4c35a7419bd9a141cad3:2e5e988a3c41450785012d8d76a3be67)|(341,185)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="887b190f73604863b1224cb7a8b3a65d" Joints="N(aea888ed50147e3ab737a8b26544330:2e5e988a3c41450785012d8d76a3be67)|(4,85) N(c735f0ace3047cf9d5d1a4f053570b4:2e5e988a3c41450785012d8d76a3be67)|(341,85)" xmlns="http://www.ni.com/PlatformFramework" />
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 345 200" Id="3ac094e9d84c4be48af2f8a9f29ad92a" Pattern="True">
+							<Add Bounds="40 75 30 30" Id="8bb0763815e0462a9b5ca782ae90b083" Terminals="o=f13cb82328f043ca83566b4e252a8b5c, c0t0v=cf7413ef7c054644910feba3163bc7dd, c1t0v=c2d6fcc5b1714b3689dfd6976d132b56" />
+							<AbsoluteValue Bounds="40 115 30 30" Id="adb90e4e02c34062a70e426b0d252a5b" />
+							<CaseStructure Bounds="190 30 150 115" Default="b9be6fb06dea4c738edc6c976f1777b0" Id="38e1fa34cd0642c5bcdf3eddb3119c25" Selected="93814864fbe64b09bbeb925832f29543" UserSelectorBounds="0 0 0 0">
+								<CaseStructure.Case Bounds="5 5 140 105" Id="b9be6fb06dea4c738edc6c976f1777b0" Pattern="False">
+									<Wire Id="34b54c17ef0746f582b1aeff709c4e5e" Joints="N(3f7d91be5cd14756b3b2c3e23ee815f4:b9be6fb06dea4c738edc6c976f1777b0)|(4,95) N(c4c2ac1589d44d10ab008020f9595c04:b9be6fb06dea4c738edc6c976f1777b0)|(136,95)" xmlns="http://www.ni.com/PlatformFramework" />
+									<Wire Id="8bfdda72ab4c4fc98ee08bdff25a0a73" Joints="N(74ff1bd83238441484ed9d2d79de05e7:b9be6fb06dea4c738edc6c976f1777b0)|(4,55) N(ed4681de16c043c49e7256d26313c6d0:b9be6fb06dea4c738edc6c976f1777b0)|(136,55)" xmlns="http://www.ni.com/PlatformFramework" />
+								</CaseStructure.Case>
+								<CaseStructure.Case Bounds="5 5 140 105" Id="93814864fbe64b09bbeb925832f29543" Pattern="True">
+									<Literal Bounds="95 55 40 18" DataType="Int32" Id="dbdf025a79a048929dde9b83c3dddfb5" xmlns="http://www.ni.com/MocCommon">
+										<p.Data>0</p.Data>
+										<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
+									</Literal>
+									<Wire Id="85a07d0daff4444d800d411f75e25dad" Joints="N(dbdf025a79a048929dde9b83c3dddfb5:Out)|(135,60) h(0.5) v(-5) N(ed4681de16c043c49e7256d26313c6d0:93814864fbe64b09bbeb925832f29543)|(136,55)" xmlns="http://www.ni.com/PlatformFramework" />
+									<Wire Id="cc7b5ca872fa4510959bd3396ad8118e" Joints="N(18975984d014960a6144ff473b5dab0:93814864fbe64b09bbeb925832f29543)|(4,30) h(10) v(65) N(c4c2ac1589d44d10ab008020f9595c04:93814864fbe64b09bbeb925832f29543)|(136,95)" xmlns="http://www.ni.com/PlatformFramework" />
+								</CaseStructure.Case>
+								<CaseStructure.Selector Bounds="-4 75 13 10" Docking="Left" Id="a3f26fdcc15d4a70b79a98200cbe44a6" Terminals="38e1fa34cd0642c5bcdf3eddb3119c25=2ffe51e8e2204bb69a56bfceb39ada6f, b9be6fb06dea4c738edc6c976f1777b0, 93814864fbe64b09bbeb925832f29543" />
+								<CaseStructure.Tunnel Bounds="-4 55 13 10" Docking="Left" Id="74ff1bd83238441484ed9d2d79de05e7" Terminals="38e1fa34cd0642c5bcdf3eddb3119c25=f13cb82328f043ca83566b4e252a8b5c, b9be6fb06dea4c738edc6c976f1777b0=8bfdda72ab4c4fc98ee08bdff25a0a73, 93814864fbe64b09bbeb925832f29543" />
+								<CaseStructure.Tunnel Bounds="141 55 13 10" Docking="Right" Id="ed4681de16c043c49e7256d26313c6d0" Terminals="38e1fa34cd0642c5bcdf3eddb3119c25=234230f0a6f54f779129caece74461b5, b9be6fb06dea4c738edc6c976f1777b0=8bfdda72ab4c4fc98ee08bdff25a0a73, 93814864fbe64b09bbeb925832f29543=85a07d0daff4444d800d411f75e25dad" />
+								<CaseStructure.Tunnel Bounds="-4 95 13 10" Docking="Left" Id="3f7d91be5cd14756b3b2c3e23ee815f4" Terminals="38e1fa34cd0642c5bcdf3eddb3119c25=c85564ef655449b081554beb2199d5a0, b9be6fb06dea4c738edc6c976f1777b0=34b54c17ef0746f582b1aeff709c4e5e, 93814864fbe64b09bbeb925832f29543" />
+								<CaseStructure.Tunnel Bounds="141 95 13 10" Docking="Right" Id="c4c2ac1589d44d10ab008020f9595c04" Terminals="38e1fa34cd0642c5bcdf3eddb3119c25=e930d210eba64bfc9caf1b64f7d24f26, b9be6fb06dea4c738edc6c976f1777b0=34b54c17ef0746f582b1aeff709c4e5e, 93814864fbe64b09bbeb925832f29543=cc7b5ca872fa4510959bd3396ad8118e" />
+								<CaseStructure.Tunnel Bounds="-4 30 13 10" Docking="Left" Id="18975984d014960a6144ff473b5dab0" Terminals="38e1fa34cd0642c5bcdf3eddb3119c25=cf7413ef7c054644910feba3163bc7dd, b9be6fb06dea4c738edc6c976f1777b0, 93814864fbe64b09bbeb925832f29543=cc7b5ca872fa4510959bd3396ad8118e" />
+							</CaseStructure>
+							<IsLessThan0 Bounds="110 95 30 30" Id="8e08dc6e3836413e97cc33803be85a69" />
+							<Wire Id="c85564ef655449b081554beb2199d5a0" Joints="N(adb90e4e02c34062a70e426b0d252a5b:abs(x\))|(70,130) h(5) B(1) N(3f7d91be5cd14756b3b2c3e23ee815f4:38e1fa34cd0642c5bcdf3eddb3119c25)|(186,130) B(1) v(35) N(1ade201bfea0454187f0f4e534b8f07d:3ac094e9d84c4be48af2f8a9f29ad92a)|(341,165)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="cf7413ef7c054644910feba3163bc7dd" Joints="N(aea888ed50147e3ab737a8b26544330:3ac094e9d84c4be48af2f8a9f29ad92a)|(4,85) h(10) v(-5) B(2) N(8bb0763815e0462a9b5ca782ae90b083:c0t0v)|(40,80) B(2) v(-15) N(18975984d014960a6144ff473b5dab0:38e1fa34cd0642c5bcdf3eddb3119c25)|(186,65)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="e930d210eba64bfc9caf1b64f7d24f26" Joints="N(c4c2ac1589d44d10ab008020f9595c04:38e1fa34cd0642c5bcdf3eddb3119c25)|(344,130) h(-1.5) v(-10) N(58dc1b5f7c284e5087d4d36d9b3e325f:3ac094e9d84c4be48af2f8a9f29ad92a)|(341,120)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="234230f0a6f54f779129caece74461b5" Joints="N(ed4681de16c043c49e7256d26313c6d0:38e1fa34cd0642c5bcdf3eddb3119c25)|(344,90) h(-1.5) v(-5) N(c735f0ace3047cf9d5d1a4f053570b4:3ac094e9d84c4be48af2f8a9f29ad92a)|(341,85)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="f13cb82328f043ca83566b4e252a8b5c" Joints="N(8bb0763815e0462a9b5ca782ae90b083:o)|(70,90) h(5) B(1) N(74ff1bd83238441484ed9d2d79de05e7:38e1fa34cd0642c5bcdf3eddb3119c25)|(186,90) B(1) v(20) N(8e08dc6e3836413e97cc33803be85a69:x)|(110,110)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="2ffe51e8e2204bb69a56bfceb39ada6f" Joints="N(8e08dc6e3836413e97cc33803be85a69:x &lt; 0?)|(140,110) N(a3f26fdcc15d4a70b79a98200cbe44a6:38e1fa34cd0642c5bcdf3eddb3119c25)|(186,110)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="ce62660dd7bf44859d349b591b04bae5" Joints="N(cb895d73e69e47c684e3982100c43a6e:3ac094e9d84c4be48af2f8a9f29ad92a)|(4,185) N(e00990b6829d4c35a7419bd9a141cad3:3ac094e9d84c4be48af2f8a9f29ad92a)|(341,185)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="c2d6fcc5b1714b3689dfd6976d132b56" Joints="N(d0af2960adcd4db3afb58c908fe8aa18:3ac094e9d84c4be48af2f8a9f29ad92a)|(4,120) h(30) B(1) v(-25) N(8bb0763815e0462a9b5ca782ae90b083:c1t0v)|(40,95) B(1) v(10) N(adb90e4e02c34062a70e426b0d252a5b:x)|(40,130)" xmlns="http://www.ni.com/PlatformFramework" />
+						</CaseStructure.Case>
+						<CaseStructure.Selector Bounds="-4 185 13 10" Docking="Left" Id="cb895d73e69e47c684e3982100c43a6e" Terminals="eed89617d17547e5a99bc45b770d614c=d3119ea9714f4dd1a081e0e1017fadea, 2e5e988a3c41450785012d8d76a3be67=7bbb1183de5d47da8c8c889cb73f75d6, 3ac094e9d84c4be48af2f8a9f29ad92a=ce62660dd7bf44859d349b591b04bae5" />
+						<CaseStructure.Tunnel Bounds="346 85 13 10" Docking="Right" Id="c735f0ace3047cf9d5d1a4f053570b4" Terminals="eed89617d17547e5a99bc45b770d614c=8d6db63355d74c929d0e90118b571e5e, 2e5e988a3c41450785012d8d76a3be67=887b190f73604863b1224cb7a8b3a65d, 3ac094e9d84c4be48af2f8a9f29ad92a=234230f0a6f54f779129caece74461b5" />
+						<CaseStructure.Tunnel Bounds="-4 85 13 10" Docking="Left" Id="aea888ed50147e3ab737a8b26544330" Terminals="eed89617d17547e5a99bc45b770d614c=5c0bd20cad774e27b111e5900f26eddb, 2e5e988a3c41450785012d8d76a3be67=887b190f73604863b1224cb7a8b3a65d, 3ac094e9d84c4be48af2f8a9f29ad92a=cf7413ef7c054644910feba3163bc7dd" />
+						<CaseStructure.Tunnel Bounds="346 120 13 10" Docking="Right" Id="58dc1b5f7c284e5087d4d36d9b3e325f" Terminals="eed89617d17547e5a99bc45b770d614c=9aeca7dd803c4e2186287aee1989fddf, 2e5e988a3c41450785012d8d76a3be67=ddc8e7b2307d423bbbc1ad735fc8732c, 3ac094e9d84c4be48af2f8a9f29ad92a=e930d210eba64bfc9caf1b64f7d24f26" />
+						<CaseStructure.Tunnel Bounds="-4 120 13 10" Docking="Left" Id="d0af2960adcd4db3afb58c908fe8aa18" Terminals="eed89617d17547e5a99bc45b770d614c=a60501ba5cc64d24be16c2fe2b612faf, 2e5e988a3c41450785012d8d76a3be67=ddc8e7b2307d423bbbc1ad735fc8732c, 3ac094e9d84c4be48af2f8a9f29ad92a=c2d6fcc5b1714b3689dfd6976d132b56" />
+						<CaseStructure.Tunnel Bounds="346 185 13 10" Docking="Right" Id="e00990b6829d4c35a7419bd9a141cad3" Terminals="eed89617d17547e5a99bc45b770d614c=b1c041a306084390a5645e6686d3bc1a, 2e5e988a3c41450785012d8d76a3be67=7bbb1183de5d47da8c8c889cb73f75d6, 3ac094e9d84c4be48af2f8a9f29ad92a=ce62660dd7bf44859d349b591b04bae5" />
+						<CaseStructure.Tunnel Bounds="346 165 13 10" Docking="Right" Id="1ade201bfea0454187f0f4e534b8f07d" Terminals="eed89617d17547e5a99bc45b770d614c=87fd22f56b424644b693dfe2a0bbf8cb, 2e5e988a3c41450785012d8d76a3be67=ddc8e7b2307d423bbbc1ad735fc8732c, 3ac094e9d84c4be48af2f8a9f29ad92a=c85564ef655449b081554beb2199d5a0" />
+					</CaseStructure>
+					<CaseStructure Bounds="1355 150 155 225" Default="35c59e789b7a4bb985b20b71b2a61186" Id="70cffbcab8fa457aa416df53fc6514e9" Selected="30050fa221844bba9eca8df2ef653ed2" UserSelectorBounds="0 0 0 0">
+						<CaseStructure.Case Bounds="5 5 145 215" Id="35c59e789b7a4bb985b20b71b2a61186" Pattern="False">
+							<Wire Id="adb143990229457d8edfcf502d4e1562" Joints="N(4b8dae0bd1c54aeca4107a9f2488be1e:35c59e789b7a4bb985b20b71b2a61186)|(4,85) N(b1cd11483d2a4ff8b7e417d9d8470ae2:35c59e789b7a4bb985b20b71b2a61186)|(141,85)" xmlns="http://www.ni.com/PlatformFramework" />
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 145 215" Id="30050fa221844bba9eca8df2ef653ed2" Pattern="True">
+							<ForLoop Bounds="30 40 95 103" DiagramId="eb1b7e49987f44fe8b8a1341aa41e28f" Id="149e90e7ad6b474fb186e6c03c409725" Label="d5f5b16cf74e44ed8646a05a1df21474">
+								<LoopIteration Bounds="10 75 15 15" Id="9e0f006d0434e148469e8b3c4e507fb" />
+								<Reverse1DArray Bounds="35 45 40 20" Id="caf4d67b65df46e0ab641d121b239371" />
+								<Wire Id="3d410180ac5543f384f924e56a0909dc" Joints="N(caf4d67b65df46e0ab641d121b239371:reversed array)|(75,50) h(4) v(-2) N(4976883e19a044589551e94949e9983a:i0)|(83,48)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="7d6203fcc34f4c17998052d0dfa67eba" Joints="N(9588b5afdfd24570926ae93028a9c0c6:i0)|(6,48) h(23) v(2) N(caf4d67b65df46e0ab641d121b239371:array)|(35,50)" xmlns="http://www.ni.com/PlatformFramework" />
+								<LoopCount Bounds="1 1 15 15" Docking="Left" Id="d5652bbd4fdf4a0d9b6967267167a3b2" Terminals="149e90e7ad6b474fb186e6c03c409725, eb1b7e49987f44fe8b8a1341aa41e28f" />
+								<LoopTunnel AutoIndex="True" Bounds="-5 45 13 10" Docking="Left" Id="9588b5afdfd24570926ae93028a9c0c6" Terminals="o0=ebd39d7cee89463e932d03b3549ebeae, i0=7d6203fcc34f4c17998052d0dfa67eba" TunnelMode="0" />
+								<LoopTunnel AutoIndex="True" Bounds="85 45 13 10" Docking="Right" Id="4976883e19a044589551e94949e9983a" Terminals="o0=fc52a30755934df783d391a6b5d82933, i0=3d410180ac5543f384f924e56a0909dc" TunnelMode="0" />
+							</ForLoop>
+							<NodeLabel AttachedTo="149e90e7ad6b474fb186e6c03c409725" Bounds="30 19 64 18" Id="d5f5b16cf74e44ed8646a05a1df21474" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>For Loop</p.Text>
+							</NodeLabel>
+							<Wire Id="fc52a30755934df783d391a6b5d82933" Joints="N(4976883e19a044589551e94949e9983a:o0)|(128,90) h(8) v(-5) N(b1cd11483d2a4ff8b7e417d9d8470ae2:30050fa221844bba9eca8df2ef653ed2)|(141,85)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="ebd39d7cee89463e932d03b3549ebeae" Joints="N(4b8dae0bd1c54aeca4107a9f2488be1e:30050fa221844bba9eca8df2ef653ed2)|(4,85) h(16) v(5) N(9588b5afdfd24570926ae93028a9c0c6:o0)|(25,90)" xmlns="http://www.ni.com/PlatformFramework" />
+						</CaseStructure.Case>
+						<CaseStructure.Selector Bounds="-4 195 13 10" Docking="Left" Id="8ee450785adc45799f611e7eb6538ae2" Terminals="70cffbcab8fa457aa416df53fc6514e9=b1c041a306084390a5645e6686d3bc1a, 35c59e789b7a4bb985b20b71b2a61186, 30050fa221844bba9eca8df2ef653ed2" />
+						<CaseStructure.Tunnel Bounds="146 85 13 10" Docking="Right" Id="b1cd11483d2a4ff8b7e417d9d8470ae2" Terminals="70cffbcab8fa457aa416df53fc6514e9=f88e2c2486774735ae6414e64afa1be1, 35c59e789b7a4bb985b20b71b2a61186=adb143990229457d8edfcf502d4e1562, 30050fa221844bba9eca8df2ef653ed2=fc52a30755934df783d391a6b5d82933" />
+						<CaseStructure.Tunnel Bounds="-4 85 13 10" Docking="Left" Id="4b8dae0bd1c54aeca4107a9f2488be1e" Terminals="70cffbcab8fa457aa416df53fc6514e9=ea7c36b27cf044d89b528aeb867df0f9, 35c59e789b7a4bb985b20b71b2a61186=adb143990229457d8edfcf502d4e1562, 30050fa221844bba9eca8df2ef653ed2=ebd39d7cee89463e932d03b3549ebeae" />
+					</CaseStructure>
+					<MethodCall Bounds="1560 235 40 40" Id="324d8c719ac743278c2e37870b800587" Label="9ad1b85dc70b47ea9ba75bdd5ef7df6f" ResolveFailedHint="&quot;C:\\Users\\Dataflow_G\\Documents\\LabVIEW Projects\\2020_01_13_05_56_11\\Dataflow DJ.lvproject\\Merged.gcomp\\Audio Processing\\I16 To DBL.gvi&quot;" Signature="@12dda0e0017f4e84b662e8fee82c7524" Target="Audio Processing::I16 To DBL.gvi" xmlns="http://www.ni.com/MocCommon">
+						<p.MethodDeclaration>
+							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+								<Parameter Id="L0" Desc="Audio Data (2D I16)" />
+								<Parameter Id="L1" Desc="Audio Data (1D I16)" />
+								<Parameter Id="R0" Desc="Audio Data (2D DBL)" />
+								<Parameter Id="R1" Desc="Audio Data (1D DBL)" />
+							</MethodDeclaration>
+						</p.MethodDeclaration>
+						<Terminal DataType="Int16[,]" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int16[]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Double[,]" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Double[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+					</MethodCall>
+					<NodeLabel AttachedTo="324d8c719ac743278c2e37870b800587" Bounds="1560 214 100 18" Id="9ad1b85dc70b47ea9ba75bdd5ef7df6f" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>I16 To DBL</p.Text>
+					</NodeLabel>
+					<CaseStructure Bounds="1080 165 225 130" Default="725854ab94bd401487dc648bf3e410e4" Id="94f3d6b8cc424955921ee53191e75c11" Selected="51e4950342054c219b7cc8ade8c85ad7" UserSelectorBounds="0 0 0 0">
+						<CaseStructure.Case Bounds="5 5 215 120" Id="725854ab94bd401487dc648bf3e410e4" Pattern="False">
+							<Wire Id="56fcb28d9fae43fb8a8a6a466f0cfa38" Joints="N(cc7a7ff46d504c03914e866ba09cf13a:725854ab94bd401487dc648bf3e410e4)|(4,70) N(84b81174eaac4a81b913db6565a520b2:725854ab94bd401487dc648bf3e410e4)|(211,70)" xmlns="http://www.ni.com/PlatformFramework" />
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 215 120" Id="51e4950342054c219b7cc8ade8c85ad7" Pattern="True">
+							<Transpose2DArray Bounds="30 70 40 20" Id="a403ba1da43f47869a10148de24f6d76" />
+							<ReshapeArray Bounds="100 70 40 40" Id="461930261ba34c83b48f73b0fef3b7ef" Terminals="inArray=9877cce2f3194a2e878c3d9226363fae, outArray=dfa945d6fd204d9bb361f1fb651c5753, c0t0v=7edfde82fd68452baed0af4249111c48, c1t0v=6973e18d4af4086badac99f628dcf20" VerticalChunkCount="2" />
+							<Transpose2DArray Bounds="170 70 40 20" Id="2c5d51f6bf2e42df825ccbcae532e6c5" />
+							<Comment Bounds="60 35 85 15" Id="44a5780cc05042a6911f1e97405df251" xmlns="http://www.ni.com/MocCommon">
+								<p.Text>Zero pad buffer</p.Text>
+							</Comment>
+							<Wire Id="6973e18d4af4086badac99f628dcf20" Joints="N(63aa0213af424810a79de1f39cb0b9c9:51e4950342054c219b7cc8ade8c85ad7)|(4,100) h(90) v(5) N(461930261ba34c83b48f73b0fef3b7ef:c1t0v)|(100,105)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="7edfde82fd68452baed0af4249111c48" Joints="N(7f66a5ea6af3446c950d1528c037d9d3:51e4950342054c219b7cc8ade8c85ad7)|(4,115) h(80) v(-20) N(461930261ba34c83b48f73b0fef3b7ef:c0t0v)|(100,95)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="3c01d01d67eb43008e1298b2bfc13c8d" Joints="N(2c5d51f6bf2e42df825ccbcae532e6c5:transposed array)|(210,75) h(0.5) v(-5) N(84b81174eaac4a81b913db6565a520b2:51e4950342054c219b7cc8ade8c85ad7)|(211,70)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="526011246d6e41e9ba0f57bc8cf806ca" Joints="N(cc7a7ff46d504c03914e866ba09cf13a:51e4950342054c219b7cc8ade8c85ad7)|(4,70) h(20) v(5) N(a403ba1da43f47869a10148de24f6d76:2D array)|(30,75)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="dfa945d6fd204d9bb361f1fb651c5753" Joints="N(461930261ba34c83b48f73b0fef3b7ef:outArray)|(140,75) N(2c5d51f6bf2e42df825ccbcae532e6c5:2D array)|(170,75)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="9877cce2f3194a2e878c3d9226363fae" Joints="N(a403ba1da43f47869a10148de24f6d76:transposed array)|(70,75) N(461930261ba34c83b48f73b0fef3b7ef:inArray)|(100,75)" xmlns="http://www.ni.com/PlatformFramework" />
+						</CaseStructure.Case>
+						<CaseStructure.Selector Bounds="-4 45 13 10" Docking="Left" Id="786db98ec47a41b58bbed0a0c4929116" Terminals="94f3d6b8cc424955921ee53191e75c11=a803c06ac5a046449878cccae111450c, 725854ab94bd401487dc648bf3e410e4, 51e4950342054c219b7cc8ade8c85ad7" />
+						<CaseStructure.Tunnel Bounds="-4 70 13 10" Docking="Left" Id="cc7a7ff46d504c03914e866ba09cf13a" Terminals="94f3d6b8cc424955921ee53191e75c11=c7269183b150490491b1eaed84c8cf3c, 725854ab94bd401487dc648bf3e410e4=56fcb28d9fae43fb8a8a6a466f0cfa38, 51e4950342054c219b7cc8ade8c85ad7=526011246d6e41e9ba0f57bc8cf806ca" />
+						<CaseStructure.Tunnel Bounds="-4 100 13 10" Docking="Left" Id="63aa0213af424810a79de1f39cb0b9c9" Terminals="94f3d6b8cc424955921ee53191e75c11=e7a3bb97f4824e6a8136e3009eae400e, 725854ab94bd401487dc648bf3e410e4, 51e4950342054c219b7cc8ade8c85ad7=6973e18d4af4086badac99f628dcf20" />
+						<CaseStructure.Tunnel Bounds="-4 115 13 10" Docking="Left" Id="7f66a5ea6af3446c950d1528c037d9d3" Terminals="94f3d6b8cc424955921ee53191e75c11=87fd22f56b424644b693dfe2a0bbf8cb, 725854ab94bd401487dc648bf3e410e4, 51e4950342054c219b7cc8ade8c85ad7=7edfde82fd68452baed0af4249111c48" />
+						<CaseStructure.Tunnel Bounds="216 70 13 10" Docking="Right" Id="84b81174eaac4a81b913db6565a520b2" Terminals="94f3d6b8cc424955921ee53191e75c11=ea7c36b27cf044d89b528aeb867df0f9, 725854ab94bd401487dc648bf3e410e4=56fcb28d9fae43fb8a8a6a466f0cfa38, 51e4950342054c219b7cc8ade8c85ad7=3c01d01d67eb43008e1298b2bfc13c8d" />
+					</CaseStructure>
+					<MatrixSize Bounds="910 190 30 30" Id="3a25e308b9fd40148ee604e8910a7ec3" />
+					<IsNotEqual Bounds="970 200 30 30" Id="6a4e4ad8e99a48afa95d562869b9cd14" />
+					<Wire Id="a803c06ac5a046449878cccae111450c" Joints="N(6a4e4ad8e99a48afa95d562869b9cd14:x != y?)|(1000,215) N(786db98ec47a41b58bbed0a0c4929116:94f3d6b8cc424955921ee53191e75c11)|(1076,215)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="87fd22f56b424644b693dfe2a0bbf8cb" Joints="N(1ade201bfea0454187f0f4e534b8f07d:eed89617d17547e5a99bc45b770d614c)|(469,335) h(485) v(-50) B(2) N(7f66a5ea6af3446c950d1528c037d9d3:94f3d6b8cc424955921ee53191e75c11)|(1076,285) B(2) v(-65) N(6a4e4ad8e99a48afa95d562869b9cd14:y)|(970,220)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="e190af51297c42bf8ffc869b0f180810" Joints="N(3a25e308b9fd40148ee604e8910a7ec3:number of columns)|(940,210) h(24) v(-5) N(6a4e4ad8e99a48afa95d562869b9cd14:x)|(970,205)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="c7269183b150490491b1eaed84c8cf3c" Joints="N(ebcac595400f47699403f5b4ed1f6c36:1039168a6b3e4786ba4a83732ab050e4)|(832,230) h(10) B(1) v(-25) N(3a25e308b9fd40148ee604e8910a7ec3:matrix)|(910,205) B(1) v(10) N(cc7a7ff46d504c03914e866ba09cf13a:94f3d6b8cc424955921ee53191e75c11)|(1076,240)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="8d6db63355d74c929d0e90118b571e5e" Joints="N(c735f0ace3047cf9d5d1a4f053570b4:eed89617d17547e5a99bc45b770d614c)|(469,255) h(39) v(-10) N(b728be67616442e9a1a6a2b4d27a432f:1039168a6b3e4786ba4a83732ab050e4)|(513,245)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="b1c041a306084390a5645e6686d3bc1a" Joints="N(e00990b6829d4c35a7419bd9a141cad3:eed89617d17547e5a99bc45b770d614c)|(469,355) h(877) v(-5) N(8ee450785adc45799f611e7eb6538ae2:70cffbcab8fa457aa416df53fc6514e9)|(1351,350)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="e7a3bb97f4824e6a8136e3009eae400e" Joints="N(4ccc53d028f44048b2a0bfc6856582dd:1039168a6b3e4786ba4a83732ab050e4)|(832,165) h(239) v(105) N(63aa0213af424810a79de1f39cb0b9c9:94f3d6b8cc424955921ee53191e75c11)|(1076,270)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="ea7c36b27cf044d89b528aeb867df0f9" Joints="N(84b81174eaac4a81b913db6565a520b2:94f3d6b8cc424955921ee53191e75c11)|(1309,240) N(4b8dae0bd1c54aeca4107a9f2488be1e:70cffbcab8fa457aa416df53fc6514e9)|(1351,240)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="a114d9dba9944485b53a12f8366510a8" Joints="N(324d8c719ac743278c2e37870b800587:R0)|(1600,240) h(0.5) v(-5) N(d6686d2a09ef4b4e89bb3c31fc38fc13:e80009a002a540ef8ccda9021604d1c7)|(1601,235)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="f88e2c2486774735ae6414e64afa1be1" Joints="N(b1cd11483d2a4ff8b7e417d9d8470ae2:70cffbcab8fa457aa416df53fc6514e9)|(1514,240) N(324d8c719ac743278c2e37870b800587:L0)|(1560,240)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="a60501ba5cc64d24be16c2fe2b612faf" Joints="N(d78920dea45647d1a8d8dd3f61e512c8:e80009a002a540ef8ccda9021604d1c7)|(4,285) h(5) B(1) h(92) v(5) N(d0af2960adcd4db3afb58c908fe8aa18:eed89617d17547e5a99bc45b770d614c)|(106,290) B(1) v(70) N(5194a41d72184e9fa3f43a1d677f91aa:x)|(30,355)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="9aeca7dd803c4e2186287aee1989fddf" Joints="N(58dc1b5f7c284e5087d4d36d9b3e325f:eed89617d17547e5a99bc45b770d614c)|(469,290) h(101) N(b6be74b5e3e04ecd92de814c06daca49:1039168a6b3e4786ba4a83732ab050e4)|(570,289)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="5c0bd20cad774e27b111e5900f26eddb" Joints="N(3b3e9597681244508ab4adf1d3829711:e80009a002a540ef8ccda9021604d1c7)|(4,250) h(97) v(5) N(aea888ed50147e3ab737a8b26544330:eed89617d17547e5a99bc45b770d614c)|(106,255)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="d3119ea9714f4dd1a081e0e1017fadea" Joints="N(5194a41d72184e9fa3f43a1d677f91aa:x &lt; 0?)|(60,355) N(cb895d73e69e47c684e3982100c43a6e:eed89617d17547e5a99bc45b770d614c)|(106,355)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="47a838ed71244aaeb1dfc4aa2a68ec5b" Joints="N(c28fadae3d354f2fb67825e1122c43cf:e80009a002a540ef8ccda9021604d1c7)|(4,55) h(5) B(1) h(1330) v(55) N(cf185fc2211e45e386ac04312f316f44:instance in)|(1355,110) B(1) v(55) N(c346282fe8a24df48343c1c903844c95:instance in)|(35,110)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="1c759a7a56314564ac179ae96ca731fb" Joints="N(cf185fc2211e45e386ac04312f316f44:instance out)|(1430,110) h(166) v(-55) N(db80969abace4f88bd0e1e666c426ec9:e80009a002a540ef8ccda9021604d1c7)|(1601,55)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="ecc5e1d601e34cec8c16f7a61dc70dd0" Joints="N(bfcfc72ae72e4238a70b6a69637e9d2b:wo0)|(832,120) N(cf185fc2211e45e386ac04312f316f44:c0t0v)|(1355,120)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="1352c33662bf4e0fbb5e2d2337b46fca" Joints="N(c346282fe8a24df48343c1c903844c95:c0t0v)|(110,120) N(6b24701c10964d6cb58caf5668f1f3e7:ro0)|(513,120)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="fb10d58da55c4ff0a6bdfa6c10c583ba" Joints="N(2acb1c96f13d48688a4ee73319573a9e:e80009a002a540ef8ccda9021604d1c7)|(4,390) N(83c3e9c8f559474cb98209db35b44406:e80009a002a540ef8ccda9021604d1c7)|(1601,390)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 1605 395" Id="f3bfd02ef16049b08544d8226e8b6d8f" Pattern="Error">
+					<ArrayLiteral Bounds="799 235 51 38" DataType="Double[,]" Id="239472e8163448b78428df2ac58ace87" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>
+							<Array Lengths="0,0" />
+						</p.Data>
+						<ArrayBehavior ElementType="Double" IndexEditorWidth="42">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+						</ArrayBehavior>
+						<Literal Bounds="-25 0 40 18" DataType="Double" Id="9891d37171d0461d8c7ba745c667e3a7">
+							<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+						</Literal>
+					</ArrayLiteral>
+					<Wire Id="45ae53c94315481d9b338c92aee077ce" Joints="N(239472e8163448b78428df2ac58ace87:Out)|(850,240) h(736) v(-5) N(d6686d2a09ef4b4e89bb3c31fc38fc13:f3bfd02ef16049b08544d8226e8b6d8f)|(1601,235)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="50040bc714314335a7f74bc7a98399d8" Joints="N(c28fadae3d354f2fb67825e1122c43cf:f3bfd02ef16049b08544d8226e8b6d8f)|(4,55) N(db80969abace4f88bd0e1e666c426ec9:f3bfd02ef16049b08544d8226e8b6d8f)|(1601,55)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="87499ecebd34001b825a8e6d17cf529" Joints="N(2acb1c96f13d48688a4ee73319573a9e:f3bfd02ef16049b08544d8226e8b6d8f)|(4,390) N(83c3e9c8f559474cb98209db35b44406:f3bfd02ef16049b08544d8226e8b6d8f)|(1601,390)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 390 13 10" Docking="Left" Id="2acb1c96f13d48688a4ee73319573a9e" Terminals="9b5d05861206498e88fbda91145562d8=db63770f2e4b029712a3559653c9ee, e80009a002a540ef8ccda9021604d1c7=fb10d58da55c4ff0a6bdfa6c10c583ba, f3bfd02ef16049b08544d8226e8b6d8f=87499ecebd34001b825a8e6d17cf529" />
+				<CaseStructure.Tunnel Bounds="1606 390 13 10" Docking="Right" Id="83c3e9c8f559474cb98209db35b44406" Terminals="9b5d05861206498e88fbda91145562d8=acff6184fc844fd8e8e91a61d75e354, e80009a002a540ef8ccda9021604d1c7=fb10d58da55c4ff0a6bdfa6c10c583ba, f3bfd02ef16049b08544d8226e8b6d8f=87499ecebd34001b825a8e6d17cf529" />
+				<CaseStructure.Tunnel Bounds="1606 55 13 10" Docking="Right" Id="db80969abace4f88bd0e1e666c426ec9" Terminals="9b5d05861206498e88fbda91145562d8=e38b5f8d31224c7399edb459021bc837, e80009a002a540ef8ccda9021604d1c7=1c759a7a56314564ac179ae96ca731fb, f3bfd02ef16049b08544d8226e8b6d8f=50040bc714314335a7f74bc7a98399d8" />
+				<CaseStructure.Tunnel Bounds="-4 55 13 10" Docking="Left" Id="c28fadae3d354f2fb67825e1122c43cf" Terminals="9b5d05861206498e88fbda91145562d8=ea66ec0d2b8348e89458239e6abea68a, e80009a002a540ef8ccda9021604d1c7=47a838ed71244aaeb1dfc4aa2a68ec5b, f3bfd02ef16049b08544d8226e8b6d8f=50040bc714314335a7f74bc7a98399d8" />
+				<CaseStructure.Tunnel Bounds="-4 250 13 10" Docking="Left" Id="3b3e9597681244508ab4adf1d3829711" Terminals="9b5d05861206498e88fbda91145562d8=98afc848e8394ab6b22acad2e69120ba, e80009a002a540ef8ccda9021604d1c7=5c0bd20cad774e27b111e5900f26eddb, f3bfd02ef16049b08544d8226e8b6d8f" />
+				<CaseStructure.Tunnel Bounds="-4 285 13 10" Docking="Left" Id="d78920dea45647d1a8d8dd3f61e512c8" Terminals="9b5d05861206498e88fbda91145562d8=57f64f73040f47d2a5a295fcd22dc89a, e80009a002a540ef8ccda9021604d1c7=a60501ba5cc64d24be16c2fe2b612faf, f3bfd02ef16049b08544d8226e8b6d8f" />
+				<CaseStructure.Tunnel Bounds="1606 235 13 10" Docking="Right" Id="d6686d2a09ef4b4e89bb3c31fc38fc13" Terminals="9b5d05861206498e88fbda91145562d8=1e53350f964144b88d8bed6250acab4c, e80009a002a540ef8ccda9021604d1c7=a114d9dba9944485b53a12f8366510a8, f3bfd02ef16049b08544d8226e8b6d8f=45ae53c94315481d9b338c92aee077ce" />
+			</CaseStructure>
+			<Comment Bounds="875 875 225 30" Id="e8633375eb6e450fb3b9567c21304a8b" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>"if offset &lt; 0 OR offset + length &gt; max_size\n    zero pad buffer"</p.Text>
+			</Comment>
+			<Wire Id="1e53350f964144b88d8bed6250acab4c" Joints="N(d6686d2a09ef4b4e89bb3c31fc38fc13:9b5d05861206498e88fbda91145562d8)|(1859,580) N(f2ed42c0b5544cb2a64d6d64256e718d:Value)|(1908,580)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="57f64f73040f47d2a5a295fcd22dc89a" Joints="N(f7ef8d43ee6b475981cb4be46122c454:Value)|(105,630) N(d78920dea45647d1a8d8dd3f61e512c8:9b5d05861206498e88fbda91145562d8)|(236,630)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="98afc848e8394ab6b22acad2e69120ba" Joints="N(85481c1fe5cf4f68bec343dd7e641a74:Value)|(105,590) h(126) v(5) N(3b3e9597681244508ab4adf1d3829711:9b5d05861206498e88fbda91145562d8)|(236,595)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="e38b5f8d31224c7399edb459021bc837" Joints="N(db80969abace4f88bd0e1e666c426ec9:9b5d05861206498e88fbda91145562d8)|(1859,400) N(f86e82a24e9c44868883b864cfe51ff1:Value)|(1908,400)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="acff6184fc844fd8e8e91a61d75e354" Joints="N(83c3e9c8f559474cb98209db35b44406:9b5d05861206498e88fbda91145562d8)|(1859,735) h(40) v(5) N(43d570130cc04eecba0619c6e8ea59e3:Value)|(1908,740)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="db63770f2e4b029712a3559653c9ee" Joints="N(e0376d95e01e4a06b3bb832ef0ba52ce:Value)|(90,740) h(141) v(-5) N(2acb1c96f13d48688a4ee73319573a9e:9b5d05861206498e88fbda91145562d8)|(236,735)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="ea66ec0d2b8348e89458239e6abea68a" Joints="N(95c53de3c16a45ffb5a6b0cded904259:Value)|(90,400) N(c28fadae3d354f2fb67825e1122c43cf:9b5d05861206498e88fbda91145562d8)|(236,400)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Height="[float]1600" HtmlPanel="[bool]False" Id="ff87a5e9646244f982770e75c948adde" Left="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<PanelExecutionWindow Id="7df2bf5e1d0347fe82835a20be32e1b7" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="5f8788dcad8946799919b391ca5cdcc5" IsTabStop="[bool]True" Label="[UIModel]c52d506a9ea94fbb97a428ec98f5baa1" Left="[float]108" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]344" Value="{DataItemBinding Id=aed9a09642a64815a27ca5344109fe25}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"The &lt;B&gt;error in&lt;/B&gt; cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.\n\nThe pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed. "</p.InfoTipDescription>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="9fa7fc0e93a84e16b4d5055c643c82da" Label="[UIModel]24a65dd85f454042affbed905ef11654" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="24a65dd85f454042affbed905ef11654" LabelOwner="[UIModel]9fa7fc0e93a84e16b4d5055c643c82da" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="ed6ecda16d804e20b94a426e4b034844" Label="[UIModel]a6802270e7924e9c9b9047f58a559cf9" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="a6802270e7924e9c9b9047f58a559cf9" LabelOwner="[UIModel]ed6ecda16d804e20b94a426e4b034844" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="a3ce150fad494722aa74e621cd65b325" Label="[UIModel]a95b5fadbe24af594127fe3d38bd1ba" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="a95b5fadbe24af594127fe3d38bd1ba" LabelOwner="[UIModel]a3ce150fad494722aa74e621cd65b325" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Id="c52d506a9ea94fbb97a428ec98f5baa1" LabelOwner="[UIModel]5f8788dcad8946799919b391ca5cdcc5" Left="[float]108" Text="[string]error in (no error)" Top="[float]324" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="435dc27eec2d410fa4bb012492bff92d" IsTabStop="[bool]True" Label="[UIModel]1b5c2313c031468dbc5152732f08b22d" Left="[float]603" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]344" Value="{DataItemBinding Id=a71546e392f1410e976402ade7c24c86}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"The &lt;B&gt;error out&lt;/B&gt; cluster passes error or warning information out of a VI to be used by other VIs.\n\nThe pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed."</p.InfoTipDescription>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="91d02b654833468991b523dbba51a21f" IsReadOnly="[bool]True" Label="[UIModel]6bf3ad1e0d0b49a3beb38f5baf91f25c" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="6bf3ad1e0d0b49a3beb38f5baf91f25c" LabelOwner="[UIModel]91d02b654833468991b523dbba51a21f" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="e4b78a3486724f5caf9c94442dd65a81" IsReadOnly="[bool]True" Label="[UIModel]cda983c98e214c438f2cbad4ca9917ee" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="cda983c98e214c438f2cbad4ca9917ee" LabelOwner="[UIModel]e4b78a3486724f5caf9c94442dd65a81" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="b6be62696d2d4fe29126454635f0a3ed" IsReadOnly="[bool]True" Label="[UIModel]d43d8d3f4e944111a341512cea367fb9" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="d43d8d3f4e944111a341512cea367fb9" LabelOwner="[UIModel]b6be62696d2d4fe29126454635f0a3ed" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Id="1b5c2313c031468dbc5152732f08b22d" LabelOwner="[UIModel]435dc27eec2d410fa4bb012492bff92d" Left="[float]603" Text="[string]error out" Top="[float]324" xmlns="http://www.ni.com/PanelCommon" />
+			<ValueClassControl BaseName="[string]Deck" Enabled="[bool]True" Height="[float]48" Id="eb566f867ff94fa699ee70174af7b4e1" IsReadOnly="[bool]False" IsTabStop="[bool]False" Label="[UIModel]9e8cc72dd78a484fa8a13bffde098b98" Left="[float]156" TabIndex="[int]2" Top="[float]30" Value="{DataItemBinding Id=8b42f1f9c4094e00ae6ca5a4b9ec9793}" ValueClassControl="[Type]@d768c2879d3f462fbadd9e6f5a13e0c8" Width="[float]48" p4:ControlDefinitionChecksum="HrMGyTP6nHdA+79D70iILpegdmsU5ISLf1lN2DDZPGE=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Merged::Deck.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+			</ValueClassControl>
+			<Label Id="9e8cc72dd78a484fa8a13bffde098b98" LabelOwner="[UIModel]eb566f867ff94fa699ee70174af7b4e1" Left="[float]156" Text="[string]Deck in" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+			<ValueClassControl BaseName="[string]Deck" Enabled="[bool]True" Height="[float]48" Id="54202c14aaab4a67aa6d2f8f7f118643" IsReadOnly="[bool]True" IsTabStop="[bool]False" Label="[UIModel]8ddf7fef70934f5f904d2155f446f8df" Left="[float]600" TabIndex="[int]3" Top="[float]30" Value="{DataItemBinding Id=6a74f1786fc9475a8b2ca558d11f9a41}" ValueClassControl="[Type]@d768c2879d3f462fbadd9e6f5a13e0c8" Width="[float]48" p4:ControlDefinitionChecksum="HrMGyTP6nHdA+79D70iILpegdmsU5ISLf1lN2DDZPGE=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Merged::Deck.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+			</ValueClassControl>
+			<Label Id="8ddf7fef70934f5f904d2155f446f8df" LabelOwner="[UIModel]54202c14aaab4a67aa6d2f8f7f118643" Left="[float]600" Text="[string]Deck out" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText Enabled="[bool]True" Height="[float]24" Id="bf3cce13a28646f987269bff3d742620" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]2d7d2e7e73314ee7b1cfa059ff1d7a3a" Left="[float]151" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]4" TextAlignment="[TextAlignment]Left" Top="[float]113" Value="{DataItemBinding Id=e1b76a710c2d49888553d1d65537eb8a}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="2d7d2e7e73314ee7b1cfa059ff1d7a3a" LabelOwner="[UIModel]bf3cce13a28646f987269bff3d742620" Left="[float]151" Text="[string]Offset" Top="[float]93" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText Enabled="[bool]True" Height="[float]24" Id="e625a3675f0a490db5a3f3b36479a2da" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]655468d0e3ee4009ae40b980d2858ede" Left="[float]151" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]5" TextAlignment="[TextAlignment]Left" Top="[float]161" Value="{DataItemBinding Id=3dcffc5ae7994c8bada0fc68661d9e4b}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="655468d0e3ee4009ae40b980d2858ede" LabelOwner="[UIModel]e625a3675f0a490db5a3f3b36479a2da" Left="[float]151" Text="[string]Length" Top="[float]141" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Id="9e9a168cd208498a8395068dc7775105" LabelOwner="[UIModel]129914f516e34dfc830b2eb07aec9370" Left="[float]588" Text="[string]Audio Block" Top="[float]82" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]38bce6986f88400fbc1bdc784b63c3eb" Columns="[int]1" Dimensions="[int]2" Enabled="[bool]True" FirstIndex="[ArrayElementIndex]0,0" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="129914f516e34dfc830b2eb07aec9370" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]9e9a168cd208498a8395068dc7775105" Left="[float]588" Rows="[int]1" TabIndex="[int]6" Top="[float]102" Value="{DataItemBinding Id=eeeb0dfd28e8436b8ff75b6075ac0a4b}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]62" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0x0</p.DefaultElementValue>
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="38bce6986f88400fbc1bdc784b63c3eb" IsReadOnly="[bool]True" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]LV:G6" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Menu Id="a2661f1d484dbeb117ddcffc5fc14f" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="4" DataType="Error" Id="aed9a09642a64815a27ca5344109fe25" Name="error in (no error)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">"The &lt;B&gt;error in&lt;/B&gt; cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed. "</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="3" DataType="Error" Id="a71546e392f1410e976402ade7c24c86" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">The &lt;B&gt;error out&lt;/B&gt; cluster passes error or warning information out of a VI to be used by other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@d768c2879d3f462fbadd9e6f5a13e0c8" Id="8b42f1f9c4094e00ae6ca5a4b9ec9793" Name="Deck in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Merged::Deck.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@d768c2879d3f462fbadd9e6f5a13e0c8" Id="6a74f1786fc9475a8b2ca558d11f9a41" Name="Deck out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Merged::Deck.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" CallUsage="Required" DataType="Int32" Id="e1b76a710c2d49888553d1d65537eb8a" Name="Offset" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="3" CallUsage="Required" DataType="Int32" Id="3dcffc5ae7994c8bada0fc68661d9e4b" Name="Length" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="Double[,]" Id="eeeb0dfd28e8436b8ff75b6075ac0a4b" Name="Audio Block" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="d768c2879d3f462fbadd9e6f5a13e0c8">
+			<Attributed AttributedType="@5bdcc88ee5a845f1a7e4a5c0f0aab2f7">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Merged" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="12dda0e0017f4e84b662e8fee82c7524">
+			<Attributed AttributedType="@4971ccccac8c4c6b8f1ba1160e284837">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5bdcc88ee5a845f1a7e4a5c0f0aab2f7">
+			<Composite Id="1" Name="Deck.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@19456de9afd54cc5853c89c68b31bb20</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="ID" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Message Queue" DataType="@1a01fba05bbb4dbaa4ea7f196a47ce08" />
+					<Field FieldAccessPolicy="ReadWrite" Name="State" DataType="@e7013be80b974a078086a70f281d7d2a" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PlaybackPosition" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PositionHistory" DataType="@671fc752dc5b4b0aa3cc06202421f11c" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ScratchPositions" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Pitch" DataType="@063f914dac8641c885116e60dcb08868" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Playing" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Reverse" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="BrakeSpeed" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="BackspinSpeed" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PitchBendDown" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PitchBendUp" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Empty Audio Block" DataType="Double[,]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Audio Data Reference" DataType="@fb681f183694497d9019ed43fa6ed18b" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Track Info" DataType="@e754c21dc2f94ac59ee2ad6e10a2ca43" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Cleanup.gvi" ReturnType="Void" DeclaringType="@d768c2879d3f462fbadd9e6f5a13e0c8" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Copy Audio Sample.gvi" ReturnType="Void" DeclaringType="@d768c2879d3f462fbadd9e6f5a13e0c8" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@d768c2879d3f462fbadd9e6f5a13e0c8" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Process Messages.gvi" ReturnType="Void" DeclaringType="@d768c2879d3f462fbadd9e6f5a13e0c8" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Update.gvi" ReturnType="Void" DeclaringType="@d768c2879d3f462fbadd9e6f5a13e0c8" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4971ccccac8c4c6b8f1ba1160e284837">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="I16 To DBL.gvi" InlineIntoCaller="True" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@408eba7099334367ad4754d0c9a1f3f9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data (2D I16)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4cdce868a7ec49359ba416195e39f963">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data (1D I16)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@15dee9227b5d442aa6a70d28057f5ba9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data (2D DBL)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@831adce71ddc4474af8b7419c80ea1cd">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Audio Data (1D DBL)" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="19456de9afd54cc5853c89c68b31bb20">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1a01fba05bbb4dbaa4ea7f196a47ce08">
+			<Attributed AttributedType="@e2551a25c44245ce986ff2b85f7d81bd">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e7013be80b974a078086a70f281d7d2a">
+			<Attributed AttributedType="@ed57a16f051642999349b39bf91514a8">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Merged" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="671fc752dc5b4b0aa3cc06202421f11c">
+			<VariableArray DereferenceType="@9ce03edae98e4be1a44b0b945baf471b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="063f914dac8641c885116e60dcb08868">
+			<Attributed AttributedType="@8ebb9dbbff644141a212d52d686b6f0f">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Audio Processing" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fb681f183694497d9019ed43fa6ed18b">
+			<Attributed AttributedType="@a4050fef45e24f22a97b9208968e4240">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e754c21dc2f94ac59ee2ad6e10a2ca43">
+			<Attributed AttributedType="@089863272f8f4f65b0a479ea48ce60f7">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Audio File Input" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="408eba7099334367ad4754d0c9a1f3f9">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Int16[,]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4cdce868a7ec49359ba416195e39f963">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Int16[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="15dee9227b5d442aa6a70d28057f5ba9">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="Double[,]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="831adce71ddc4474af8b7419c80ea1cd">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Double[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e2551a25c44245ce986ff2b85f7d81bd">
+			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@8c923856d9f94745b6d877e96ec54086">
+				<ClosedGenericParameters>
+					<TypeRef>@9ed8009cfe3a45f6a299724654ee782b</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ed57a16f051642999349b39bf91514a8">
+			<Typedef TypedefName="State.gtype" UnderlyingType="@b8fbe3124e9947f180fcf7372d9e5157" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9ce03edae98e4be1a44b0b945baf471b">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Positions" DataType="Int32[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8ebb9dbbff644141a212d52d686b6f0f">
+			<Typedef TypedefName="Value Cluster.gtype" UnderlyingType="@b133ef4d5c124fe396b33427fe2e1c57" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a4050fef45e24f22a97b9208968e4240">
+			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.DataValueReference" ReferenceClass="" Sealed="" GenericTypeDefinition="@658229c6f22a472990556574684e0551">
+				<ClosedGenericParameters>
+					<TypeRef>Int16[,]</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="089863272f8f4f65b0a479ea48ce60f7">
+			<Typedef TypedefName="Audio File Info.gtype" UnderlyingType="@67879ac7d0f94d709c3c2139a7de5659" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="8c923856d9f94745b6d877e96ec54086">
+			<Attributed AttributedType="@147bd75f078b4aacb76eae92262f2373">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9ed8009cfe3a45f6a299724654ee782b">
+			<Attributed AttributedType="@e42ec763482a46f998836c55a898206f">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Messaging" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b8fbe3124e9947f180fcf7372d9e5157">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="No Track" />
+					<EnumerationMember Value="1" Name="Loading" />
+					<EnumerationMember Value="2" Name="Active" />
+					<EnumerationMember Value="3" Name="Scratching" />
+					<EnumerationMember Value="4" Name="Brake" />
+					<EnumerationMember Value="5" Name="Backspin" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b133ef4d5c124fe396b33427fe2e1c57">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Value" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Limits" DataType="@cadcc1273b56439fb3e55e61625a6511" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="658229c6f22a472990556574684e0551">
+			<Attributed AttributedType="@3e3bda8bd97d4cf991918bc1607fe4e8">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="67879ac7d0f94d709c3c2139a7de5659">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Length (Samples)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Channels" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sample Rate (Hz)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Path" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWrite" Name="BPM" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Cue Points (Samples)" DataType="Int32[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="147bd75f078b4aacb76eae92262f2373">
+			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@8c923856d9f94745b6d877e96ec54086">
+				<GenericParameters>
+					<Generic GenericName="DataType" />
+				</GenericParameters>
+				<BaseType>Void</BaseType>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e42ec763482a46f998836c55a898206f">
+			<Typedef TypedefName="Message Cluster.gtype" UnderlyingType="@a882a5785a5d4471933eb171bb25239e" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cadcc1273b56439fb3e55e61625a6511">
+			<Attributed AttributedType="@738257d4de3c4eeca8e56bb1b881ff24">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Audio Processing" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3e3bda8bd97d4cf991918bc1607fe4e8">
+			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.DataValueReference" ReferenceClass="" Sealed="" GenericTypeDefinition="@658229c6f22a472990556574684e0551">
+				<GenericParameters>
+					<Generic GenericName="DataType" />
+				</GenericParameters>
+				<BaseType>Void</BaseType>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a882a5785a5d4471933eb171bb25239e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Event" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Source" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Target" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Data" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="738257d4de3c4eeca8e56bb1b881ff24">
+			<Typedef TypedefName="Value Properties.gtype" UnderlyingType="@a2a17715cfc04f5488348a0e19c130f7" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
+			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a2a17715cfc04f5488348a0e19c130f7">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Lower" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Upper" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="Audio Processing::I16 To DBL.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVEhL5ZBRDoAwCEO9/w087cSRkMIGInHZhy/EtIx1weM4z1VlfOuIRtFPbsZT0aqMxzkjptY0VaGZXo6taapCQ8cCW+l71jRVoRnnSBhNiMU+a1XWf1gL4XVWsDVaNhtFTDaaviJ6+5lstIj7hVx6JVq+Ma+jUcSkhmpsjab1GbSsY3JDpd/9h2iCdCaXSA3V2BHNixOeZREQRaPwbIA7MWYx2Ix5ET21Ae4EXWYydsrz40VauwDNZT9lHk70nwAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Merged.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+	<TypeAppearanceTable xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

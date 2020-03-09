@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="4C07DB48DB0DCB21D533D5EACE2C09BF851DABF79C673A3D032D68DE530BBD6E6F7194922E230EB57AECF052D9FE94207EEF678F41C674184F59C593A2DB773A" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Migration" Name="http://www.ni.com/LabVIEW.Migration" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<MappingDefinition xmlns="http://www.ni.com/LabVIEW.Migration">
+		<FileQualifiedNameSource QualifiedName="Deck.lvclass::Cleanup.vi">
+			<FileQualifiedNameTarget QualifiedName="Merged::Deck.gtype::Cleanup.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Channel.lvclass::EQ.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Channel.gtype::EQ.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Channel.lvclass::Process Messages.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Channel.gtype::Process Messages.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Channel.lvclass::Init.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Channel.gtype::Init.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Deck.lvclass::Copy Audio Sample.vi">
+			<FileQualifiedNameTarget QualifiedName="Merged::Deck.gtype::Copy Audio Sample.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Channel.lvclass::Cleanup.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Channel.gtype::Cleanup.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Deck.lvclass::Init.vi">
+			<FileQualifiedNameTarget QualifiedName="Merged::Deck.gtype::Init.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Channel.lvclass::Update.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Channel.gtype::Update.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Effect.lvclass::Crusher.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype::Crusher.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Effect.lvclass::Init.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype::Init.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Effect.lvclass::Cleanup.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype::Cleanup.gvi" />
+		</FileQualifiedNameSource>
+		<ClassQualifiedNameSource QualifiedName="Deck.lvclass">
+			<FileQualifiedNameTarget QualifiedName="Merged::Deck.gtype" />
+		</ClassQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Deck.lvclass::Process Messages.vi">
+			<FileQualifiedNameTarget QualifiedName="Merged::Deck.gtype::Process Messages.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Deck.lvclass::Update.vi">
+			<FileQualifiedNameTarget QualifiedName="Merged::Deck.gtype::Update.gvi" />
+		</FileQualifiedNameSource>
+		<ClassQualifiedNameSource QualifiedName="Effect.lvclass">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype" />
+		</ClassQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Effect.lvclass::Update.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype::Update.gvi" />
+		</FileQualifiedNameSource>
+		<ClassQualifiedNameSource QualifiedName="Channel.lvclass">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Channel.gtype" />
+		</ClassQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Effect.lvclass::Echo.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype::Echo.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Mixer.lvclass::Cleanup.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Mixer.gtype::Cleanup.gvi" />
+		</FileQualifiedNameSource>
+		<ClassQualifiedNameSource QualifiedName="Mixer.lvclass">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Mixer.gtype" />
+		</ClassQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Mixer.lvclass::Update.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Mixer.gtype::Update.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Keyboard Shortcut.ctl">
+			<FileQualifiedNameTarget QualifiedName="Shared::Keyboard Shortcut.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Effect.lvclass::Flanger.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype::Flanger.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Effect.lvclass::Update Audio History.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype::Update Audio History.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Mixer.lvclass::Process Messages.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Mixer.gtype::Process Messages.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Effect.lvclass::Process Messages.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Effect.gtype::Process Messages.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Application Version.vi">
+			<FileQualifiedNameTarget QualifiedName="Shared::Application Version.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Shortcuts.vi">
+			<FileQualifiedNameTarget QualifiedName="Shared::Shortcuts.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Mixer.lvclass::Init.vi">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::Mixer.gtype::Init.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Channel.lvclass::EQ.ctl">
+			<FileQualifiedNameTarget QualifiedName="MergedDependencies::EQ.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio File Input.lvlib::Audio File Info.ctl">
+			<FileQualifiedNameTarget QualifiedName="Audio File Input::Audio File Info.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Messaging.lvlib::Message Cluster.ctl">
+			<FileQualifiedNameTarget QualifiedName="Messaging::Message Cluster.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Deck.lvclass::State.ctl">
+			<FileQualifiedNameTarget QualifiedName="Merged::State.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::Value Cluster.ctl">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::Value Cluster.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::Value Properties.ctl">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::Value Properties.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Main.vi">
+			<FileQualifiedNameTarget QualifiedName="My Computer::Main.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Output.lvlib::Audio Output Config.ctl">
+			<FileQualifiedNameTarget QualifiedName="Audio Output::Audio Output Config.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio File Input.lvlib::Load.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio File Input::Load.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio File Input.lvlib::Load MP3.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio File Input::Load MP3.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio File Input.lvlib::Get File Extension (Reentrant).vi">
+			<FileQualifiedNameTarget QualifiedName="Audio File Input::Get File Extension (Reentrant).gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio File Input.lvlib::Load WAV.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio File Input::Load WAV.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::Calculate Playback Speed.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::Calculate Playback Speed.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Output.lvlib::Audio Output Info.ctl">
+			<FileQualifiedNameTarget QualifiedName="Audio Output::Audio Output Info.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::Adjust Sample Size.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::Adjust Sample Size.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Output.lvlib::Audio Output Queue Type.ctl">
+			<FileQualifiedNameTarget QualifiedName="Audio Output::Audio Output Queue Type.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio File Input.lvlib::Load Async.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio File Input::Load Async.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::Calculate Sample Buffer Size.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::Calculate Sample Buffer Size.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Output.lvlib::State.ctl">
+			<FileQualifiedNameTarget QualifiedName="Audio Output::State.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Output.lvlib::Run (lvsound2).vi">
+			<FileQualifiedNameTarget QualifiedName="Audio Output::Run (lvsound2).gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::DBL To I16.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::DBL To I16.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::I16 To DBL.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::I16 To DBL.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Globals.lvlib::Constants.vi">
+			<FileQualifiedNameTarget QualifiedName="Globals::Constants.grsc" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::Change Audio Speed.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::Change Audio Speed.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Messaging.lvlib::Create Message Queue.vi">
+			<FileQualifiedNameTarget QualifiedName="Messaging::Create Message Queue.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Messaging.lvlib::Parse Control Label.vi">
+			<FileQualifiedNameTarget QualifiedName="Messaging::Parse Control Label.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Messaging.lvlib::Send.vi">
+			<FileQualifiedNameTarget QualifiedName="Messaging::Send.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Button.Large.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Button.Large.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Messaging.lvlib::Update UI.vi">
+			<FileQualifiedNameTarget QualifiedName="Messaging::Update UI.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Button.Small.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Button.Small.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::LED.Red.16px.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::LED.Red.16px.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::PictRing.DeckLabel.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::PictRing.DeckLabel.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Ring.Black.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Ring.Black.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Listbox.Browser.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Listbox.Browser.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Slide.Vert.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Slide.Vert.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Slide.PlaybackPosition.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Slide.PlaybackPosition.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Slide.Horiz.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Slide.Horiz.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::WaveformGraph.WaveformDisplay.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::WaveformGraph.WaveformDisplay.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Knob.276px.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Knob.276px.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Knob.276px_Hole.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Knob.276px_Hole.gtype" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Audio Processing.lvlib::Run.vi">
+			<FileQualifiedNameTarget QualifiedName="Audio Processing::Run.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Calculate Jogwheel Delta.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Calculate Jogwheel Delta.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Find Control Refs.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Find Control Refs.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Audio Config.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Audio Config.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Calculate Jogwheel Value.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Calculate Jogwheel Value.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="Messaging.lvlib::Send UI Value Change.vi">
+			<FileQualifiedNameTarget QualifiedName="Messaging::Send UI Value Change.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Format Sample To Time.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Format Sample To Time.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::DJ Interface.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::DJ Interface.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::File Browser.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::File Browser.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Insert Sub Panels.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Insert Sub Panels.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Parse Key Press.vi">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Parse Key Press.gvi" />
+		</FileQualifiedNameSource>
+		<FileQualifiedNameSource QualifiedName="User Interface.lvlib::Sub Panels Cluster.ctl">
+			<FileQualifiedNameTarget QualifiedName="User Interface::Sub Panels Cluster.gtype" />
+		</FileQualifiedNameSource>
+	</MappingDefinition>
+</SourceFile>

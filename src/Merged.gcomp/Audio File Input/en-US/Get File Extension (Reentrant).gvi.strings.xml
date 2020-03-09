@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocalizedStringsDictionary source_language="en-US">
+  <entry key="VirtualInstrument_CustomTitle">
+    <loc>Get File Extension (Reentrant)</loc>
+  </entry>
+  <entry key="VirtualInstrument_UserDescription">
+    <loc><![CDATA[Returns the file extension, without the period (.), of a file you specify.]]></loc>
+  </entry>
+  <entry key="Diagram_file_NodeLabel_Text">
+    <loc>file</loc>
+  </entry>
+  <entry key="Diagram_error_2000in_2000_2800no_2000error_2900_NodeLabel_Text">
+    <loc>error in (no error)</loc>
+  </entry>
+  <entry key="Diagram_error_2000out_NodeLabel_Text">
+    <loc>error out</loc>
+  </entry>
+  <entry key="Diagram_dup_2000file_NodeLabel_Text">
+    <loc>dup file</loc>
+  </entry>
+  <entry key="Diagram_lowercase_2000file_2000extension_NodeLabel_Text">
+    <loc>lowercase file extension</loc>
+  </entry>
+  <entry key="Diagram_filename_2000without_2000extension_NodeLabel_Text">
+    <loc>filename without extension</loc>
+  </entry>
+  <entry key="Diagram_unmodified_2000file_2000extension_NodeLabel_Text">
+    <loc>unmodified file extension</loc>
+  </entry>
+  <entry key="Diagram_offset_2000_28000_2900_NodeLabel_Text">
+    <loc>offset (0)</loc>
+  </entry>
+  <entry key="Diagram_regular_2000expression_NodeLabel_Text">
+    <loc>regular expression</loc>
+  </entry>
+  <entry key="Diagram_Get_2000all_2000characters_2000after_2000the_2000last_2000period_2000in_2000the_2000filename_Comment_Text">
+    <loc>Get all characters after the last period in the filename</loc>
+  </entry>
+  <entry key="Panel_file_PathSelector_InfoTipDescription">
+    <loc><![CDATA[<B>file</B> specifies the path to the file whose extension you want LabVIEW to return.]]></loc>
+  </entry>
+  <entry key="Panel_file_Label_Text">
+    <loc>file</loc>
+  </entry>
+  <entry key="Panel_error_2000in_2000_2800no_2000error_2900_Cluster_InfoTipDescription">
+    <loc><![CDATA[<B>error in</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.]]></loc>
+  </entry>
+  <entry key="Panel_error_2000in_2000_2800no_2000error_2900_status_Label_Text">
+    <loc>status</loc>
+  </entry>
+  <entry key="Panel_error_2000in_2000_2800no_2000error_2900_code_Label_Text">
+    <loc>code</loc>
+  </entry>
+  <entry key="Panel_error_2000in_2000_2800no_2000error_2900_source_Label_Text">
+    <loc>source</loc>
+  </entry>
+  <entry key="Panel_error_2000in_2000_2800no_2000error_2900_Label_Text">
+    <loc>error in (no error)</loc>
+  </entry>
+  <entry key="Panel_error_2000out_Cluster_InfoTipDescription">
+    <loc><![CDATA[<B>error out</B> contains error information. This output provides standard error out functionality.]]></loc>
+  </entry>
+  <entry key="Panel_error_2000out_status_Label_Text">
+    <loc>status</loc>
+  </entry>
+  <entry key="Panel_error_2000out_code_Label_Text">
+    <loc>code</loc>
+  </entry>
+  <entry key="Panel_error_2000out_source_Label_Text">
+    <loc>source</loc>
+  </entry>
+  <entry key="Panel_error_2000out_Label_Text">
+    <loc>error out</loc>
+  </entry>
+  <entry key="Panel_dup_2000file_PathSelector_InfoTipDescription">
+    <loc><![CDATA[<B>dup file</B> returns <B>file</B> unchanged.]]></loc>
+  </entry>
+  <entry key="Panel_dup_2000file_Label_Text">
+    <loc>dup file</loc>
+  </entry>
+  <entry key="Panel_lowercase_2000file_2000extension_StringControl_InfoTipDescription">
+    <loc><![CDATA[<B>lowercase file extension</B> returns the extension of the file, without the period (.). LabVIEW always returns a lowercase file extension, even if <B>file</B> contains uppercase letters.]]></loc>
+  </entry>
+  <entry key="Panel_lowercase_2000file_2000extension_Label_Text">
+    <loc>lowercase file extension</loc>
+  </entry>
+  <entry key="Panel_filename_2000without_2000extension_StringControl_InfoTipDescription">
+    <loc><![CDATA[<B>filename without extension</B> returns the name of the file you specify in <B>file</B> without the directory path, period (.), or file extension. Unlike <B>lowercase file extension</B>, <B>filename without extension</B> matches the case of the original filename.]]></loc>
+  </entry>
+  <entry key="Panel_filename_2000without_2000extension_Label_Text">
+    <loc>filename without extension</loc>
+  </entry>
+  <entry key="Panel_unmodified_2000file_2000extension_StringControl_InfoTipDescription">
+    <loc><![CDATA[<B>unmodified file extension</B> returns the extension of the file you specify in <B>file</B>, without the period (.). Unlike <B>lowercase file extension</B>, <B>unmodified file extension</B> matches the case of the original file extension.]]></loc>
+  </entry>
+  <entry key="Panel_unmodified_2000file_2000extension_Label_Text">
+    <loc>unmodified file extension</loc>
+  </entry>
+  <entry key="file_DataItem_Name">
+    <loc>file</loc>
+  </entry>
+  <entry key="file_DataItem_UserDescription">
+    <loc><![CDATA[<B>file</B> specifies the path to the file whose extension you want LabVIEW to return.]]></loc>
+  </entry>
+  <entry key="error_2000in_2000_2800no_2000error_2900_DataItem_Name">
+    <loc>error in (no error)</loc>
+  </entry>
+  <entry key="error_2000in_2000_2800no_2000error_2900_DataItem_UserDescription">
+    <loc><![CDATA[<B>error in</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.]]></loc>
+  </entry>
+  <entry key="error_2000out_DataItem_Name">
+    <loc>error out</loc>
+  </entry>
+  <entry key="error_2000out_DataItem_UserDescription">
+    <loc><![CDATA[<B>error out</B> contains error information. This output provides standard error out functionality.]]></loc>
+  </entry>
+  <entry key="dup_2000file_DataItem_Name">
+    <loc>dup file</loc>
+  </entry>
+  <entry key="dup_2000file_DataItem_UserDescription">
+    <loc><![CDATA[<B>dup file</B> returns <B>file</B> unchanged.]]></loc>
+  </entry>
+  <entry key="lowercase_2000file_2000extension_DataItem_Name">
+    <loc>lowercase file extension</loc>
+  </entry>
+  <entry key="lowercase_2000file_2000extension_DataItem_UserDescription">
+    <loc><![CDATA[<B>lowercase file extension</B> returns the extension of the file, without the period (.). LabVIEW always returns a lowercase file extension, even if <B>file</B> contains uppercase letters.]]></loc>
+  </entry>
+  <entry key="filename_2000without_2000extension_DataItem_Name">
+    <loc>filename without extension</loc>
+  </entry>
+  <entry key="filename_2000without_2000extension_DataItem_UserDescription">
+    <loc><![CDATA[<B>filename without extension</B> returns the name of the file you specify in <B>file</B> without the directory path, period (.), or file extension. Unlike <B>lowercase file extension</B>, <B>filename without extension</B> matches the case of the original filename.]]></loc>
+  </entry>
+  <entry key="unmodified_2000file_2000extension_DataItem_Name">
+    <loc>unmodified file extension</loc>
+  </entry>
+  <entry key="unmodified_2000file_2000extension_DataItem_UserDescription">
+    <loc><![CDATA[<B>unmodified file extension</B> returns the extension of the file you specify in <B>file</B>, without the period (.). Unlike <B>lowercase file extension</B>, <B>unmodified file extension</B> matches the case of the original file extension.]]></loc>
+  </entry>
+</LocalizedStringsDictionary>

@@ -1,0 +1,1435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="424EB2112D39BCA1780D428614402B49B72815DDEA63B4C637F6B851B9CA876DAF46407109ED299AD4F1BBF51CCA2A5FB28703B6DAE85C9B684E707E7DB5DCFA" Timestamp="1D5C9D65501742C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="c48081094c7642b7873a47bf20dd2ec4" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Defines all of the keyboard shortcuts, stored as attributes in a variant. Each attribute name is the keyboard shortcut.</p.UserDescription>
+		<Icon Id="7ce011dc6a6547368efcc49ede04af30" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3c8cb6c89f4946ae8204e31b972b15b2" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="afb5cc59d76a46068fb7dff2bef091d8" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="e8b64b045b744d12887c8d6a66c5c25a" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="c94d4d29e8fc41b8b248f6a698f4a747" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="dfa9cb7b8ee8488d8bd100732095e241" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADQSURBVEhL7ZFRDoMwDEN7ay7ZO7EUFze4oUxb4YsnrbOd1AiR1tt4qjrtQDOkEG2EFjSjA3ft0npBDt7GfpXAMscJEBpeA/UGlrj6jfWCNG8zQNuLMBRB1E/k8ery5ievvE0KDAGsJ4q6Lm9DERLM5MK40bS3niDlKoRYL0ifGEFk2Krf7i0FgBXidApvtaDV9bv8RK3YOXiOIQZnzvnMkmY44IXxedleFSOuwoZwZ9yuRTb+B2tYlqU+rPxSMj+RVo32idRO/N3BWy3cVr2uH5kSVrQhj+q0AAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="c6a4168ca0b9487985f40a3ef2667fd7" ListViewHeight="55" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 35" Parameter="f5abc5fd3b5e42d9ae29292e046113d5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="5d01051ccda045358a5f3ce46a37f258" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="2c01e647d6944c3e8560a3eeb087373e" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="42a55cd53b5d449681850def65807d17">
+			<ArrayLiteral Bounds="-1 0 206 526" DataType="@3329fdf4059142128ef5ed33246ca48d" Id="62652b1b737b45dabb4c5ab91a6f5646" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="24">
+						<Rank1>
+							<Elem>
+								<Cluster>
+									<Field1>Q</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Play</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>P</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Play</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>A</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Increment</Field3>
+									<Field4>Pitch</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>Z</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Increment</Field3>
+									<Field4>Pitch</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>;</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Increment</Field3>
+									<Field4>Pitch</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>/</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Increment</Field3>
+									<Field4>Pitch</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>X</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>EQLowKill</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>C</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>EQMidKill</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>V</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>EQHighKill</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>M</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>EQLowKill</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>,</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>EQMidKill</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>.</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>EQHighKill</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F1</Field1>
+									<Field2>Mixer.Channel1.Effect1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Enable</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F2</Field1>
+									<Field2>Mixer.Channel1.Effect2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Enable</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F3</Field1>
+									<Field2>Mixer.Channel1.Effect3</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Enable</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F4</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Brake</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F5</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Backspin</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F6</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Reverse</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F7</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Brake</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F8</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Backspin</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F9</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Reverse</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F10</Field1>
+									<Field2>Mixer.Channel2.Effect1</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Enable</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F11</Field1>
+									<Field2>Mixer.Channel2.Effect2</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Enable</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F12</Field1>
+									<Field2>Mixer.Channel2.Effect3</Field2>
+									<Field3>Toggle</Field3>
+									<Field4>Enable</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+						</Rank1>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="@df5ff6eefb534e71aec0311f23213e8b" IndexEditorWidth="42" VisibleRows="5">
+					<p.DefaultElementValue>
+						<Cluster>
+							<Field1>Q</Field1>
+							<Field2>Deck1</Field2>
+							<Field3>Value Change</Field3>
+							<Field4>Play</Field4>
+							<Field5>
+								<Variant>
+									<InnerType>Boolean</InnerType>
+									<VariantData>False</VariantData>
+								</Variant>
+							</Field5>
+						</Cluster>
+					</p.DefaultElementValue>
+				</ArrayBehavior>
+				<ClusterLiteral Bounds="43 0 61 195" DataType="@df5ff6eefb534e71aec0311f23213e8b" Id="c2a759b24555450ea508982286219bc1" p5:ControlDefinitionChecksum="nI7zYTt2n4Oq4yspXIWtXMDpfvafW8AUrr7thDguhzw=" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype" />
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype::ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 20 40 15" DataType="String" Id="8e373ff5d3004f71ba191aad2652dccb" Label="5c7f5e29ca684bcc97cdc1b24bb77f3b">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="8e373ff5d3004f71ba191aad2652dccb" Bounds="2 2 30 15" Id="5c7f5e29ca684bcc97cdc1b24bb77f3b" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Keystroke</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 57 40 15" DataType="String" Id="df290bfec43749c2bd67f53ef872227b" Label="71773188848140ee8da94861bd5c9ce9">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="df290bfec43749c2bd67f53ef872227b" Bounds="2 39 30 15" Id="71773188848140ee8da94861bd5c9ce9" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Message Queue</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 94 40 15" DataType="String" Id="9949c5375f564e8c829f9d1148e36d8a" Label="a410336e24014def94e5048512f375fb">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="9949c5375f564e8c829f9d1148e36d8a" Bounds="2 76 30 15" Id="a410336e24014def94e5048512f375fb" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Event</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 131 40 15" DataType="String" Id="4b9d2e1207da44a4a8547cdafcf44c2d" Label="9172a1345e934328a4113e07f86312b8">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="4b9d2e1207da44a4a8547cdafcf44c2d" Bounds="2 113 30 15" Id="9172a1345e934328a4113e07f86312b8" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Target</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 168 40 15" DataType="@bd2232353db34e3ebe062acdcac878ce" Id="9c37b1390b884723b0bee670317aa598" Label="6f840b6480dc4f9c933903a261ecc5d6">
+						<VariantBehavior ShowData="False" />
+					</Literal>
+					<NodeLabel AttachedTo="9c37b1390b884723b0bee670317aa598" Bounds="2 150 30 15" Id="6f840b6480dc4f9c933903a261ecc5d6" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Data</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+			</ArrayLiteral>
+			<Literal Bounds="905 160 40 18" DataType="Double" Id="c312262329284c7bbb8a51452e09fb8c" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x3FB999999999999A</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<Literal Bounds="905 190 37 18" DataType="Boolean" Id="9d744f07633e4eae92df7a6e13a6d0cf" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>False</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<Literal Bounds="905 130 40 18" DataType="Double" Id="ebcad7945f314ee982c1ca12b575c545" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0xBFB999999999999A</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<DataAccessor Bounds="1385 595 40 15" DataItem="f5abc5fd3b5e42d9ae29292e046113d5" Id="bf3f61b5506a4ea2a3433f38a3d85cf1" Label="57445b41d0264409b0726a780a5a7a9d" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@3329fdf4059142128ef5ed33246ca48d" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="bf3f61b5506a4ea2a3433f38a3d85cf1" Bounds="1430 595 150 20" Id="57445b41d0264409b0726a780a5a7a9d" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Keyboard Shortcuts</p.Text>
+			</NodeLabel>
+			<Literal Bounds="840 130 40 15" DataType="@bd2232353db34e3ebe062acdcac878ce" Id="e818babed5b74fedafd4b7c522282d27" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Variant>
+						<InnerType>Void</InnerType>
+						<VariantData>null</VariantData>
+					</Variant>
+				</p.Data>
+				<VariantBehavior ShowData="False" />
+			</Literal>
+			<ArrayLiteral Bounds="228 25 152 612" DataType="@3329fdf4059142128ef5ed33246ca48d" Id="e9216893ff8e4bdb847929f528b7b64c" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="6">
+						<Rank1>
+							<Elem>
+								<Cluster>
+									<Field1>1</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Cue1</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>2</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Cue2</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>3</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Cue3</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>0</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Cue1</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>-</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Cue2</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>=</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Cue3</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+						</Rank1>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="@df5ff6eefb534e71aec0311f23213e8b" IndexEditorWidth="42" VisibleRows="6">
+					<p.DefaultElementValue>
+						<Cluster>
+							<Field1>Q</Field1>
+							<Field2>Deck1</Field2>
+							<Field3>Toggle</Field3>
+							<Field4>Play</Field4>
+							<Field5>
+								<Variant>
+									<InnerType>Void</InnerType>
+									<VariantData>null</VariantData>
+								</Variant>
+							</Field5>
+						</Cluster>
+					</p.DefaultElementValue>
+				</ArrayBehavior>
+				<ClusterLiteral Bounds="-12 0 61 195" DataType="@df5ff6eefb534e71aec0311f23213e8b" Id="fb2ddcd570a74afa825827827f6f528d" p5:ControlDefinitionChecksum="nI7zYTt2n4Oq4yspXIWtXMDpfvafW8AUrr7thDguhzw=" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype" />
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype::ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 20 40 15" DataType="String" Id="3c70d208caaa4be78bf29832df4496cf" Label="13dcdec68d98450fbb194dc611c58069">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="3c70d208caaa4be78bf29832df4496cf" Bounds="2 2 30 15" Id="13dcdec68d98450fbb194dc611c58069" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Keystroke</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 57 40 15" DataType="String" Id="704afb296b934c63bd6eb4f4a2d0d405" Label="90ae733607d148029cc5f0038485907e">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="704afb296b934c63bd6eb4f4a2d0d405" Bounds="2 39 30 15" Id="90ae733607d148029cc5f0038485907e" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Message Queue</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 94 40 15" DataType="String" Id="1f51b86c999444fb7b7d2b3275d1f74" Label="84ac4d7b2eff4033bcb6cc26fea9ec63">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="1f51b86c999444fb7b7d2b3275d1f74" Bounds="2 76 30 15" Id="84ac4d7b2eff4033bcb6cc26fea9ec63" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Event</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 131 40 15" DataType="String" Id="24f1bcadab9459397f06b1f6d944ffa" Label="4921909cf8d2441e93713dc36790cfc4">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="24f1bcadab9459397f06b1f6d944ffa" Bounds="2 113 30 15" Id="4921909cf8d2441e93713dc36790cfc4" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Target</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 168 40 15" DataType="@bd2232353db34e3ebe062acdcac878ce" Id="a218b68390f9402296671542d0ddcad4" Label="3645299a705249c98300d99a9087c5fd">
+						<VariantBehavior ShowData="False" />
+					</Literal>
+					<NodeLabel AttachedTo="a218b68390f9402296671542d0ddcad4" Bounds="2 150 30 15" Id="3645299a705249c98300d99a9087c5fd" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Data</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+			</ArrayLiteral>
+			<ArrayLiteral Bounds="403 125 152 612" DataType="@3329fdf4059142128ef5ed33246ca48d" Id="c34547d87cb64df8baff5a63e762ef7a" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="6">
+						<Rank1>
+							<Elem>
+								<Cluster>
+									<Field1>SHIFT + 1</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>SetCue1</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>SHIFT + 2</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>SetCue2</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>SHIFT + 3</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>SetCue3</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>SHIFT + 0</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>SetCue1</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>SHIFT + -</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>SetCue2</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>SHIFT + =</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>SetCue3</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+						</Rank1>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="@df5ff6eefb534e71aec0311f23213e8b" IndexEditorWidth="42" VisibleRows="6">
+					<p.DefaultElementValue>
+						<Cluster>
+							<Field1>Q</Field1>
+							<Field2>Deck1</Field2>
+							<Field3>Toggle</Field3>
+							<Field4>Play</Field4>
+							<Field5>
+								<Variant>
+									<InnerType>Void</InnerType>
+									<VariantData>null</VariantData>
+								</Variant>
+							</Field5>
+						</Cluster>
+					</p.DefaultElementValue>
+				</ArrayBehavior>
+				<ClusterLiteral Bounds="-12 0 61 195" DataType="@df5ff6eefb534e71aec0311f23213e8b" Id="5426d2d76e3e409fa9869b7bd7bd78a5" p5:ControlDefinitionChecksum="nI7zYTt2n4Oq4yspXIWtXMDpfvafW8AUrr7thDguhzw=" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype" />
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype::ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 20 40 15" DataType="String" Id="57fd3aa53d1744fda3c02340312cf30a" Label="cebff14378494670a4d6fe21fe55ddc2">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="57fd3aa53d1744fda3c02340312cf30a" Bounds="2 2 30 15" Id="cebff14378494670a4d6fe21fe55ddc2" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Keystroke</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 57 40 15" DataType="String" Id="e5d31a61507845ab81c15bde6c114ca7" Label="d00f345903f741c88ed9f81c31e890aa">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="e5d31a61507845ab81c15bde6c114ca7" Bounds="2 39 30 15" Id="d00f345903f741c88ed9f81c31e890aa" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Message Queue</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 94 40 15" DataType="String" Id="c2576b042d684f348f602512e1cc359c" Label="b29aa31acfa14638990837976c589846">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="c2576b042d684f348f602512e1cc359c" Bounds="2 76 30 15" Id="b29aa31acfa14638990837976c589846" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Event</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 131 40 15" DataType="String" Id="7ffd5a62b4b435ab24f8d85ddf2776f" Label="b4c4bd96fada4a61a05e76fe8976e406">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="7ffd5a62b4b435ab24f8d85ddf2776f" Bounds="2 113 30 15" Id="b4c4bd96fada4a61a05e76fe8976e406" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Target</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 168 40 15" DataType="@bd2232353db34e3ebe062acdcac878ce" Id="bce70b806d614b3f9a9cc2f82861a8e8" Label="bebc2771250f4f0dbbb9b590fcffaf92">
+						<VariantBehavior ShowData="False" />
+					</Literal>
+					<NodeLabel AttachedTo="bce70b806d614b3f9a9cc2f82861a8e8" Bounds="2 150 30 15" Id="bebc2771250f4f0dbbb9b590fcffaf92" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Data</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+			</ArrayLiteral>
+			<ArrayLiteral Bounds="578 215 152 612" DataType="@3329fdf4059142128ef5ed33246ca48d" Id="7f9cba2d45e7416dba2966d5f96bbb67" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="6">
+						<Rank1>
+							<Elem>
+								<Cluster>
+									<Field1>CTRL + 1</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>ClearCue1</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>CTRL + 2</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>ClearCue2</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>CTRL + 3</Field1>
+									<Field2>Deck1</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>ClearCue3</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>CTRL + 0</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>ClearCue1</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>CTRL + -</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>ClearCue2</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>CTRL + =</Field1>
+									<Field2>Deck2</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>ClearCue3</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Void</InnerType>
+											<VariantData>null</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+						</Rank1>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="@df5ff6eefb534e71aec0311f23213e8b" IndexEditorWidth="42" VisibleRows="6">
+					<p.DefaultElementValue>
+						<Cluster>
+							<Field1>Q</Field1>
+							<Field2>Deck1</Field2>
+							<Field3>Toggle</Field3>
+							<Field4>Play</Field4>
+							<Field5>
+								<Variant>
+									<InnerType>Void</InnerType>
+									<VariantData>null</VariantData>
+								</Variant>
+							</Field5>
+						</Cluster>
+					</p.DefaultElementValue>
+				</ArrayBehavior>
+				<ClusterLiteral Bounds="-12 0 61 195" DataType="@df5ff6eefb534e71aec0311f23213e8b" Id="8d1fa86733944dc7b99f65bf0d8e73f3" p5:ControlDefinitionChecksum="nI7zYTt2n4Oq4yspXIWtXMDpfvafW8AUrr7thDguhzw=" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype" />
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype::ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 20 40 15" DataType="String" Id="1dbda5cc0974434da8cb088aef15683f" Label="ce6097ef3de7412a825699c26a97a196">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="1dbda5cc0974434da8cb088aef15683f" Bounds="2 2 30 15" Id="ce6097ef3de7412a825699c26a97a196" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Keystroke</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 57 40 15" DataType="String" Id="f9c70268e47a4197836c8b5f2711709c" Label="126fab4d866a4fa59431fe7f6d785129">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="f9c70268e47a4197836c8b5f2711709c" Bounds="2 39 30 15" Id="126fab4d866a4fa59431fe7f6d785129" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Message Queue</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 94 40 15" DataType="String" Id="6c666aacaae44f49aa334d8407711753" Label="7e55e91a781647b99c870f3a1d39e0d5">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="6c666aacaae44f49aa334d8407711753" Bounds="2 76 30 15" Id="7e55e91a781647b99c870f3a1d39e0d5" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Event</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 131 40 15" DataType="String" Id="b3e424ae937b42e096297ca5040757e8" Label="7eb4cada12e74048831aa0fdd204b863">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="b3e424ae937b42e096297ca5040757e8" Bounds="2 113 30 15" Id="7eb4cada12e74048831aa0fdd204b863" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Target</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 168 40 15" DataType="@bd2232353db34e3ebe062acdcac878ce" Id="2c73a07754f24f86a26205f65dc93809" Label="9f64230f1b4141a88a30ba6af76815b3">
+						<VariantBehavior ShowData="False" />
+					</Literal>
+					<NodeLabel AttachedTo="2c73a07754f24f86a26205f65dc93809" Bounds="2 150 30 15" Id="9f64230f1b4141a88a30ba6af76815b3" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Data</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+			</ArrayLiteral>
+			<ArrayLiteral Bounds="853 355 152 511" DataType="@3329fdf4059142128ef5ed33246ca48d" Id="4e46fad18958434a918aa69d5461e7e7" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="5">
+						<Rank1>
+							<Elem>
+								<Cluster>
+									<Field1>5</Field1>
+									<Field2>Mixer</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Crossfader</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFF0000000000000</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>6</Field1>
+									<Field2>Mixer</Field2>
+									<Field3>Increment</Field3>
+									<Field4>Crossfader</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>7</Field1>
+									<Field2>Mixer</Field2>
+									<Field3>Increment</Field3>
+									<Field4>Crossfader</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>8</Field1>
+									<Field2>Mixer</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Crossfader</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FF0000000000000</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>SPACE</Field1>
+									<Field2>Mixer</Field2>
+									<Field3>Value Change</Field3>
+									<Field4>Crossfader</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x0</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+						</Rank1>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="@df5ff6eefb534e71aec0311f23213e8b" IndexEditorWidth="42" VisibleRows="5">
+					<p.DefaultElementValue>
+						<Cluster>
+							<Field1>Q</Field1>
+							<Field2>Deck1</Field2>
+							<Field3>Toggle</Field3>
+							<Field4>Play</Field4>
+							<Field5>
+								<Variant>
+									<InnerType>Void</InnerType>
+									<VariantData>null</VariantData>
+								</Variant>
+							</Field5>
+						</Cluster>
+					</p.DefaultElementValue>
+				</ArrayBehavior>
+				<ClusterLiteral Bounds="-12 0 61 195" DataType="@df5ff6eefb534e71aec0311f23213e8b" Id="bad11e461ff14426874bddd08dabae17" p5:ControlDefinitionChecksum="nI7zYTt2n4Oq4yspXIWtXMDpfvafW8AUrr7thDguhzw=" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype" />
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype::ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 20 40 15" DataType="String" Id="67e8262e6f9d4ceb95a152dd1956184d" Label="5a2ce5b0c30442e4b282c3922ce62242">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="67e8262e6f9d4ceb95a152dd1956184d" Bounds="2 2 30 15" Id="5a2ce5b0c30442e4b282c3922ce62242" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Keystroke</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 57 40 15" DataType="String" Id="ad27030230ad4a6d97aa55fa0e3bc935" Label="37bb828a3f274a2f8d1d5ff36eb786c9">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="ad27030230ad4a6d97aa55fa0e3bc935" Bounds="2 39 30 15" Id="37bb828a3f274a2f8d1d5ff36eb786c9" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Message Queue</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 94 40 15" DataType="String" Id="c829660e9bd24057aa36d7535967adbb" Label="250cc8731a89448ab27ca5217af70d42">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="c829660e9bd24057aa36d7535967adbb" Bounds="2 76 30 15" Id="250cc8731a89448ab27ca5217af70d42" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Event</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 131 40 15" DataType="String" Id="ede6eaa707de49f48dd8a7170e33ed69" Label="debae2801d51498abd5c1ab0a5a89d51">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="ede6eaa707de49f48dd8a7170e33ed69" Bounds="2 113 30 15" Id="debae2801d51498abd5c1ab0a5a89d51" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Target</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 168 40 15" DataType="@bd2232353db34e3ebe062acdcac878ce" Id="b5f6c322d7814d42a5a02e08034ebb72" Label="3b0ad41fe0674bc081005ac459558071">
+						<VariantBehavior ShowData="False" />
+					</Literal>
+					<NodeLabel AttachedTo="b5f6c322d7814d42a5a02e08034ebb72" Bounds="2 150 30 15" Id="3b0ad41fe0674bc081005ac459558071" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Data</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+			</ArrayLiteral>
+			<Literal Bounds="970 160 40 18" DataType="Double" Id="6ca7b12da0864501a183a0b74bfdce36" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x3FF0000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<Literal Bounds="970 130 40 18" DataType="Double" Id="e638aaacce7e469dbd3007dcc1c2d6eb" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0xBFF0000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<Literal Bounds="1030 160 40 18" DataType="Double" Id="9e18b5467fae4ed199512a46b7c0363e" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x3FA999999999999A</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<Literal Bounds="1030 130 40 18" DataType="Double" Id="cb31b33215a242abb0d608f9b7d19a57" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0xBFA999999999999A</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<Literal Bounds="1030 190 40 18" DataType="Double" Id="3e489331f8304d779fa7c54dc138072b" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x0</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<ArrayLiteral Bounds="200 745 165 612" DataType="@3329fdf4059142128ef5ed33246ca48d" Id="f7e1bbea44c34c2586892990184ff7d4" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="6">
+						<Rank1>
+							<Elem>
+								<Cluster>
+									<Field1>W</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQLow</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>S</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQLow</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>E</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQMid</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>D</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQMid</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>R</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQHigh</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>F</Field1>
+									<Field2>Mixer.Channel1</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQHigh</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+						</Rank1>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="@df5ff6eefb534e71aec0311f23213e8b" IndexEditorWidth="42" VisibleRows="6">
+					<p.DefaultElementValue>
+						<Cluster>
+							<Field1>Q</Field1>
+							<Field2>Deck1</Field2>
+							<Field3>Toggle</Field3>
+							<Field4>Play</Field4>
+							<Field5>
+								<Variant>
+									<InnerType>Void</InnerType>
+									<VariantData>null</VariantData>
+								</Variant>
+							</Field5>
+						</Cluster>
+					</p.DefaultElementValue>
+				</ArrayBehavior>
+				<ClusterLiteral Bounds="3 0 61 195" DataType="@df5ff6eefb534e71aec0311f23213e8b" Id="5b0ad3adb904d49bd01a4e4b55a041a" p5:ControlDefinitionChecksum="nI7zYTt2n4Oq4yspXIWtXMDpfvafW8AUrr7thDguhzw=" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype" />
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype::ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 20 40 15" DataType="String" Id="c2625ef38ba4b28a889e3250fd188b6" Label="ccfa57a3272f4f2db5e6cb724a2ce3ee">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="c2625ef38ba4b28a889e3250fd188b6" Bounds="2 2 30 15" Id="ccfa57a3272f4f2db5e6cb724a2ce3ee" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Keystroke</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 57 40 15" DataType="String" Id="c8b6eaced22044c79f2e4a9051cec8a7" Label="276aba76c149485981e84b539c0f568d">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="c8b6eaced22044c79f2e4a9051cec8a7" Bounds="2 39 30 15" Id="276aba76c149485981e84b539c0f568d" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Message Queue</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 94 40 15" DataType="String" Id="c89b9472479d40388a3a6881b121727f" Label="be905b13cc0e433cae49b1039aa7f518">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="c89b9472479d40388a3a6881b121727f" Bounds="2 76 30 15" Id="be905b13cc0e433cae49b1039aa7f518" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Event</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 131 40 15" DataType="String" Id="291aabea24f40dd9c30b90a3287ab7c" Label="15eae99fb1644524be00b3dd70b9cf1d">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="291aabea24f40dd9c30b90a3287ab7c" Bounds="2 113 30 15" Id="15eae99fb1644524be00b3dd70b9cf1d" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Target</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 168 40 15" DataType="@bd2232353db34e3ebe062acdcac878ce" Id="23121124f7e548d0bf8aab21547c9d69" Label="9d65fabe10f8482fa26bb29116febd96">
+						<VariantBehavior ShowData="False" />
+					</Literal>
+					<NodeLabel AttachedTo="23121124f7e548d0bf8aab21547c9d69" Bounds="2 150 30 15" Id="9d65fabe10f8482fa26bb29116febd96" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Data</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+			</ArrayLiteral>
+			<Literal Bounds="760 115 40 18" DataType="Double" Id="662fa5a4961540dd9338f1c8170341eb" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x3FE0000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<Literal Bounds="760 85 40 18" DataType="Double" Id="338350f15ac440c39350c4d803b9fd25" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0xBFE0000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<ArrayLiteral Bounds="395 795 165 612" DataType="@3329fdf4059142128ef5ed33246ca48d" Id="80308386163f42669df399e4b0e1e20f" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="6">
+						<Rank1>
+							<Elem>
+								<Cluster>
+									<Field1>U</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQLow</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>J</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQLow</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>I</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQMid</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>K</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQMid</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>O</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQHigh</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0xBFA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+							<Elem>
+								<Cluster>
+									<Field1>L</Field1>
+									<Field2>Mixer.Channel2</Field2>
+									<Field3>Increment</Field3>
+									<Field4>EQHigh</Field4>
+									<Field5>
+										<Variant>
+											<InnerType>Double</InnerType>
+											<VariantData>0x3FA999999999999A</VariantData>
+										</Variant>
+									</Field5>
+								</Cluster>
+							</Elem>
+						</Rank1>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="@df5ff6eefb534e71aec0311f23213e8b" IndexEditorWidth="42" VisibleRows="6">
+					<p.DefaultElementValue>
+						<Cluster>
+							<Field1>Q</Field1>
+							<Field2>Deck1</Field2>
+							<Field3>Toggle</Field3>
+							<Field4>Play</Field4>
+							<Field5>
+								<Variant>
+									<InnerType>Void</InnerType>
+									<VariantData>null</VariantData>
+								</Variant>
+							</Field5>
+						</Cluster>
+					</p.DefaultElementValue>
+				</ArrayBehavior>
+				<ClusterLiteral Bounds="3 0 61 195" DataType="@df5ff6eefb534e71aec0311f23213e8b" Id="d08561e4a0e641c3b471d85c888a967e" p5:ControlDefinitionChecksum="nI7zYTt2n4Oq4yspXIWtXMDpfvafW8AUrr7thDguhzw=" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype" />
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype::ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 20 40 15" DataType="String" Id="1bf4dde075944a0ac2ebbccf799dffb" Label="7c321c2d97e4428a8e87facee8a55f7c">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="1bf4dde075944a0ac2ebbccf799dffb" Bounds="2 2 30 15" Id="7c321c2d97e4428a8e87facee8a55f7c" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Keystroke</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 57 40 15" DataType="String" Id="4a18f4529d14f0c9f234b3f7bc5074b" Label="bc147dcccb474922b5e476179c9983aa">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="4a18f4529d14f0c9f234b3f7bc5074b" Bounds="2 39 30 15" Id="bc147dcccb474922b5e476179c9983aa" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Message Queue</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 94 40 15" DataType="String" Id="506dbede56a94e6aac352e84a8c1b74d" Label="7a77fd462fed4b21bead0c30b7555011">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="506dbede56a94e6aac352e84a8c1b74d" Bounds="2 76 30 15" Id="7a77fd462fed4b21bead0c30b7555011" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Event</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 131 40 15" DataType="String" Id="1363156ab4ce4208937d2494bf40cd89" Label="e5667c82c0c3406c8cbcd4165f232a1a">
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="1363156ab4ce4208937d2494bf40cd89" Bounds="2 113 30 15" Id="e5667c82c0c3406c8cbcd4165f232a1a" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Target</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 168 40 15" DataType="@bd2232353db34e3ebe062acdcac878ce" Id="92acfb9b27874eb18e2fba190d6a8042" Label="c981edeed7384a678a0b4a42a570edde">
+						<VariantBehavior ShowData="False" />
+					</Literal>
+					<NodeLabel AttachedTo="92acfb9b27874eb18e2fba190d6a8042" Bounds="2 150 30 15" Id="c981edeed7384a678a0b4a42a570edde" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Data</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+			</ArrayLiteral>
+			<BuildArray Bounds="1295 575 40 70" ConcatenateInputsIsRequested="True" Id="6c04c5372ac846978fba2965e85b686a" Terminals="outArray=387b9f1789cc4da6b89c7f0db19e7608, c0t0v=5a56a177ffe14a37ae471c3aba9ce83c, c1t0v=1ae1e693e49b4844b04128a200ebfa22, c2t0v=4d9f5d0f98ce48c3a4faa12fd2b3aa49, c3t0v=23333f1169f14a8bbd086543f5b2c017, c4t0v=70fb920c8fbf48f28730ef2dbb297ae4, c5t0v=206887ecbf82440ead2bfeea9fa89963, c6t0v=428fefe155324e5694846edba96261dd" VerticalChunkCount="7" />
+			<Comment Bounds="850 15 260 95" Id="6b3713b8ec4b47869dc2e91e019cf09a" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>"Bunch of constants used for some shortcuts. Right-click then Data Operations -&gt; Copy Data, then right-click the destination variant and Data Operations -&gt; Paste Data.\n\nDrag and drop into a variant would be nice..."</p.Text>
+			</Comment>
+			<Comment Bounds="425 25 215 70" Id="b2fbb68226da4c5b8fed60df035bae0c" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Each array defines a set of keyboard shortcuts. They could all be in one massive array, but it's easier to view and edit this way.</p.Text>
+			</Comment>
+			<Wire Id="206887ecbf82440ead2bfeea9fa89963" Joints="N(f7e1bbea44c34c2586892990184ff7d4:Out)|(365,750) h(210) v(124) h(664) v(-244) N(6c04c5372ac846978fba2965e85b686a:c5t0v)|(1295,630)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="428fefe155324e5694846edba96261dd" Joints="N(80308386163f42669df399e4b0e1e20f:Out)|(560,800) h(6) v(70) h(663) v(-230) N(6c04c5372ac846978fba2965e85b686a:c6t0v)|(1295,640)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="70fb920c8fbf48f28730ef2dbb297ae4" Joints="N(4e46fad18958434a918aa69d5461e7e7:Out)|(1005,360) h(264) v(260) N(6c04c5372ac846978fba2965e85b686a:c4t0v)|(1295,620)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="23333f1169f14a8bbd086543f5b2c017" Joints="N(7f9cba2d45e7416dba2966d5f96bbb67:Out)|(730,220) h(542) v(390) N(6c04c5372ac846978fba2965e85b686a:c3t0v)|(1295,610)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="4d9f5d0f98ce48c3a4faa12fd2b3aa49" Joints="N(c34547d87cb64df8baff5a63e762ef7a:Out)|(555,130) h(103.5) v(82) h(616.5) v(388) N(6c04c5372ac846978fba2965e85b686a:c2t0v)|(1295,600)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="387b9f1789cc4da6b89c7f0db19e7608" Joints="N(6c04c5372ac846978fba2965e85b686a:outArray)|(1335,580) h(44) v(20) N(bf3f61b5506a4ea2a3433f38a3d85cf1:Value)|(1388,600)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="5a56a177ffe14a37ae471c3aba9ce83c" Joints="N(62652b1b737b45dabb4c5ab91a6f5646:Out)|(205,5) h(1076) v(575) N(6c04c5372ac846978fba2965e85b686a:c0t0v)|(1295,580)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1ae1e693e49b4844b04128a200ebfa22" Joints="N(e9216893ff8e4bdb847929f528b7b64c:Out)|(380,30) h(898) v(560) N(6c04c5372ac846978fba2965e85b686a:c1t0v)|(1295,590)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Height="[float]1600" HtmlPanel="[bool]False" Id="85a0c9cf700c4cd2b319baf31ced1618" Left="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<PanelExecutionWindow Id="b08b20e1b0284bd4977b74b3f67809e1" />
+			<Label Id="b8584f920ffe46e6b49bb5038eda4c7e" LabelOwner="[UIModel]976e2e9366214a038c81ab2f3400cec2" Left="[float]100" Text="[string]Keyboard Shortcuts" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]ff70a6e276f4d38b87d5b11e484655a" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" FirstIndex="[ArrayElementIndex]0" Height="[float]276" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="976e2e9366214a038c81ab2f3400cec2" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]b8584f920ffe46e6b49bb5038eda4c7e" Left="[float]100" Rows="[int]1" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=f5abc5fd3b5e42d9ae29292e046113d5}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]166" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>
+					<Cluster>
+						<Field1>Q</Field1>
+						<Field2>Deck1</Field2>
+						<Field3>Value Change</Field3>
+						<Field4>Play</Field4>
+						<Field5>
+							<Variant>
+								<InnerType>Boolean</InnerType>
+								<VariantData>False</VariantData>
+							</Variant>
+						</Field5>
+					</Cluster>
+				</p.DefaultElementValue>
+				<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Keyboard Shortcut" ClusterType="[Type]@df5ff6eefb534e71aec0311f23213e8b" Enabled="[bool]True" Height="[float]268" Id="ff70a6e276f4d38b87d5b11e484655a" IsTabStop="[bool]True" TabIndex="[int]0" Width="[float]158" p5:ControlDefinitionChecksum="nI7zYTt2n4Oq4yspXIWtXMDpfvafW8AUrr7thDguhzw=" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype::ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="ab273a7c4a2f4bb699a5a78d85bdc21f" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]2ed8ea03243040b4adc4efbbd63ad2aa" Left="[float]4" TabIndex="[int]0" Text="{ClusterBinding FieldName=Keystroke}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p5:Label Id="2ed8ea03243040b4adc4efbbd63ad2aa" LabelOwner="[UIModel]ab273a7c4a2f4bb699a5a78d85bdc21f" Left="[float]4" Text="[string]Keystroke" Top="[float]4" />
+					<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="9e173cbcc86542deb487c9f3bd0cf2bf" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]9ebdd6243c0742959f23a636e66e7356" Left="[float]4" TabIndex="[int]1" Text="{ClusterBinding FieldName=Message\ Queue}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]76" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p5:Label Id="9ebdd6243c0742959f23a636e66e7356" LabelOwner="[UIModel]9e173cbcc86542deb487c9f3bd0cf2bf" Left="[float]4" Text="[string]Message Queue" Top="[float]56" />
+					<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="7a2789f79fcd4ed9a09c941018aa59ed" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]b76cc5819010475896d44e6867b40d5f" Left="[float]4" TabIndex="[int]2" Text="{ClusterBinding FieldName=Event}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]128" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p5:Label Id="b76cc5819010475896d44e6867b40d5f" LabelOwner="[UIModel]7a2789f79fcd4ed9a09c941018aa59ed" Left="[float]4" Text="[string]Event" Top="[float]108" />
+					<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="9c6c561f80b64226a567e3eb0fc0f4c2" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]8d254a84fa03476f968f51c527417a19" Left="[float]4" TabIndex="[int]3" Text="{ClusterBinding FieldName=Target}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]180" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p5:Label Id="8d254a84fa03476f968f51c527417a19" LabelOwner="[UIModel]9c6c561f80b64226a567e3eb0fc0f4c2" Left="[float]4" Text="[string]Target" Top="[float]160" />
+					<VariantControl Enabled="[bool]True" Height="[float]75" Id="c9f4e812c94d4345ace9f2f3fd524434" IsIndicator="[bool]True" IsTabStop="[bool]True" Label="[UIModel]30a079f86d2c40fb962cc1cdf0e655bc" Left="[float]4" TabIndex="[int]4" TextAlignment="[TextAlignment]Left" Top="[float]232" VariantValue="{ClusterBinding FieldName=Data}" Width="[float]150" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p5:Label Id="30a079f86d2c40fb962cc1cdf0e655bc" LabelOwner="[UIModel]c9f4e812c94d4345ace9f2f3fd524434" Left="[float]4" Text="[string]Data" Top="[float]212" />
+				</Cluster>
+			</ArrayViewer>
+			<Menu Id="2de6c21ea84e437fa3fcfdcfd46e3250" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@3329fdf4059142128ef5ed33246ca48d" Id="f5abc5fd3b5e42d9ae29292e046113d5" Name="Keyboard Shortcuts" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Shared::Keyboard Shortcut.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="3329fdf4059142128ef5ed33246ca48d">
+			<VariableArray DereferenceType="@df5ff6eefb534e71aec0311f23213e8b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="df5ff6eefb534e71aec0311f23213e8b">
+			<Attributed AttributedType="@4f24983382324537b130da5b041f6d2b">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Shared" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
+			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4f24983382324537b130da5b041f6d2b">
+			<Typedef TypedefName="Keyboard Shortcut.gtype" UnderlyingType="@e866de0417c549cc9879769c70ff6467" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e866de0417c549cc9879769c70ff6467">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Keystroke" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Message Queue" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Event" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Target" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Data" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

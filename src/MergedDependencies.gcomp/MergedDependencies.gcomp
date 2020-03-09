@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="153998AB0C2BCBCDBEE966B78141E1E84703EA44A01F003DC912F56E724CC38D3029E36F1C7F27863EE673B438F4899C95C1D04882FDA0FA9D2A0281D98ABBB3" Timestamp="1D5C9D65538CC73" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="ac91979d72a4d3184681101c2a6d0ac" RootNamespaceId="6cf3849620d4436d93b6dd0d079252cc" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="51dc7e79471244ae9e34ccef1d6eac7d" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d6959aa2eb504db4a0767eb99735248e" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="a94a7e083c4b4abe95645fd964b35811" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="7fd01c14456446568a24de45403117c1" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="3d3daa673f104309829d9adb3abe7d50" Name="Default">
+			<CompilerSymbolTable Id="3890b37dbea24ed6889471767ec65c5b" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="7ffb7720684442dd9017478da3dd8392" Exported="True" Id="814b538617ca4c4398e68d8d9cbb73ed" />
+			<ComponentItemProperties AssociatedEnvoyId="f0471fb38a01416c8dd6014317bfacf2" Exported="True" Id="604ff1d6aa224ca88832610c83b181ec" />
+			<ComponentItemProperties AssociatedEnvoyId="d9f8b32b19d143828d1494b866becff7" Exported="True" Id="1506e82099a8405f8eb17519f3f431ec" />
+			<ComponentItemProperties AssociatedEnvoyId="33c43ad0b6e54628bc12617ccdaf8b25" Exported="True" Id="567827c47cb94581a448d9b0eb4eb2b1" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="1690b8bfe305476f88a98b046651ef54" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="be5754abc55d4d2d8cc3047d77578d4b" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="a4ff5e6628c849ebb74741b88ab09e0f" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6cf3849620d4436d93b6dd0d079252cc" Name="MergedDependencies">
+				<SourceFileReference Bindings="EnvoyManager" Id="7ffb7720684442dd9017478da3dd8392" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Channel.gtype" StoragePath="Channel.gtype\Channel.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="f0471fb38a01416c8dd6014317bfacf2" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Effect.gtype" StoragePath="Effect.gtype\Effect.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="d9f8b32b19d143828d1494b866becff7" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Mixer.gtype" StoragePath="Mixer.gtype\Mixer.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="33c43ad0b6e54628bc12617ccdaf8b25" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="EQ.gtype" StoragePath="EQ.gtype\EQ.gtype" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="8d88b34a022a490fb3105b95a8e6282f" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="MergedDependencies.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="3d3daa673f104309829d9adb3abe7d50" Id="aa2ffe9dd9bd4c339818a084e2c101bf" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

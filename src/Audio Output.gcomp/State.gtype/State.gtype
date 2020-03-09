@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A96CB3B0E6AA54D08932C603B191038AFF1A49897EC3808BB705ED97A8CB07337DF55060A99156E3B40B13FB50FEED681A6F27A85470BE591085484FA0EBB000" Timestamp="1D5C9D65536AABD" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@dccf887f0bf546cab5ed03b48bf416e4" Id="a4e9b90343584f74aa28b513af66632a" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="4bbe7a713b6f41ee9706755e9842ff50" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="196e0be5a4f94b2d961583683e623283" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="9f8410def7904a7fbed96137b22f5271" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="dc0621a81e694201b1dc8a5b003796d0" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="7cda44741bd94fcfba33e6c7c1543e55" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="5d52ac7328604058b75fa96438032845" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEpSURBVEhL7ZPhjYMwDEZZ4WbJCsziFZglKzBLVmAW7jlOfVESEFeB+qdPFv2w40+ugSmG+FAU6z3juha5ojTaD7jIFcWSau03JprbE3FygPi3tdHnG0G8OXVzOzww2PXwthEe+eDgJFGsn4jpQewfPcHXuuFz1qmjFC5waL0sS5BQM8/zPdbrukqSV4RJ+AzKt3eRYs2MJmrwinuURAgjb9tWCh3DdrUWEav9vOBT4soSkloLm6nzdnVopB0T9auYWB8Wbs10Rl5viEkHR1Di6iUTBo20k2yehE5Nyqx9WB0mwywhCYKS51VVZ2ikvX/CZddHj548c7Hlk0XDsP3vDelfAMvU+aMzNfy/IuwHbCc1b2Twvc360tR38bVueMoaX0O1pe5n338B2wE2oRhqCKAAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@dccf887f0bf546cab5ed03b48bf416e4" Id="dcf6a005d89e4310acfb7525a1ba9663" Name="State">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="9e0a6576af62424e87102f76523cc7bc" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="975c14168d244310867983bd92c203e3" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="35a3e889eb734801a8615b8732beb3cb" Name="State.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="9f3291a22963420e8a25c0d21b494dd1" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition Id="94bf09f19f0e4eb58af51198090bcfe7" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" Enabled="[bool]True" Height="[float]24" Id="3ccf23826e4848c799cd3f6d49be4993" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]2710ef7f68e6419294d7dd578c412f74" Left="[float]100" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]30" Value="{DataItemBinding Id=dcf6a005d89e4310acfb7525a1ba9663}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]156" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Init" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Configure" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Output" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Error" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Shutdown" Value="[ushort]4" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Id="2710ef7f68e6419294d7dd578c412f74" LabelOwner="[UIModel]3ccf23826e4848c799cd3f6d49be4993" Left="[float]100" Text="[string]State" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="dccf887f0bf546cab5ed03b48bf416e4">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Init" />
+					<EnumerationMember Value="1" Name="Configure" />
+					<EnumerationMember Value="2" Name="Output" />
+					<EnumerationMember Value="3" Name="Error" />
+					<EnumerationMember Value="4" Name="Shutdown" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="06258DE9BD8B73DBE50864997680104A713B87B12692FE860259F1A038FBCFBF91CDE1D1A719BE888791225904051165992AE8FBA098F0A4D4E3800F298CC7FF" Timestamp="1D5CF66D1DB59A3" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="Int32[]" Id="e663b6c3db194018908ae3370fcdbb08" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="d3088d5a04924a8d9f04d6f8555d2d5f" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="c3b08321f9884bfc8154faf7cfefed40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="c8b44a8d1ab142b0bbb4d1ca74b2872c" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem BufferSize="1024" DataType="Int32[]" Id="682ddc53c142178e4ed176177d0990" Name="Chart" />
+	</TypeDefinition>
+	<EnvoyManagerFile Id="bff74906ed0d4b8096ebfd1126c304ce" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1ec46406a10948a992a56a58f1bbc0cd" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="63f2a95ca01940ccba999c03642dca80" Name="Chart.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="609049b5f3e74d08843d38e1a73a56d6" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Indicator" Id="b874cda0d5d444dca030f3d239a066a3" xmlns="http://www.ni.com/MocCommon">
+					<Chart BaseName="[string]Chart" BorderThickness="[SMThickness]1,1,1,1" ControlResizeMode="[ControlResizeMode]Fixed" DataSource="{DataItemBinding Id=682ddc53c142178e4ed176177d0990}" DataSourceType="[Type]Int32[]" Height="[float]296" Id="f3118fc47e124c9aa84ddf46621854f3" IsAntiAliased="[bool]False" Label="[UIModel]ad8cc7ae4d424db1b515b40cb5defb32" Left="[float]100" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]True" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]100" Width="[float]392" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="7d9d2d4ffc6347a38596117290304149" Label="[string]Time" MajorDivisions="[UIModel]37123cbe562148a1be65fca9b770abe7" MajorGridLines="[UIModel]76005fced89141908e98058ca78e8ef7" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
+							<RangeLabeledDivisions Id="37123cbe562148a1be65fca9b770abe7">
+								<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
+							</RangeLabeledDivisions>
+							<GridLines Color="[SMColor]#00ffffff" Id="76005fced89141908e98058ca78e8ef7" />
+						</Axis>
+						<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="4d77799bd506406ea823ed4e77d22398" Label="[string]Amplitude" MajorDivisions="[UIModel]3852dea1c9524da393fb26f606fe5c32" MajorGridLines="[UIModel]830209e80c7b444883af3a4395ac6c89" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+							<RangeLabeledDivisions Id="3852dea1c9524da393fb26f606fe5c32">
+								<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
+							</RangeLabeledDivisions>
+							<GridLines Color="[SMColor]#00ffffff" Id="830209e80c7b444883af3a4395ac6c89" />
+						</Axis>
+						<Plot HorizontalScale="[UIModel]7d9d2d4ffc6347a38596117290304149" Id="36958fb9015a40c89e3424fe6c14d086" Label="[string]Plot" VerticalScale="[UIModel]4d77799bd506406ea823ed4e77d22398" />
+						<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="78e977c3247d4760918c692f63ac0b20" LineStroke="[SMSolidColorBrush]#ff962428" PointShape="[PointShape]Ellipse" />
+						<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="5266fd50f83545b8bd2a6f5c20623e63" LineStroke="[SMSolidColorBrush]#ff008ee4" PointShape="[PointShape]Rectangle" />
+						<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="3060e7cac282456abe662c76db167c9d" LineStroke="[SMSolidColorBrush]#ffe2b683" PointShape="[PointShape]Diamond" />
+						<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="c7d86381e3da4c1f84f7b569e2a5a2e9" LineStroke="[SMSolidColorBrush]#ffb7ac1f" PointShape="[PointShape]Cross" />
+						<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="bc49098681c14c2ea6cd7748218b684a" LineStroke="[SMSolidColorBrush]#ffaedcef" PointShape="[PointShape]Ellipse" />
+						<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="89605debd1ca46dca89349b67b00c2ec" LineStroke="[SMSolidColorBrush]#ffa08bb0" PointShape="[PointShape]Rectangle" />
+						<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="6bcad802f3a440b2b75fe0b26f70f7e4" LineStroke="[SMSolidColorBrush]#ff7f7f7f" PointShape="[PointShape]Diamond" />
+						<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="a1375d3ec3a045fbb8769b47bee62d70" LineStroke="[SMSolidColorBrush]#ff91685c" PointShape="[PointShape]Cross" />
+					</Chart>
+					<PlotLegend Graph="[UIModel]f3118fc47e124c9aa84ddf46621854f3" Height="[float]28" Id="e0aa102669ef42c682aa6864e08f86b1" Left="[float]499" Top="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]f3118fc47e124c9aa84ddf46621854f3" Height="[float]102" Id="48777c188ea347bb8bcd1fcc2b506fcc" Left="[float]105" Top="[float]425" Visible="[bool]False" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<ScaleLegend Graph="[UIModel]f3118fc47e124c9aa84ddf46621854f3" Height="[float]50" Id="e999e747431047f18ea0575e275b2872" Left="[float]499" Top="[float]294" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<GraphTools Graph="[UIModel]f3118fc47e124c9aa84ddf46621854f3" Id="ac0e1583e6794a65b4e41846736b3518" Left="[float]105" Top="[float]403" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="ad8cc7ae4d424db1b515b40cb5defb32" LabelOwner="[UIModel]f3118fc47e124c9aa84ddf46621854f3" Left="[float]100" Text="[string]Chart" Top="[float]80" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

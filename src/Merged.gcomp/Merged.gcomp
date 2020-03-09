@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2377721AE462A359D4C8639B540A0F7D33E641DD33341961207C13CF9A8C0274586C4003D23E421D8836218CC3401F447F65AE31A869F467DB5439355613008C" Timestamp="1D5C9D65538CC73" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="d27da9cad05a4972a797ba94cda3028d" RootNamespaceId="1d01e57c765e40f1b57bd001c6a11637" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="3e44f42972474c6688b9aa5d725315b7" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="4e53ec9955d34493b6f04907ce181b75" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4ef5e4b1ca4a488f94285a054ebb3dca" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="dd312535d0ff45c2bd552c880fe147ca" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="a25c4ab5db0746d7aebda4d5bea648f6" Name="Default">
+			<CompilerSymbolTable Id="3389d23ced5d45d18d3cb3120e0f3370" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="b1753d828b454a9cb55b9c724d3c6918" Exported="True" Id="86ca791171a64c46866fa6981872c393" />
+			<ComponentItemProperties AssociatedEnvoyId="946f842e3658470d808bfef0301dca46" Exported="True" Id="1e0a2bdcc4054c2184276fa5feab6b1a" />
+			<ComponentItemProperties AssociatedEnvoyId="5ab8e9931d6f4c379518cc0981d4b116" Exported="True" Id="44dae814579547759b88d8171d101825" />
+			<ComponentItemProperties AssociatedEnvoyId="dde8116c5b054de3aa0bc38d7f58af5c" Exported="True" Id="7b0291f009814db6816c434bc5d725b1" />
+			<ComponentItemProperties AssociatedEnvoyId="351bcc0ce12340e3bc73dcdbbe728f9f" Exported="True" Id="dea3d141bc65467aa3e76c22c89451fd" />
+			<ComponentItemProperties AssociatedEnvoyId="e6fc5398c68b4c09b1f920e07545c990" Exported="True" Id="c12d8561b2f4a929665404bede2ee93" />
+			<ComponentItemProperties AssociatedEnvoyId="9b417eeec05c4ce5ac4712d96ef4306f" Exported="True" Id="ee477d73ea7c4ea1acbd9c3e9e25159f" />
+			<ComponentItemProperties AssociatedEnvoyId="fca8e9447807438fb7bb21c11f0c59f8" Exported="True" Id="e72cebbc9f584dc7a1e35d3d839dc2ed" />
+			<ComponentItemProperties AssociatedEnvoyId="8a153edb90a64c67a58254a141bee976" Exported="True" Id="88d4c9ee25c6442ca1772e778cd6763b" />
+			<ComponentItemProperties AssociatedEnvoyId="ccccda88c9449fbbbe7e3cb0d1ab636" Exported="True" Id="9b03b54395d248ff812d0c67452a0f02" />
+			<ComponentItemProperties AssociatedEnvoyId="13700a0f6b6e450381618a37ab79f80f" Exported="True" Id="c4142c0306f8478c8c57f04e5bb8f65c" />
+			<ComponentItemProperties AssociatedEnvoyId="a3456c26fd2c43dcb2bf2c30bd3030b8" Exported="True" Id="914b83ece3f34b18b924457663e4e1be" />
+			<ComponentItemProperties AssociatedEnvoyId="dbda5afef8f0406b9c3174ed25063977" Exported="True" Id="9edeabc84a045aeb2d55da6adad0405" />
+			<ComponentItemProperties AssociatedEnvoyId="12e793be44334865b96a982a9c072e7b" Exported="True" Id="6942f4551fbe43af965fd1b0f6599f59" />
+			<ComponentItemProperties AssociatedEnvoyId="fb1b688ceaf0403a8c1c31102ed446be" Exported="True" Id="5830f53e09f44fdca00a06790f16abd3" />
+			<ComponentItemProperties AssociatedEnvoyId="17b98053987347d2ad9e482ed00f8f26" Exported="True" Id="4a44ac048c0a4f4d865e133096e48164" />
+			<ComponentItemProperties AssociatedEnvoyId="29a7656ce224e1e9ba466f489811ba1" Exported="True" Id="1d71b88ce7d6436fb0fab94f0823ac0a" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6f68cf198b874437b6a3848e5a898d49" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="62cc17aa5ffe4f42a7c2ef13670a47be" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="1d01e57c765e40f1b57bd001c6a11637" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="33b71022000345e08769fb9d6545d778" Name="Merged">
+				<SourceFileReference Bindings="EnvoyManager" Id="b1753d828b454a9cb55b9c724d3c6918" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Deck.gtype" StoragePath="Merged\Deck.gtype\Deck.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="946f842e3658470d808bfef0301dca46" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="State.gtype" StoragePath="Merged\State.gtype\State.gtype" />
+			</NameScopingEnvoy>
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c6db312f0c56412f8c7ec6a2a3d1f356" Name="Audio Processing">
+				<SourceFileReference Bindings="EnvoyManager" Id="5ab8e9931d6f4c379518cc0981d4b116" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Value Cluster.gtype" StoragePath="Audio Processing\Value Cluster.gtype\Value Cluster.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="dde8116c5b054de3aa0bc38d7f58af5c" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Value Properties.gtype" StoragePath="Audio Processing\Value Properties.gtype\Value Properties.gtype" />
+				<SourceFileReference Id="13700a0f6b6e450381618a37ab79f80f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Adjust Sample Size.gvi" StoragePath="Audio Processing\Adjust Sample Size.gvi" />
+				<SourceFileReference Id="a3456c26fd2c43dcb2bf2c30bd3030b8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate Playback Speed.gvi" StoragePath="Audio Processing\Calculate Playback Speed.gvi" />
+				<SourceFileReference Id="dbda5afef8f0406b9c3174ed25063977" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate Sample Buffer Size.gvi" StoragePath="Audio Processing\Calculate Sample Buffer Size.gvi" />
+				<SourceFileReference Id="12e793be44334865b96a982a9c072e7b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Change Audio Speed.gvi" StoragePath="Audio Processing\Change Audio Speed.gvi" />
+				<SourceFileReference Id="fb1b688ceaf0403a8c1c31102ed446be" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DBL To I16.gvi" StoragePath="Audio Processing\DBL To I16.gvi" />
+				<SourceFileReference Id="17b98053987347d2ad9e482ed00f8f26" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="I16 To DBL.gvi" StoragePath="Audio Processing\I16 To DBL.gvi" />
+				<SourceFileReference Id="29a7656ce224e1e9ba466f489811ba1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Run.gvi" StoragePath="Audio Processing\Run.gvi" />
+			</NameScopingEnvoy>
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="1159417fff1a4d8f8202ce534b96c1dd" Name="Audio File Input">
+				<SourceFileReference Bindings="EnvoyManager" Id="351bcc0ce12340e3bc73dcdbbe728f9f" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Audio File Info.gtype" StoragePath="Audio File Input\Audio File Info.gtype\Audio File Info.gtype" />
+				<SourceFileReference Id="e6fc5398c68b4c09b1f920e07545c990" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get File Extension (Reentrant).gvi" StoragePath="Audio File Input\Get File Extension (Reentrant).gvi" />
+				<SourceFileReference Id="9b417eeec05c4ce5ac4712d96ef4306f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Load Async.gvi" StoragePath="Audio File Input\Load Async.gvi" />
+				<SourceFileReference Id="fca8e9447807438fb7bb21c11f0c59f8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Load MP3.gvi" StoragePath="Audio File Input\Load MP3.gvi" />
+				<SourceFileReference Id="8a153edb90a64c67a58254a141bee976" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Load WAV.gvi" StoragePath="Audio File Input\Load WAV.gvi" />
+				<SourceFileReference Id="ccccda88c9449fbbbe7e3cb0d1ab636" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Load.gvi" StoragePath="Audio File Input\Load.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="5213962a31c9427d95cf11af012a5ef7" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Merged.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="a25c4ab5db0746d7aebda4d5bea648f6" Id="bb05e47b96cd481b91de00c7ad8fa3a6" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

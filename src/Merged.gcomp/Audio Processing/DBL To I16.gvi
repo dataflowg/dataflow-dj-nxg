@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D1C4800A58886884CE11CB74919E043481FF21C3ACAB44CBA81D6CC209CF7EA0B44D74AEB039A1402E56EF5E4CB30A558DE973BF94624FD760253A69F5430E88" Timestamp="1D5C9D65536F701" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="75d117968357400fbc67036b6fd60bd4" InlineIntoCaller="True" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Converts audio in DBL format (range 0-1) to I16 (range -32768 to 32767).&lt;br/&gt;&lt;br/&gt;Wire 1D array for single channel audio, or 2D array for multi-channel audio.</p.UserDescription>
+		<Icon Id="71d8dfb0d9be4e8889ceb5a24aa33701" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3f4619cd09e4433e95367943b3bc4298" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="b7e8e1d0bca8459ea6d10bdc39a82010" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="a4dddaf8d4d241db84072dc0aa2ca665" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="a75b927f43554dc285b0bf1a8896b8d6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="c281008a6cbe451f9949ccc7f41c7026" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC/SURBVEhL5ZBRDsQgCER7/xv0tC4tLhlQp9Ss8WNfSDODOIYex3muquDLjWkU98lFe2raVfA4F0TXhqYrNN3L3IamKzRybKi1/siGpis07ZyIoAWz2FftKvof1kJ0nRXsiK5LfdeqBqwKAotGMbKE4USbpWCT8yK6awnDCbmsZGyX58en2RpdN/e/QjUnNwS5QRD+IVoQnckVUkNzbI229VvByUbL18TdfiYbbeJ6IZc+E21fzutoFJzU0AylfACOOT9lY9qy8wAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="3a0113002da24d92a9449236757e3b8b" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="b53855eb4f864820b8e9c4bb33fa24e1" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="28e96a516fa1471cb20667b1d489e1a0" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="495825952aeb4f69ae60d93bb6eefced" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 80" Parameter="6b6b073b0c494f1bab0c8690dd1c3fed" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="b695d822b79e46b9a527f83449985bd1" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="7601d330d4a345a7ac0157f9e6cbafdf" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="e8e6feeaeb0d4a089d4b711ffa0e2569">
+			<DataAccessor Bounds="190 150 40 15" DataItem="b53855eb4f864820b8e9c4bb33fa24e1" Id="ce1f588a2fe046c789ab488ddac9d91b" Label="266e1cc826f542bf8b43e968775e0346" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double[,]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="ce1f588a2fe046c789ab488ddac9d91b" Bounds="30 150 155 20" Id="266e1cc826f542bf8b43e968775e0346" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Audio Data (2D DBL)</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="390 160 40 15" DataItem="495825952aeb4f69ae60d93bb6eefced" Id="83ee2f8697d140c9a02ed8de7c1c6e38" Label="2888fb5539604348b8631363280f8690" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int16[,]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="83ee2f8697d140c9a02ed8de7c1c6e38" Bounds="435 160 155 20" Id="2888fb5539604348b8631363280f8690" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Audio Data (2D I16)</p.Text>
+			</NodeLabel>
+			<Literal Bounds="190 190 40 18" DataType="Double" Id="2b273fc5dc8447caa582b620a23fac24" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x40E0000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G13" />
+			</Literal>
+			<DataAccessor Bounds="190 235 40 15" DataItem="28e96a516fa1471cb20667b1d489e1a0" Id="3e918026370e4104a7985b78b9eddcf6" Label="761c792c6ef44bfaa13af2c9af6a2713" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="3e918026370e4104a7985b78b9eddcf6" Bounds="30 235 155 20" Id="761c792c6ef44bfaa13af2c9af6a2713" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Audio Data (1D DBL)</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="390 245 40 15" DataItem="6b6b073b0c494f1bab0c8690dd1c3fed" Id="7154973c61134ed4a846a05fedda0716" Label="9613cd4d1fd14ba68177e873000e8041" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int16[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="7154973c61134ed4a846a05fedda0716" Bounds="435 245 155 20" Id="9613cd4d1fd14ba68177e873000e8041" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Audio Data (1D I16)</p.Text>
+			</NodeLabel>
+			<Multiply Bounds="280 150 30 30" Id="47106f0b72034211aed0f5d4224cbce3" Terminals="o=1dc4bd853ac94ad59bd2247a362404d6, c0t0v=ac6989aadf4747fba46168fcef08d491, c1t0v=5d623165a3944baabeba6725657722ae" />
+			<ToSigned16BitInteger Bounds="340 160 30 10" Id="45fa645026aa4497a5add6f4b0883349" />
+			<Multiply Bounds="270 235 30 30" Id="50a9046608eb49068e157a3b54336cf7" Terminals="o=71effb716c4142b6af1b87b0e8aef0f2, c0t0v=3553f80dd9004949968135a906622641, c1t0v=5d623165a3944baabeba6725657722ae" />
+			<ToSigned16BitInteger Bounds="340 245 30 10" Id="d611ba98079a4c39b5a8cd0192d90ea5" />
+			<Wire Id="7bc465a89b8b41e290b3a6592f6bf499" Joints="N(d611ba98079a4c39b5a8cd0192d90ea5:16bit integer)|(370,250) N(7154973c61134ed4a846a05fedda0716:Value)|(393,250)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="71effb716c4142b6af1b87b0e8aef0f2" Joints="N(50a9046608eb49068e157a3b54336cf7:o)|(300,250) N(d611ba98079a4c39b5a8cd0192d90ea5:number)|(343,250)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="5d623165a3944baabeba6725657722ae" Joints="N(2b273fc5dc8447caa582b620a23fac24:Out)|(230,195) h(34) B(1) v(-25) N(47106f0b72034211aed0f5d4224cbce3:c1t0v)|(280,170) B(1) v(60) N(50a9046608eb49068e157a3b54336cf7:c1t0v)|(270,255)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="3553f80dd9004949968135a906622641" Joints="N(3e918026370e4104a7985b78b9eddcf6:Value)|(230,240) N(50a9046608eb49068e157a3b54336cf7:c0t0v)|(270,240)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="c829bf1eef274dea833aa211a925a4ff" Joints="N(45fa645026aa4497a5add6f4b0883349:16bit integer)|(370,165) N(83ee2f8697d140c9a02ed8de7c1c6e38:Value)|(393,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1dc4bd853ac94ad59bd2247a362404d6" Joints="N(47106f0b72034211aed0f5d4224cbce3:o)|(310,165) N(45fa645026aa4497a5add6f4b0883349:number)|(343,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="ac6989aadf4747fba46168fcef08d491" Joints="N(ce1f588a2fe046c789ab488ddac9d91b:Value)|(230,155) N(47106f0b72034211aed0f5d4224cbce3:c0t0v)|(280,155)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Height="[float]1600" HtmlPanel="[bool]False" Id="e702f8368af94ccf9e8527edd6054892" Left="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<PanelExecutionWindow Id="1b13c7b832b048c58a971f568f3de9b0" />
+			<Label Id="6568126a8ddb4a308235f2e3203936c8" LabelOwner="[UIModel]47009e80e89747ec9d4d973f1fbcfb99" Left="[float]100" Text="[string]Audio Data (2D DBL)" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]89f6e677c5424fd5b986678eb494517d" Columns="[int]1" Dimensions="[int]2" Enabled="[bool]True" FirstIndex="[ArrayElementIndex]0,0" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="47009e80e89747ec9d4d973f1fbcfb99" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]6568126a8ddb4a308235f2e3203936c8" Left="[float]100" Rows="[int]1" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=b53855eb4f864820b8e9c4bb33fa24e1}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0x0</p.DefaultElementValue>
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="89f6e677c5424fd5b986678eb494517d" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Label Id="5f7becfe488c4a1a9d1796c633b270fa" LabelOwner="[UIModel]572e26e4b824cd790729e84dd8b5351" Left="[float]340" Text="[string]Audio Data (2D I16)" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]83bb64bc18c04c69ab90bc6c0b636933" Columns="[int]1" Dimensions="[int]2" Enabled="[bool]True" FirstIndex="[ArrayElementIndex]0,0" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="572e26e4b824cd790729e84dd8b5351" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]5f7becfe488c4a1a9d1796c633b270fa" Left="[float]340" Rows="[int]1" TabIndex="[int]1" Top="[float]30" Value="{DataItemBinding Id=495825952aeb4f69ae60d93bb6eefced}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]62" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0</p.DefaultElementValue>
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="83bb64bc18c04c69ab90bc6c0b636933" Interval="[short]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Maximum="[short]32767" Minimum="[short]-32768" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]LV:G0" ValueType="[Type]Int16" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Label Id="6e509b518c724a4d9e0ac7a3d6b79f26" LabelOwner="[UIModel]4a372e13fb9444039c24daefdb7d3225" Left="[float]100" Text="[string]Audio Data (1D DBL)" Top="[float]106" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]c387b3a1692646c4a2a0d77354edd76b" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" FirstIndex="[ArrayElementIndex]0" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4a372e13fb9444039c24daefdb7d3225" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]6e509b518c724a4d9e0ac7a3d6b79f26" Left="[float]100" Rows="[int]1" TabIndex="[int]2" Top="[float]126" Value="{DataItemBinding Id=28e96a516fa1471cb20667b1d489e1a0}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0x0</p.DefaultElementValue>
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="c387b3a1692646c4a2a0d77354edd76b" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Label Id="82f6a3606bc44e1c9f52600213fbd361" LabelOwner="[UIModel]c0337cc5893e46c69ed8e4424eacbb17" Left="[float]340" Text="[string]Audio Data (1D I16)" Top="[float]106" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]4f8be45b3cb7470f8bffc18ba4c086f8" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" FirstIndex="[ArrayElementIndex]0" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="c0337cc5893e46c69ed8e4424eacbb17" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]82f6a3606bc44e1c9f52600213fbd361" Left="[float]340" Rows="[int]1" TabIndex="[int]3" Top="[float]126" Value="{DataItemBinding Id=6b6b073b0c494f1bab0c8690dd1c3fed}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]62" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0</p.DefaultElementValue>
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="4f8be45b3cb7470f8bffc18ba4c086f8" Interval="[short]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Maximum="[short]32767" Minimum="[short]-32768" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]LV:G0" ValueType="[Type]Int16" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Menu Id="373d1130f4f8491493b85394f569df7b" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="Double[,]" Id="b53855eb4f864820b8e9c4bb33fa24e1" Name="Audio Data (2D DBL)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="Int16[,]" Id="495825952aeb4f69ae60d93bb6eefced" Name="Audio Data (2D I16)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="Double[]" Id="28e96a516fa1471cb20667b1d489e1a0" Name="Audio Data (1D DBL)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="Int16[]" Id="6b6b073b0c494f1bab0c8690dd1c3fed" Name="Audio Data (1D I16)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

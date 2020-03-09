@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F97912E4598E4E1306F3BE88E5A0E929CC9F9DF85BE6A4332B7EEEA6E27A33036A2C7FFE775B595FDB08F2901FE707CF71534F36D06D44BF7EF5F15C9F9BFDAD" Timestamp="1D5C9D65538CC73" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="f62f39d69ed04fefa550c63aee0be7bf" RootNamespaceId="ffdd9e88cbde473e94b4243038ff4eb8" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="4c80a26d67e746be90e289da9594d49a" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="2396c7043b124cef9af9bdee7ac4e8e6" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="40c4634422b74935aaa3832672a3ae58" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="f754f603dd814da0b31dc1bb293f2eaa" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="2e302bf879b74218a83f1385f5c47bc2" Name="Default">
+			<CompilerSymbolTable Id="914f9f7dfc1648e2b974801b3a5c093f" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="a26fa6560ec948879b484803e9572a0a" Exported="True" Id="6561f7c93f854249865197885c77f250" />
+			<ComponentItemProperties AssociatedEnvoyId="ce8b6b6165e34ff2a07bb659e12304a7" Exported="True" Id="b4cd708870db4cdf8456d41d01b47c50" />
+			<ComponentItemProperties AssociatedEnvoyId="15fde6033f03401d84584ed467c32341" Exported="True" Id="e12562975b8466f93fe93a19c4a2628" />
+			<ComponentItemProperties AssociatedEnvoyId="fd46e371feab43e889ae9fa8fe9fe336" Exported="True" Id="b8ee7eccdaba4a5a9828104f935f972d" />
+			<ComponentItemProperties AssociatedEnvoyId="a26ba5b307c5478aa3eb189850aaec85" Exported="True" Id="9f00d164700b4ca5a90739d114ab6113" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6972bd8a61834cf2baed19f9a79f9eb4" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="28ace9117b8f47edae2dc067f301cf1b" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="1fdf979e6eee46cb911ad3a83b29b551" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ffdd9e88cbde473e94b4243038ff4eb8" Name="Audio Output">
+				<SourceFileReference Bindings="EnvoyManager" Id="a26fa6560ec948879b484803e9572a0a" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Audio Output Config.gtype" StoragePath="Audio Output Config.gtype\Audio Output Config.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="ce8b6b6165e34ff2a07bb659e12304a7" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Audio Output Info.gtype" StoragePath="Audio Output Info.gtype\Audio Output Info.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="15fde6033f03401d84584ed467c32341" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Audio Output Queue Type.gtype" StoragePath="Audio Output Queue Type.gtype\Audio Output Queue Type.gtype" />
+				<SourceFileReference Id="fd46e371feab43e889ae9fa8fe9fe336" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Run (lvsound2).gvi" StoragePath="Run (lvsound2).gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="a26ba5b307c5478aa3eb189850aaec85" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="State.gtype" StoragePath="State.gtype\State.gtype" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="292ff7a52b48448699315f19b2e84e0a" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Audio Output.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="2e302bf879b74218a83f1385f5c47bc2" Id="f212cdd9d47543a08ca0f9e593e23a2c" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

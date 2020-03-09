@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="01C842CF5F847BC94B3C0A3628662ABA6D9391E512171D8D9A42D68C0A5AE6F59EF329814E4940D907AB488336A85C921A60D250E74EB6163B9A369A2173F5F5" Timestamp="1D5C9D65530739C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@f801cc115ee74ea6a1168af5ab5100e7" Id="5b525b3a610247968575dc3ea960e2a3" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="4cd62a8a78da4fc4ab188ae352d2224b" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="19d73155002340f3b7af6a54049badba" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="8f97e3da948045479e9f9261118e90fd" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="8653c3d9dd04b4984d3bcb0c67eca64" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="8fd8ccb33b354b8682d8361f4ee8919a" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="42a04c268d2f48e887d8a58503b6e503" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFnSURBVEhLtZOBdYUgDEVdobOwQmdhBWdhBWdhBWexFx5V9AepVd/xcBJMLjHE4fs1FfSStdqfhrl54qKEPo+W8Wmv68FllXZoCTfG6Jzz3std9+u1dr+yZLBKRtVw5Y7jyJoYv5KbXxaj5aKt1wLJro2rroRd0G9oeFHlA/biDjmWOyl+T2tknWKjddGtg02RUnNRE03hCp2miRvW/iVtaPJRCAFbaITro3feKeaSjKqZa36WEENcOCejnWOzvP6zjmjKpMsuekF9fA6N5nkuDaETiZ7Mx9DMBnSU5iQV/RAaJVieEI5Ri26hDxNSzzXcx6oWmrX4e3nuwPdbZKOH3JDW3wiXkO4BdjJcu2oOGxI0J/IkeusAG91tiNA5IBnmAf9H81YSnYcp0GcpbEMzG4cJyWmGblXd0jCE1Oqt12eXaaCJyyNeVHYrCX0CleyqSWBIKK/4e3WhUrMh3cyumuj7eg29LD89PrJKUH1qCAAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@f801cc115ee74ea6a1168af5ab5100e7" Id="3adf0c561a9d48a7bcff3fea7732313d" Name="EQ">
+			<p.DefaultValue>0x0_False_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="1a8d4e5ef71f460099495aa4f55e2cfe" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="56ac0ef1a60f49fa9dfaa3dddba6c697" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="28da9bddd7984edabb83e9f24b50b365" Name="EQ.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="84105d459957459aa310b4d5922cb014" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="7e061432575b486398554d7638237b3c" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="4ad4c44b3d704ae68adc244ba304270f" LabelOwner="[UIModel]d78e359ce65947b49f06f1053c116d25" Left="[float]100" Text="[string]EQ" Top="[float]20" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@f801cc115ee74ea6a1168af5ab5100e7" Enabled="[bool]True" Height="[float]105" Id="d78e359ce65947b49f06f1053c116d25" IsTabStop="[bool]True" Label="[UIModel]4ad4c44b3d704ae68adc244ba304270f" Left="[float]100" TabIndex="[int]0" Top="[float]40" Value="{DataItemBinding Id=3adf0c561a9d48a7bcff3fea7732313d}" Width="[float]81" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="e165aa62c26a40a4b19afe5e9fd9ff3f" IsTabStop="[bool]True" Label="[UIModel]57a02afb9e8543d5b85d1888f821485f" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Level}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="57a02afb9e8543d5b85d1888f821485f" LabelOwner="[UIModel]e165aa62c26a40a4b19afe5e9fd9ff3f" Left="[float]4" Text="[string]Level" Top="[float]4" />
+						<LED Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" Height="[float]17" Id="3e0b6c1771df43d688c9351651240302" IsTabStop="[bool]True" Label="[UIModel]18e59a5b2b324cb7a8a04313b17ef26d" Left="[float]4" Shape="[LEDShape]Round" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]76" TrueContent="[string]" Value="{ClusterBinding FieldName=Kill}" Width="[float]17" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="18e59a5b2b324cb7a8a04313b17ef26d" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]3e0b6c1771df43d688c9351651240302" Left="[float]5" Text="[string]Kill" Top="[float]56" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="f801cc115ee74ea6a1168af5ab5100e7">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Level" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Kill" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

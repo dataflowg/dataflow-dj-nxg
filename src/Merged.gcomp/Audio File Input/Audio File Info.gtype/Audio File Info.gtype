@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="4CF27164EA7002F42C46B237CDAB028BFEC3E409D08F257407AC0DB03A15BB866EB6151D061BA4EF5AC52D09FC63BC04224ECCC4AEBC37DFEB32079EB749EBBA" Timestamp="1D5C9D655308BF5" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@67879ac7d0f94d709c3c2139a7de5659" Id="8146823e8d9416eae590ff40f5fc055" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="ef36a5e8bab44db793c90b75b1b27016" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d0605222d3dc4368ba8cb3bff39c994d" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="836e342a56e34660b298ac078b35a9a4" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="a33dcf1da3c04c258f8ed51d502505c8" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="a3088b8249c54c169654c73525fde9dc" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="a5e9de4fa9664823a040d1480848c703" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEkSURBVEhL7ZPRjcQgDETTwtVCC6nFLaQWWkgttJBaco81cJaB2+iU6H52NGLHdjxyTHZZQnqKPq48K1S3s69O6eNK26a6z7yhjytpbv0qWqjahmP6uNIZDTNv6OPKobXC6Sl9fCMfRHmxB/Cxdvg/69ShFC5gar1tW5Bgsa7rPdb7vkuSyrBIiDGW2jUUa2ZUYYFXPKMkKIx8HEcpdBi2Z2sR0dpXBX8lTpaQsrWwGZvXs4FG2jHJfgYL68OiWTOd4rXeEFMeHEGJs5VUKGiknaS7iTw1KbVuw+ZhXmCWkARBqeWzMs/QSHt/w2XXs6snz1xs+ZdFg2H7zxfSfwCasfnZMxa8XxH6A3QnFn/I4Hub9aWp78LH2uEpa3wVWWvqfpznN29PyJo3PsCTAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@67879ac7d0f94d709c3c2139a7de5659" Id="edb1b1c02d524bd0b41a95da2c070c0c" Name="Audio File Info">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0</Field1>
+					<Field2>0</Field2>
+					<Field3>0</Field3>
+					<Field4>
+						<Path a="1" />
+					</Field4>
+					<Field5>0x0</Field5>
+					<Field6>null</Field6>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="3d5b942244274ccbb2cdb41aa0a0c748" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="362a240c502d447fbeca5d370250c5d7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="71e92a952865426aad410ee290d79509" Name="Audio File Info.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="336debf7de00462380e0492fe4daf5b6" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="7e60d68746774d2fa54aa7c2de11619e" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="e77feb10f108499392a187d1b87d4376" LabelOwner="[UIModel]751df5d728042f6b6fb89fc134ff0ad" Left="[float]100" Text="[string]Audio File Info" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@67879ac7d0f94d709c3c2139a7de5659" Enabled="[bool]True" Height="[float]330" Id="751df5d728042f6b6fb89fc134ff0ad" IsTabStop="[bool]True" Label="[UIModel]e77feb10f108499392a187d1b87d4376" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=edb1b1c02d524bd0b41a95da2c070c0c}" Width="[float]116" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="351fbe512c0d46c886b76ee0b54c36d9" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]277ffad80a6d496795331070f69aa63d" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Length\ (Samples)}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="277ffad80a6d496795331070f69aa63d" LabelOwner="[UIModel]351fbe512c0d46c886b76ee0b54c36d9" Left="[float]4" Text="[string]Length (Samples)" Top="[float]4" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="d9d58dd1879f4249b671007461159912" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]e7acefcc16a94261a95f2561ae0df9c6" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]76" Value="{ClusterBinding FieldName=Channels}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="e7acefcc16a94261a95f2561ae0df9c6" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]d9d58dd1879f4249b671007461159912" Left="[float]20" Text="[string]Channels" Top="[float]56" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="1b35462bf2e646248c78bc6c8097dc19" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]173b77fa863547ecb69b1849aedef1c7" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" TextAlignment="[TextAlignment]Left" Top="[float]128" Value="{ClusterBinding FieldName=Sample\ Rate\ (Hz)}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="173b77fa863547ecb69b1849aedef1c7" LabelOwner="[UIModel]1b35462bf2e646248c78bc6c8097dc19" Left="[float]4" Text="[string]Sample Rate (Hz)" Top="[float]108" />
+						<PathSelector BrowseOption="[BrowseOption]ExistingFiles" Enabled="[bool]True" Height="[float]24" Id="64d4fb882da4454f8b78b717b9622ff3" IsTabStop="[bool]True" Label="[UIModel]5f8bcdec81014bd7af36fb302aacf583" Left="[float]4" Path="{ClusterBinding FieldName=Path}" TabIndex="[int]3" TextAlignment="[TextAlignment]Left" Top="[float]180" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="5f8bcdec81014bd7af36fb302aacf583" LabelOwner="[UIModel]64d4fb882da4454f8b78b717b9622ff3" Left="[float]4" Text="[string]Path" Top="[float]160" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="1ffa5332c644480287ca20ed920b083e" IsTabStop="[bool]True" Label="[UIModel]d59ed61244ee4375ab0ff0cde930bc64" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]4" TextAlignment="[TextAlignment]Left" Top="[float]232" Value="{ClusterBinding FieldName=BPM}" ValueFormatter="[string]LV:G6" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="d59ed61244ee4375ab0ff0cde930bc64" LabelOwner="[UIModel]1ffa5332c644480287ca20ed920b083e" Left="[float]4" Text="[string]BPM" Top="[float]212" />
+						<ArrayViewer ArrayElement="[UIModel]ad01660d11f041c0bf28e0e9257db5ce" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="bec38279ea48452da7a3b15e92347d1b" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]97393104d9bf463d98ca54fa264deb34" Left="[float]4" Rows="[int]1" TabIndex="[int]5" Top="[float]284" Value="{ClusterBinding FieldName=Cue\ Points\ (Samples)}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+							<p.DefaultElementValue>0</p.DefaultElementValue>
+							<NumericText Enabled="[bool]True" Height="[float]24" Id="ad01660d11f041c0bf28e0e9257db5ce" Interval="[int]1" IsTabStop="[bool]True" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="97393104d9bf463d98ca54fa264deb34" LabelOwner="[UIModel]bec38279ea48452da7a3b15e92347d1b" Left="[float]4" Text="[string]Cue Points (Samples)" Top="[float]264" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="67879ac7d0f94d709c3c2139a7de5659">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Length (Samples)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Channels" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sample Rate (Hz)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Path" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWrite" Name="BPM" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Cue Points (Samples)" DataType="Int32[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
